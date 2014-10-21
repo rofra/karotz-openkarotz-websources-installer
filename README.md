@@ -1,4 +1,4 @@
-# karotz-openkarotzinstaller
+# karotz-openkarotz-websources-installer
 
 ## What is this all about ?
 This is an auto installer of OpenKarotz Web App with local sources (no need to be connected to Internet). Based on Openkarotz Web App version 200
