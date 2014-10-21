@@ -78,7 +78,6 @@ sleep 2
 
 LOG "[USBKEY] ## All done. Rebooting."
 SAY "Karotz_SFX_OK"
-SAY "maj_ok"
 cd ..
 
 LOG "TOUCHING"
