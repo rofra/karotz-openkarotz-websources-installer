@@ -1,6 +1,7 @@
 #!/bin/bash
 
-source /usr/www/cgi-bin/setup.inc
+source /mnt/usbkey/openkarotz/setup.inc
+
 function Log {
  #TAG=$1
  #MSG=$2
@@ -20,18 +21,6 @@ function dbus_led_pulse {
             string:"$UUID" string:"$1" string:"$2" int32:700 int32:-1
 }
 
-function ReadUrlParam 
-{  
- saveIFS=$IFS
-  IFS='=&'
-  parm=($QUERY_STRING)
-  IFS=$saveIFS
-  for ((i=0; i<${#parm[@]}; i+=2))
-  do
-      URLParam[${parm[i]}]=${parm[i+1]}
-  done
-}
-
 BLACK=000000
 BLUE=0000FF
 CYAN=00FF9F
@@ -44,17 +33,8 @@ VIOLET=660099
 WHITE=4FFF68
 YELLOW=75FF00
 
-TDIR="/usr/www"
-UDIR="$CNF_DATADIR"
-SURL=$CNF_BASE_URL
 
-ReadUrlParam
-
-echo "Server: OpenKarotz WebServer 1.0 - Massalia 2013"
-echo "Connection: close"
-echo "Accept-Ranges: bytes"
-echo "Content-type: text/plain"
-echo ""
+SURL="OLDVERSION"
 
 # Checking Forced Update
 FU=${URLParam[force]}
@@ -75,7 +55,7 @@ Log  "[INSTALL]"  "Enabling Syslog"
 # Downloading Sound
 Log  "[INSTALL]"  "Downloading sounds"
 cp ${RESSDIR}/install_start.mp3 /tmp/start.mp3
-cp ${RESSDIR}install_end.mp3 /tmp/end.mp3
+cp ${RESSDIR}/install_end.mp3 /tmp/end.mp3
 
 Log  "[INSTALL]"  "Killing default process"
 killall immortaldog >>/dev/null 2>>/dev/null
@@ -260,7 +240,6 @@ rm $TDIR/server.ok.version >>/dev/null 2>>/dev/null
 echo "----------------------------------------"
 Log  "[INSTALL]"  "Downloading $SURL/ok.version"
 cp ${RESSDIR}/ok.version $TDIR/server.ok.version
-#wget $SURL/ok.version -q -O $TDIR/server.ok.version >>/dev/null 2>>/dev/null
 if [ ! -e "$TDIR/server.ok.version" ] ; then
   RV=0
 else
@@ -327,7 +306,6 @@ I:index.html
     echo "  Downloading"
     Log  "[INSTALL]"  "Downloading $SURL/www.zip"
     cp ${RESSDIR}/www.zip /tmp/www.zip
-#    wget $SURL/www.zip -O /tmp/www.zip -q >>/dev/null 2>>/dev/null
     if [ -e "/tmp/www.zip" ]; then
       echo "  Installing"
       unzip  -o /tmp/www.zip  -d /usr/www >>/dev/null 2>>/dev/null
@@ -343,7 +321,6 @@ I:index.html
     echo "  Downloading"
     Log  "[INSTALL]"  "Downloading $SURL/voice.zip"
     cp ${RESSDIR}/voice.zip /tmp/voice.zip
-#    wget $SURL/voice.zip -O /tmp/voice.zip -q >>/dev/null 2>>/dev/null
     if [ -e "/tmp/voice.zip" ]; then
       echo "  Installing"
       unzip  -o /tmp/voice.zip  -d $CNF_DATADIR/Voice >>/dev/null 2>>/dev/null
@@ -357,7 +334,6 @@ I:index.html
     echo "  Downloading"
     Log  "[INSTALL]"  "Downloading $SURL/sounds.zip"
     cp ${RESSDIR}/sounds.zip /tmp/sounds.zip
-#    wget $SURL/sounds.zip -O /tmp/sounds.zip -q >>/dev/null 2>>/dev/null
     if [ -e "/tmp/sounds.zip" ]; then
       echo "  Installing"
       unzip  -o /tmp/sounds.zip  -d $CNF_DATADIR/Sounds >>/dev/null 2>>/dev/null
@@ -372,7 +348,6 @@ I:index.html
     echo "  Downloading"
     Log  "[INSTALL]"  "Downloading $SURL/radios.zip"
     cp ${RESSDIR}/radios.zip /tmp/radios.zip
-#    wget $SURL/radios.zip -O /tmp/radios.zip -q >>/dev/null 2>>/dev/null
     if [ -e "/tmp/radios.zip" ]; then
       echo "  Installing"
       unzip  -o /tmp/radios.zip  -d $CNF_DATADIR/Apps/Streams >>/dev/null 2>>/dev/null
@@ -400,7 +375,7 @@ fi
 killall led
 /karotz/bin/led -l $RED -p "000000" -d 700 &
 
-reboot -d 10
+reboot -d 20
 
 
 

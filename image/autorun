@@ -35,7 +35,7 @@ function SAY {
 }
 
 function LOG {
-    echo $1 >> /mnt/usbkey/logs/logautorun.txt
+    echo $1 >> /mnt/usbkey/logautorun.txt
 }
 
 function ERROR {
@@ -50,6 +50,8 @@ function ERROR {
     exit
 }
 
+# Unpack Tools
+tar -xvf /mnt/usbkey/tools2.tar -C /tmp/
 
 LD_LIBRARY_PATH=/tmp /tmp/madplay /mnt/usbkey/sound/Karotz_SFX_USB.mp3
 cp -r /mnt/usbkey/sound/*.mp3 /tmp/
@@ -67,8 +69,10 @@ cd $(dirname $0)
 led_orange_pulse
 
 # Installing
-/mnt/usbkey/openkarotz/install
+LOG "Installing"
+bash /mnt/usbkey/openkarotz/install
 
+LOG "GREEN"
 led_green
 sleep 2
 
@@ -77,6 +81,7 @@ SAY "Karotz_SFX_OK"
 SAY "maj_ok"
 cd ..
 
+LOG "TOUCHING"
 touch /mnt/usbkey/updatedone
 sleep 1
 

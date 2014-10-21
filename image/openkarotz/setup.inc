@@ -6,7 +6,8 @@
 CNF_MAX_CACHE_SIZE=100
 
 # File Location
-CNF_DATADIR="/usr/openkarotz"
+TDIR="/usr/www"
+CNF_DATADIR="/usr/openkarotz/"
 
 # Disable Ears
 CNF_EARS_DISABLED=0
@@ -24,5 +25,6 @@ CNF_GENDER=F
 
 # Base URL
 CNF_BASE_URL="http://karotz.filippi.org/2.0"
-RESSDIR="/usr/karotz/rofra/openkarotzinstaller/res/"
+RESSDIR="/mnt/usbkey/openkarotz/res/"
+
 
