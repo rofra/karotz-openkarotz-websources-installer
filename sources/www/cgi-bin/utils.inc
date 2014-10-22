@@ -397,9 +397,9 @@ function PlaySoundEx {
           mknod /tmp/mplayer-control p  >>/dev/null 2>>/dev/null
         fi
         if [ "$2" == "1" ]; then                
-          mplayer -quiet -slave -input file=/tmp/mplayer-control $1 >>/dev/null 2>>/dev/null & 
+          mplayer -quiet -slave -include /etc/conf/mplayer.conf -input file=/tmp/mplayer-control $1 >>/dev/null 2>>/dev/null & 
         else
-          mplayer -quiet -slave -input file=/tmp/mplayer-control $1 >>/dev/null 2>>/dev/null
+          mplayer -quiet -slave -include /etc/conf/mplayer.conf -input file=/tmp/mplayer-control $1 >>/dev/null 2>>/dev/null
         fi
    fi
 }                                            
