@@ -54,9 +54,9 @@ if [ -d $TDIR ]; then
    Log  "[INSTALL]"  "Result:$?"
 fi
 
-if [ -d $TDIR ]; then
-   Log  "[INSTALL]"  "Creating directory:$TDIR"
-   rm -fr $TDIR >>/dev/null 2>>/dev/null
+if [ -d $SOURCES_CNF ]; then
+   Log  "[INSTALL]"  "Creating directory:$SOURCES_CNF"
+   rm -fr $SOURCES_CNF >>/dev/null 2>>/dev/null
    Log  "[INSTALL]"  "Result:$?"
 fi
 
