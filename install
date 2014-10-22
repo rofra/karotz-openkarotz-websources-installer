@@ -49,13 +49,13 @@ echo "SOURCES_CNF: ${SOURCES_CNF}"
 
 Log  "[INSTALL]"  "CleanUP"
 if [ -d $TDIR ]; then
-   Log  "[INSTALL]"  "Creating directory:$TDIR"
+   Log  "[INSTALL]"  "Removing directory:$TDIR"
    rm -fr $TDIR >>/dev/null 2>>/dev/null
    Log  "[INSTALL]"  "Result:$?"
 fi
 
 if [ -d $SOURCES_CNF ]; then
-   Log  "[INSTALL]"  "Creating directory:$SOURCES_CNF"
+   Log  "[INSTALL]"  "Removing directory:$SOURCES_CNF"
    rm -fr $SOURCES_CNF >>/dev/null 2>>/dev/null
    Log  "[INSTALL]"  "Result:$?"
 fi
