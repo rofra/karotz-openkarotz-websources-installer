@@ -1,12 +1,11 @@
 #
 # Global paramters
 #
-
 # Max Files in cache
 CNF_MAX_CACHE_SIZE=100
 
 # File Location
-TDIR="/usr/www"
+TDIR="/usr/www/"
 CNF_DATADIR="/usr/openkarotz/"
 
 # Disable Ears
@@ -25,6 +24,6 @@ CNF_GENDER=F
 
 # Base URL
 CNF_BASE_URL="http://karotz.filippi.org/2.0"
-RESSDIR="/mnt/usbkey/openkarotz/res/"
-
+SOURCES_CNF="$CURRDIR/sources/openkarotz"
+SOURCES_TDIR="$CURRDIR/sources/www"
 
