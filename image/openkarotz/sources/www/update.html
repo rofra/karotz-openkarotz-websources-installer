@@ -1,0 +1,158 @@
+<script>
+   $("#accuupdate").accordion({ active: false, collapsible: true,heightStyle: "content"});  
+
+	$("#btn_install_update" ).button({
+		text: false,
+		icons: {
+		primary: "ui-icon-play"
+		}
+	});
+
+	$("#btn_install_rupdate" ).button({
+		text: false,
+		icons: {
+		primary: "ui-icon-play"
+		}
+	});
+
+
+	$("#btn_install_patch" ).button({
+		text: false,
+		icons: {
+		primary: "ui-icon-play"
+		}
+	});
+
+	$("#btn_refresh_update" ).button({
+		text: false,
+		icons: {
+		primary: "ui-icon-arrowrefresh-1-w"
+		}
+	});
+
+	$("#btn_refresh_rupdate" ).button({
+		text: false,
+		icons: {
+		primary: "ui-icon-arrowrefresh-1-w"
+		}
+	});
+
+	
+	$("#btn_refresh_patch" ).button({
+		text: false,
+		icons: {
+		primary: "ui-icon-arrowrefresh-1-w"
+		}
+	});
+	
+	// $('#update_notification').badger('Update Available');
+	
+	$("#btn_install_update").on('click', function ()
+	{
+		var obj = jQuery.parseJSON( $('#cbx_update').val() );
+		SendCommand ("read_update?id=" + obj.id +"&file=" + obj.file, "Applying Update ...");
+ 	});
+	
+	$("#btn_install_patch").on('click', function ()
+	{
+		var obj = jQuery.parseJSON( $('#cbx_patch').val() );
+		SendCommand ("read_patch?id=" + obj.id +"&file=" + obj.file, "Applying Patch ...");
+ 	});
+
+	$("#btn_install_rupdate").on('click', function ()
+	{
+		$("#dlg_flash_upate").dialog( "open" ); 
+ 	});
+
+
+
+	$("#btn_refresh_update").on('click', function ()
+	{
+		CheckUpdate();
+ 	});
+
+	$("#btn_refresh_rupdate").on('click', function ()
+	{
+		CheckFirmware();
+ 	});
+
+
+	$("#btn_refresh_patch").on('click', function ()
+	{
+		CheckPatch();
+ 	});
+
+
+/*
+  var grid;
+  var columns = [
+    {id: "tag_type", name: "Type", field: "tag_type"},
+    {id: "tag_color", name: "Color", field: "tag_color"},
+    {id: "tag_id", name: "Id", field: "tag_id"},
+    {id: "tag_action", name: "Action", field: "tag_action"},
+    {id: "tag_url", name: "URL", field: "tag_url"},
+  ];
+
+  var options = {
+    enableCellNavigation: true,
+    enableColumnReorder: false
+  };
+
+  $(function () {
+    var data = [];
+    for (var i = 0; i < 9; i++) {
+      data[i] = {
+        tag_type: "Task " + i,
+        tag_color: "5 days",
+        tag_id: Math.round(Math.random() * 100),
+        tag_action: "01/01/2009",
+        tag_url: "01/05/2009",
+      };
+    }
+
+    grid = new Slick.Grid("#RfidGrid", data, columns, options);
+  })
+*/
+</script>
+<P>
+<!--
+<table width="100%">
+  <tr>
+    <td valign="top" width="50%">
+      <div id="RfidGrid" style="width:600px;height:500px;"></div>
+    </td>
+  </tr>
+</table>
+-->
+<P></P>
+<div id="accuupdate">
+    <h3>Update</h3>
+    <div>
+	   <label>Firmware</label><BR>
+      	<div id="toolbar" class="ui-widget-header ui-corner-all">
+      	 <select id="cbx_rupdate" id="cbx_rupdate"></select>&nbsp;
+         <button id="btn_install_rupdate" title="Install selected Firmware">Install</button>
+         <button id="btn_refresh_rupdate" title="Refresh Firmware List">Refresh</button>
+      	</div>
+      <P></P>
+	  	<label>Scripts</label><BR>
+      	<div id="toolbar" class="ui-widget-header ui-corner-all">
+      	 <select name="cbx_update" id="cbx_update"></select>&nbsp;
+      	 <button id="btn_install_update" title="Install selected Scripts">Install</button>
+      	 <button id="btn_refresh_update" title="Refresh Scripts List">Refresh</button>
+      	</div>
+    </div>
+    <h3>Patchs</h3>
+    <div> 
+        <P>
+         <div id="toolbar" class="ui-widget-header ui-corner-all">
+         <select id="cbx_patch"></select>&nbsp;
+         <button id="btn_install_patch" title="Install selected Application">Install</button>
+         <button id="btn_refresh_patch" title="Refresh Application">Refresh</button>
+ 		 </div>
+
+    </div>
+    
+</div> 
+ 
+               

@@ -1,0 +1,26 @@
+#!/bin/bash
+
+source /usr/www/cgi-bin/setup.inc
+source /usr/www/cgi-bin/url.inc
+source /usr/www/cgi-bin/utils.inc
+
+ReadUrlParam
+
+ID=${URLParam[id]}
+
+if [ "$ID" == "" ]; then
+  rm  -rf $CNF_DATADIR/Tmp/*  >>/dev/null 2>>/dev/null 
+  DATA='{"return":"0","msg":"Cache cleared"}'
+else
+  if [ ! -e "$CNF_DATADIR/Tmp/$ID.mp3" ]; then
+     DATA='{"return":"1","msg:","Unable to find file in cache"}'
+     SendResponse "$DATA"  
+     exit 1
+  else
+    rm  -rf $CNF_DATADIR/Tmp/$ID.* >>/dev/null 2>>/dev/null
+    DATA='{"return":"0","msg":"File cleared","id":"'$ID'"}'
+  fi
+fi
+
+SendResponse "$DATA"
+

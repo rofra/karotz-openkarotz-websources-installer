@@ -1,0 +1,88 @@
+<script>
+   $("#accthanks").accordion({ active: false, collapsible: true,heightStyle: "content"});
+
+		$.getJSON("/cgi-bin/get_version", function(data) 
+		{
+			if ( parseInt(data.return) == 0)
+			{
+				$("#about_rversion").text("RootFs : " + data.rootfs_version);
+				$("#about_version").text( "Web Version : " + data.version);
+				$("#about_pversion").text( "Patch Level : " + data.patch_version);				
+//				$("#about_mversion").text( "Mobile Version : " + data.version);
+			}
+			else
+			{
+			}
+		});	
+     
+</script>
+
+    <IMG width = "15%" SRC='/images/OpenKarotz.png' title="I Love Konami Games !!"></img><P>
+    <div id="about_version"></div>
+    <div id="about_mversion"></div>
+    <div id="about_rversion"></div>
+    <div id="about_pversion"></div>
+    <P>
+    You can find informations about the <A HREF="http://openkarotz.filippi.org/api" title="API Informations" target="_blank"><B>API usage here</B>.</A><br>
+    You can also use this icon to see API sample on each page <IMG SRC="/images/api.jpg" width=20 title="API Informations"> .
+    <BR>
+    <table>
+    <tr>
+    <td>
+    <B><font color="4E82C4"><B>Contact</B></font></B>
+    <td>
+    : openkarotz@filippi.org<BR>
+    <tr>
+    <td>
+    <B><font color="4E82C4">Web Site</font></B>
+    <td>
+    : <a href="http://www.openkarotz.org" target="_blank">http://www.openkarotz.org&nbsp;<IMG src="/images/external-link.png" width="3%"></a>  
+    </tr>
+    <tr>
+    <td>
+    <B><font color="4E82C4">Release Notes</font></B>
+    <td>
+    : <a href="http://www.openkarotz.org/release-notes" target="_blank">http://openkarotz.filippi.org/release-notes&nbsp;<IMG src="/images/external-link.png" width="3%"></a> 
+    </tr>
+        <tr>
+    <td>
+    <B><font color="4E82C4">Support Forum (FR)</font></B>
+    <td>
+    : <a href="http://www.touteladomotique.com/forum/viewtopic.php?f=48&t=11661" target="_blank"><IMG src="/images/external-link.png" width="3%"></a> 
+    </tr>
+
+    <tr>
+    <td>
+    <B><font color="4E82C4">Support OpenKarotz&nbsp;</font></B>
+    </td>
+    <td>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="JQB5QFW5EPFYN">
+<input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
+<img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+</form>
+    </td>
+    </tr>
+
+    </table>
+    <P>
+    <div id="accthanks">
+    <h3>Thanks to ...</h3>
+        <div>    
+        <P>
+        <table>
+        <tr><td><B><font color="4E82C4">Beta Test</font></B></td><td> : <I>Milillicuti, Comperta, Kathmandu, HotFireNet, Vosmont, Ppollet73, Xiboard, SmEiTo  </I>.</td></tr>
+        <tr><td><B><font color="4E82C4">Video Stream research</font></B></td><td>: <I>Vosmont.</I></td></tr>
+        <tr><td><B><font color="4E82C4">Moods transcription</font></B></td><td> : <I>Lechat69, Benoit D-F, Arkane, Domus, Siegfried24, Pikat.</I></td></tr>
+        <tr><td><B><font color="4E82C4">Logo design</B></font></td><td> : <A HREF="http://milillicuti.com" target="_blank"><I>Milillicuti.</I>&nbsp;<IMG src="/images/external-link.png" width="4%"></A></td></tr>
+        <tr><td><B><font color="4E82C4">Connected Object</font></B></td><td>: <I>For the Eedomus loan.</I><A HREF="http://www.eedomus.com/en" target="_blank"><IMG src="/images/external-link.png" width="4%"></A></td></tr>
+        <tr><td><B><font color="4E82C4">Plan&eacute;te Domotique</font></B></td><td>: <I>For the Tags loan.</I><A HREF="http://www.planete-domotique.com/" target="_blank"><IMG src="/images/external-link.png" width="4%"></A></td></tr>
+        <tr><td><B><font color="4E82C4">And all my familly for their support.</B></font></td><td></td></tr>
+        </table>
+        </div>
+        </div>
+    </div>
+    <BR>    
+</div>
+

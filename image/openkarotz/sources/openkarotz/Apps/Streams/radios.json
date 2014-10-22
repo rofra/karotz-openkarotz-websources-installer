@@ -1,0 +1,18 @@
+{ "streams": [ 
+{"id":1,"name":"Rire & Chanson","url":"http://mp3.live.tv-radio.com/rire_et_chansons/all/rir_124629.mp3"},
+{"id":2,"name":"RTL","url":"http://streaming.radio.rtl.fr/rtl-1-44-96"},
+{"id":3,"name":"RMC","url":"http://vipicecast.yacast.net/rmc"},
+{"id":4,"name":"Europe 1","url":"http://vipicecast.yacast.net/europe1"},
+{"id":5,"name":"RTL2","url":"http://streaming.radio.rtl2.fr/rtl2-1-44-96"},
+{"id":6,"name":"Cherie FM","url":"http://mp3.live.tv-radio.com/cherie_fm/all/che_124310.mp3"},
+{"id":7,"name":"Virgin Radio","url":"http://stream5.nrj.yacast.net/virginradio"},
+{"id":8,"name":"NRJ","url":"http://mp3.live.tv-radio.com/nrj/all/nrj_113225.mp3"},
+{"id":9,"name":"BFM","url":"http://vipicecast.yacast.net/bfm"},
+{"id":10,"name":"France Culture","url":"http://mp3.live.tv-radio.com/franceculture/all/franceculture-32k.mp3"},
+{"id":11,"name":"France Info","url":"http://95.81.146.2/franceinfo/all/franceinfo.mp3"},
+{"id":12,"name":"Kiss FM","url":"http://mp3.live.tv-radio.com/kissfm/all/kissfm-128k.mp3"},
+{"id":13,"name":"Nostalgie","url":"http://mp3.live.tv-radio.com/nostalgie/all/nos_113812.mp3"},
+{"id":14,"name":"TSF Jazz","url":"http://broadcast.infomaniak.net:80/tsfjazz-high.mp3"},
+{"id":15,"name":"Sud Radio","url":"http://broadcast.infomaniak.net:80/start-sud-high.mp3"}
+], "return":"0" }
+
