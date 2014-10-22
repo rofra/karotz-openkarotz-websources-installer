@@ -54,9 +54,9 @@ if [ -d $TDIR ]; then
    Log  "[INSTALL]"  "Result:$?"
 fi
 
-if [ -d $SOURCES_CNF ]; then
-   Log  "[INSTALL]"  "Removing directory:$SOURCES_CNF"
-   rm -fr $SOURCES_CNF >>/dev/null 2>>/dev/null
+if [ -d $CNF_DATADIR ]; then
+   Log  "[INSTALL]"  "Removing directory:$CNF_DATADIR"
+   rm -fr $CNF_DATADIR >>/dev/null 2>>/dev/null
    Log  "[INSTALL]"  "Result:$?"
 fi
 
