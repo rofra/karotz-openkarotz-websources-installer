@@ -31,6 +31,9 @@ killall dbus-monitor
 # killing immortal dog daemon
 killall immortaldog
 
+# Stop sound
+killall mplayer madplay
+
 # reset existing flag and state
 rm /var/run/karotz/dbus_events.pid
 rm $CNF_DATADIR/Run/karotz.sleep
@@ -43,7 +46,7 @@ rm $CNF_DATADIR/Run/rfid.delete
 /usr/karotz/bin/immortaldog /var/run/karotz/led.pid /usr/karotz/bin/led-daemon
 /usr/karotz/bin/immortaldog /var/run/karotz/rfid.pid /usr/karotz/bin/rfid-daemon
 /usr/karotz/bin/immortaldog /var/run/karotz/button.pid /usr/karotz/bin/button-daemon
-/usr/karotz/bin/immortaldog /var/run/karotz/ears.pid /usr/karotz/bin/ears-daemon
+#/usr/karotz/bin/immortaldog /var/run/karotz/ears.pid /usr/karotz/bin/ears-daemon
 /usr/karotz/bin/immortaldog /var/run/karotz/webcam.pid /usr/karotz/bin/webcam-daemon 
 /usr/karotz/bin/immortaldog /var/run/karotz/dbus_events.pid /www/cgi-bin/dbus_events
 

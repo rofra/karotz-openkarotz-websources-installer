@@ -43,10 +43,11 @@ do
       # ---------------------  
       echo $line | grep "member=dclick"
       if [ $? -eq 0 ]; then
-         if [ -e /tmp/mplayer-control ]; then
-             killall mplayer 
-         fi
-         #PlaySound $CNF_DATADIR/Sounds/${SOUND} 
+
+       if [ -e /tmp/mplayer-control ]; then           
+             killall mplayer                                    
+             rm -f /tmp/mplayer-control                     
+         fi  PlaySound $CNF_DATADIR/Sounds/${SOUND} 
        fi
        
        # ---------------------  
@@ -92,7 +93,7 @@ do
  	             fi
  	          else
  	             Leds FF0000 000000 0 1
- 	             if [ ! -e "$CNF_DATADIR/Run/karotz.sleep" ]; then
+ 	             if [ -e "$CNF_DATADIR/Run/karotz.sleep" ]; then
  	                 PlaySound $CNF_DATADIR/Sounds/${SOUND}
  	             fi
  	             SCENE_ID$(cat CNF_DATADIR/Rfid/${RFID_ID}.rfid)
