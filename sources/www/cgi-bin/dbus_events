@@ -4,12 +4,30 @@ source /usr/www/cgi-bin/setup.inc
 source /usr/www/cgi-bin/utils.inc
 source /usr/www/cgi-bin/leds.inc
 
+
+function LOG {
+    logger "DBUSEVENTS $1"
+}
+
+
 rfiddetect=0
 RFID_DETECTED=0
 SOUND="twang_04.mp3"
 dbus-monitor --system | while read line 2> /dev/null
 do
       
+     LOG "LINE IS: [$line]"
+
+echo $line | grep '^string "\|^int32 '
+if [ $? -eq 0 ]; then
+    logger "Excluded string" 
+fi
+
+
+echo $line | grep 'member=lclick_start\|member=click\|member=dclick\|member=tclick'
+if [ $? -eq 0 ]; then
+    logger "CliCOUILLE"
+
      #echo "===>"$line     
      # ---------------------
      # BUTTON HANLDER
@@ -23,9 +41,12 @@ do
         KillProcess
         if [ -e "$CNF_DATADIR/Run/rfid.record" ]; then 
             StopTagRecording
+            LOG "StopTagRecording"
         else
             StartTagRecording
+            LOG "StartTagRecording"
 	fi        
+        continue
      fi
      
      # --------------------- 
@@ -34,7 +55,9 @@ do
      # --------------------- 
       echo $line | grep "member=click"
       if [ $? -eq 0 ]; then
+         LOG "simple click"
          PlaySound "$CNF_DATADIR/Sounds/${SOUND}" 
+         continue
       fi
       
       # ---------------------  
@@ -43,11 +66,13 @@ do
       # ---------------------  
       echo $line | grep "member=dclick"
       if [ $? -eq 0 ]; then
+        LOG "double click"
         if [ -e /tmp/mplayer-control ]; then
               killall mplayer                       
               rm -f /tmp/mplayer-control
         fi                                          
-#              PlaySound $CNF_DATADIR/Sounds/${SOUND}
+#        PlaySound "$CNF_DATADIR/Sounds/${SOUND}" 
+        continue
       fi  
        
        # ---------------------  
@@ -56,10 +81,13 @@ do
        # ---------------------  
        echo $line | grep "member=tclick"  
        if [ $? -eq 0 ]; then                                       
-         PlaySound $CNF_DATADIR/Sounds/flush.mp3
-         /sbin/reboot
+         LOG "triple click"
+#         PlaySound $CNF_DATADIR/Sounds/flush.mp3
+#         /sbin/reboot
+         continue
        fi                                              
- 
+fi
+
       # ---------------------
       # RFID HANDLER
       # DBUS
@@ -67,6 +95,7 @@ do
       # Process Tag Action
       # ---------------------
       if [ $RFID_DETECTED -eq 7 ]; then
+         LOG "RFID HANDLER"
           # Enregistrement Tag
           if [ -e "$CNF_DATADIR/Run/rfid.record" ]; then
              if [ -e "$CNF_DATADIR/Rfid/${RFID_ID}.rfid" ]; then
@@ -110,54 +139,66 @@ do
               fi
           fi                                           
           RFID_DETECTED=0         
+          continue
       fi 
-      
+
        # ---------------------
        # Read Color
        # ---------------------                                                         
       if [ $RFID_DETECTED -eq 6 ]; then                                         
+         LOG "Read Color"
          RFID_COLOR=$(awk -F\  '{print $2}' <<< "$line") 
          #echo "Color==>"$RFID_COLOR"<=="                                            
          RFID_DETECTED=7                                                      
+         continue
       fi
       
       # ---------------------
       # Discard Picture                                                              
       # ---------------------
       if [ $RFID_DETECTED -eq 5 ]; then                                        
+         LOG "Discard Picture"
          #echo "Picture==>"$line
          RFID_DETECTED=6                                                     
+         continue
       fi
        
        # ---------------------
        # Read Type
        # ---------------------                                                                  
        if [ $RFID_DETECTED -eq 4 ]; then                                        
+         LOG "Read Type"
           RFID_TYPE=$(awk -F\  '{print $2}' <<< "$line")
           GetRfidTypeName $RFID_TYPE   
           RFID_DETECTED=5                                                        
+          continue
        fi                
 
        # ---------------------     
        # Discard App          
        # ---------------------                                                 
        if [ $RFID_DETECTED -eq 3 ]; then                                         
+         LOG "Discard App"
          #echo "App==>"$line   
          RFID_DETECTED=4                                                        
+         continue
        fi 
  
       # ---------------------
       # Discard Flag                                                     
       # ---------------------
       if [ $RFID_DETECTED -eq 2 ]; then                                      
+         LOG "Discard Flash"
          #echo "Flag==>"$line   
          RFID_DETECTED=3                                                    
+         continue
       fi                     
  
       # ---------------------                                 
       # Read TAG ID
       # ---------------------
       if [ $RFID_DETECTED -eq 1 ]; then
+         LOG "Read TAG ID"
           
           RFID_ID=$(awk -F\" '{print $2}' <<< "$line")
           #echo "ID ==>"$RFID_ID"<==" 
@@ -167,6 +208,7 @@ do
              RFID_DETECTED=7
              
           fi
+          continue
           # PlaySound $CNF_DATADIR/Sounds/rfid_ok.mp3 
       fi
       
@@ -175,7 +217,9 @@ do
       # ---------------------
       echo $line | grep "tag_in"     
       if [ $? -eq 0 ]; then
- 	    RFID_DETECTED=1         
+         LOG "Tag Detected"
+         RFID_DETECTED=1         
+         continue
       fi
    
  done
