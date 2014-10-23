@@ -2,6 +2,7 @@
 
 source /usr/www/cgi-bin/setup.inc
 source /usr/www/cgi-bin/utils.inc
+source /usr/www/cgi-bin/ears.inc
 source /usr/www/cgi-bin/leds.inc
 
 
@@ -71,6 +72,7 @@ if [ $? -eq 0 ]; then
               killall mplayer                       
               rm -f /tmp/mplayer-control
         fi                                          
+        EarsReset
 #        PlaySound "$CNF_DATADIR/Sounds/${SOUND}" 
         continue
       fi  
