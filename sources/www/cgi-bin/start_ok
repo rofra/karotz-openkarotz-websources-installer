@@ -34,11 +34,7 @@ killall immortaldog
 # Stop sound
 killall mplayer madplay
 
-# KILL previous dbus events
-kill -9 $(cat /var/run/karotz/dbus_events.pid)
-
 # reset existing flag and state
-rm /var/run/karotz/dbus_events.pid
 rm $CNF_DATADIR/Run/karotz.sleep
 rm $CNF_DATADIR/Run/led.color
 rm $CNF_DATADIR/Run/led.pulse
