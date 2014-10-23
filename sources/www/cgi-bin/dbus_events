@@ -43,7 +43,10 @@ do
       # ---------------------  
       echo $line | grep "member=dclick"
       if [ $? -eq 0 ]; then
-         PlaySound $CNF_DATADIR/Sounds/${SOUND} 
+         if [ -e /tmp/mplayer-control ]; then
+             killall mplayer 
+         fi
+         #PlaySound $CNF_DATADIR/Sounds/${SOUND} 
        fi
        
        # ---------------------  
