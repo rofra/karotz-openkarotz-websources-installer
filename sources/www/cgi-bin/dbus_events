@@ -17,13 +17,16 @@ SOUND="twang_04.mp3"
 dbus-monitor --system | while read line 2> /dev/null
 do
       
-     LOG "LINE IS: [$line] / RFID_DETECTED = [$RFID_DETECTED]"
+
+#     LOG "LINE IS: [$line] / RFID_DETECTED = [$RFID_DETECTED]"
 
 # Exclude Common DBUS messages if not in RFID catching
 echo $line | grep '^string "\|^int32 '
 if [ $? -eq 0 ] && [ "$RFID_DETECTED" -eq "0" ]; then
-    LOG "EXCLUDED string" 
+    LOG "LINE EXCLUDED IS: [$line] / RFID_DETECTED = [$RFID_DETECTED]"
     continue
+else
+    LOG "LINE TO PARSE IS: [$line] / RFID_DETECTED = [$RFID_DETECTED]"
 fi
 
 
