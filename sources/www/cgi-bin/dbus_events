@@ -17,13 +17,11 @@ SOUND="twang_04.mp3"
 dbus-monitor --system | while read line 2> /dev/null
 do
       
-     LOG "LINE IS: [$line]"
-
+     LOG "LINE IS: [$line] / RFID_DETECTED = [$RFID_DETECTED]"
 
 echo $line | grep 'member=lclick_start\|member=click\|member=dclick\|member=tclick'
 if [ $? -eq 0 ]; then
-    logger "CliCOUILLE"
-
+     LOG "Click event"
      #echo "===>"$line     
      # ---------------------
      # BUTTON HANLDER
@@ -63,11 +61,8 @@ if [ $? -eq 0 ]; then
       echo $line | grep "member=dclick"
       if [ $? -eq 0 ]; then
         LOG "double click"
-        if [ -e /tmp/mplayer-control ]; then
-              killall mplayer                       
-              rm -f /tmp/mplayer-control
-        fi                                          
         EarsReset
+        KillProcess
 #        PlaySound "$CNF_DATADIR/Sounds/${SOUND}" 
         continue
       fi  
@@ -84,6 +79,7 @@ if [ $? -eq 0 ]; then
          continue
        fi                                              
 fi
+
 
       # ---------------------
       # RFID HANDLER
@@ -212,12 +208,17 @@ fi
       # ---------------------      
       # Tag Detected 
       # ---------------------
-      echo $line | grep 'member=tag_out\|member=tag_in'    
+      echo $line | grep 'member=tag_in'    
       if [ $? -eq 0 ]; then
-         LOG "Tag Detected"
+         LOG "Tag Detected IN"
          RFID_DETECTED=1         
          continue
       fi
+      echo $line | grep 'member=tag_out'    
+      if [ $? -eq 0 ]; then
+         LOG "Tag Detected OUT"
+         continue
+      fi 
    
  done
                                   
