@@ -20,9 +20,9 @@ do
      LOG "LINE IS: [$line]"
 
 echo $line | grep '^string "\|^int32 '
-if [ $? -eq 0 ]; then
-    logger "Excluded string" 
-fi
+#if [ $? -eq 0 ]; then
+#    logger "Excluded string" 
+#fi
 
 
 echo $line | grep 'member=lclick_start\|member=click\|member=dclick\|member=tclick'
