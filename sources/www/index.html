@@ -29,13 +29,6 @@ function isMobile() {
 
 
 $(document).ready(function() {
-        // INIT KAROTZ DEAMONS                                        
-        $.ajax({                                                      
-             url: '/cgi-bin/start_ok',                                
-             async: true                                              
-        });  
-	setTimeout(function() {jQuery('#message').html('OpenKarotz successfully loaded !');}, 2000);
-    
 	$("#logo").on('click', function ()
 	{
 		/*
@@ -71,10 +64,6 @@ $(document).ready(function() {
 	<IMG style="cursor:pointer" SRC='/images/OpenKarotz.png' id="logo"></IMG>
 	</td>
 </tr>
-<tr>
-  <td colspan="2" id="message" style="padding-top: 20px; padding-bottom:20px; font-style: italic; text-align:center;">Starting OpenKarotz System....</td>
-  </tr>
-
 <tr>
 	<td colspan="2" align="center">
     <B><font color="4E82C4">
