@@ -19,9 +19,17 @@ do
       
      LOG "LINE IS: [$line] / RFID_DETECTED = [$RFID_DETECTED]"
 
+# Exclude Common DBUS messages if not in RFID catching
+echo $line | grep '^string "\|^int32 '
+if [ $? -eq 0 ] && [ "$RFID_DETECTED" -eq "0" ]; then
+    LOG "EXCLUDED string" 
+    continue
+fi
+
+
 echo $line | grep 'member=lclick_start\|member=click\|member=dclick\|member=tclick'
 if [ $? -eq 0 ]; then
-     LOG "Click event"
+     #LOG "Click event"
      #echo "===>"$line     
      # ---------------------
      # BUTTON HANLDER
