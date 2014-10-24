@@ -1,0 +1,12 @@
+#!/bin/bash
+
+source /www/cgi-bin/setup.inc
+source /www/cgi-bin/utils.inc
+source /www/cgi-bin/leds.inc
+source /www/cgi-bin/ears.inc
+
+/www/cgi-bin/start_ok > /dev/null 2>&1 &
+
+DATA='{"return":"0","msg":"Openkarotz launched with success" }'           
+SendResponse "$DATA"
+exit 0

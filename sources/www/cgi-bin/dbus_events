@@ -63,6 +63,7 @@ if [ $? -eq 0 ]; then
         LOG "double click"
         EarsReset
         KillProcess
+        LedsRestore
 #        PlaySound "$CNF_DATADIR/Sounds/${SOUND}" 
         continue
       fi  
