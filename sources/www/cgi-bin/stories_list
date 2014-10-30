@@ -13,7 +13,7 @@ fi
 if [ -e "$CNF_DATADIR/Apps/Story/story.json" ]; then
   TG=`cat $CNF_DATADIR/Apps/Story/story.json`
 else
-  TG="{ "streams": [], "return":"0" }"
+  TG='{"streams":[],"return":"0"}'
 fi
 
 SendResponse "$TG"
