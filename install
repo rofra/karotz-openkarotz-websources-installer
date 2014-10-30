@@ -54,15 +54,16 @@ if [ -d $TDIR ]; then
    Log  "[INSTALL]"  "Result:$?"
 fi
 
-if [ -d $CNF_DATADIR ]; then
-   Log  "[INSTALL]"  "Removing directory:$CNF_DATADIR"
-   rm -fr $CNF_DATADIR >>/dev/null 2>>/dev/null
+if [ ! -d $CNF_DATADIR ]; then
+   Log  "[INSTALL]"  "Creating Empty Dir: $CNF_DATADIR"
+   mkdir -p $CNF_DATADIR
    Log  "[INSTALL]"  "Result:$?"
 fi
 
+
 Log  "[INSTALL]"  "Copy"
 Log  "[INSTALL]"  "Creating directory:$CNF_DATADIR"
-cp -fR ${SOURCES_CNF}/ ${CNF_DATADIR}/ >>/dev/null 2>>/dev/null
+cp -fR ${SOURCES_CNF}/* ${CNF_DATADIR}/ >>/dev/null 2>>/dev/null
 Log  "[INSTALL]"  "Result:$?"
 
 Log  "[INSTALL]"  "Creating directory:$TDIR"
