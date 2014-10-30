@@ -8,6 +8,11 @@ This work is based on latest Openkarotz Sources directly got from karotz filesys
 ## How does it work ?
 Automatically Installer OpenKarotz Web Application from Bash Script (no USB install) from local sources.
 
+There are two parts in `sources` directory:
+
+1. openkarotz (Core files)
+1. www (web application)
+
 ## How to use ?
 1. Copy the files in a place in your karotz
 1. Launch `bash install`

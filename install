@@ -49,20 +49,21 @@ echo "SOURCES_CNF: ${SOURCES_CNF}"
 
 Log  "[INSTALL]"  "CleanUP"
 if [ -d $TDIR ]; then
-   Log  "[INSTALL]"  "Creating directory:$TDIR"
+   Log  "[INSTALL]"  "Removing directory:$TDIR"
    rm -fr $TDIR >>/dev/null 2>>/dev/null
    Log  "[INSTALL]"  "Result:$?"
 fi
 
-if [ -d $TDIR ]; then
-   Log  "[INSTALL]"  "Creating directory:$TDIR"
-   rm -fr $TDIR >>/dev/null 2>>/dev/null
+if [ ! -d $CNF_DATADIR ]; then
+   Log  "[INSTALL]"  "Creating Empty Dir: $CNF_DATADIR"
+   mkdir -p $CNF_DATADIR
    Log  "[INSTALL]"  "Result:$?"
 fi
+
 
 Log  "[INSTALL]"  "Copy"
 Log  "[INSTALL]"  "Creating directory:$CNF_DATADIR"
-cp -fR ${SOURCES_CNF}/ ${CNF_DATADIR}/ >>/dev/null 2>>/dev/null
+cp -fR ${SOURCES_CNF}/* ${CNF_DATADIR}/ >>/dev/null 2>>/dev/null
 Log  "[INSTALL]"  "Result:$?"
 
 Log  "[INSTALL]"  "Creating directory:$TDIR"
