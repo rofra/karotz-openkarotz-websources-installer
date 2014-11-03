@@ -44,13 +44,7 @@ if [ $? -eq 0 ]; then
      echo $line | grep "member=lclick_start"                                          
      if [ $? -eq 0 ]; then                                                     
         KillProcess
-        if [ -e "$CNF_DATADIR/Run/rfid.record" ]; then 
-            StopTagRecording
-            LOG "StopTagRecording"
-        else
-            StartTagRecording
-            LOG "StartTagRecording"
-	fi        
+        StartOrStopRfidRecording
         continue
      fi
      
@@ -72,9 +66,18 @@ if [ $? -eq 0 ]; then
       echo $line | grep "member=dclick"
       if [ $? -eq 0 ]; then
         LOG "double click"
+
+        if [ $(TagRecordingRunning) -eq "1" ]; then
+            StopTagRecording
+            LOG "StopTagRecording"                                              
+        else                                                                    
+            KillProcess
+            LOG "KillProcess"
+        fi 
+
         EarsReset
-        KillProcess
         LedsRestore
+
 #        PlaySound "$CNF_DATADIR/Sounds/${SOUND}" 
         continue
       fi  
@@ -86,8 +89,8 @@ if [ $? -eq 0 ]; then
        echo $line | grep "member=tclick"  
        if [ $? -eq 0 ]; then                                       
          LOG "triple click"
-#         PlaySound $CNF_DATADIR/Sounds/flush.mp3
-#         /sbin/reboot
+         PlaySound $CNF_DATADIR/Sounds/flush.mp3
+         /sbin/reboot
          continue
        fi                                              
 fi
@@ -102,7 +105,7 @@ fi
       if [ $RFID_DETECTED -eq 7 ]; then
          LOG "RFID HANDLER"
           # Enregistrement Tag
-          if [ -e "$CNF_DATADIR/Run/rfid.record" ]; then
+          if [ $(TagRecordingRunning) -eq "1" ]; then
              if [ -e "$CNF_DATADIR/Rfid/${RFID_ID}.rfid" ]; then
                 PlaySound $CNF_DATADIR/Sounds/rfid_error.mp3
                 PlaySound $CNF_DATADIR/Voice/Rfid_objet_deja_enregistre.mp3
@@ -207,7 +210,7 @@ fi
           
           RFID_ID=$(awk -F\" '{print $2}' <<< "$line")
           #echo "ID ==>"$RFID_ID"<==" 
-          if [ -e "$CNF_DATADIR/Run/rfid.record" ]; then 
+          if [ $(TagRecordingRunning) -eq "1" ]; then 
              RFID_DETECTED=2
           else
              RFID_DETECTED=7

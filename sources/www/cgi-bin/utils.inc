@@ -414,6 +414,17 @@ function StartTagRecording {
     PlaySound $CNF_DATADIR/Voice/Rfid_Start_Record.mp3 1 >>/dev/null 2>>/dev/null
 }  
 
+# ---------------------------------------------------------------------------  
+#                                                                              
+# ---------------------------------------------------------------------------
+function TagRecordingRunning {
+    if [ -e "$CNF_DATADIR/Run/rfid.record" ]; then
+        echo 1;
+    else 
+        echo 0;
+    fi
+}
+
 
 # ---------------------------------------------------------------------------
 #          
@@ -423,5 +434,19 @@ function StopTagRecording {
     PlaySound $CNF_DATADIR/Voice/Rfid_Stop_record.mp3 1 >>/dev/null 2>>/dev/null
     LedsRestore
 }  
+
+
+# ---------------------------------------------------------------------------
+#            
+# ---------------------------------------------------------------------------
+function StartOrStopRfidRecording {                                             
+    RIFDSTARTALLOWED=$(TagRecordingRunning)                
+    if [ "$RIFDSTARTALLOWED" -eq "1" ]; then
+         StopTagRecording
+         LOG "StopTagRecording"
+    else                                                                        
+         StartTagRecording 
+         LOG "StartTagRecording"                                                   fi
+} 
 
 
