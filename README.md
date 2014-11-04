@@ -5,6 +5,8 @@ This is an auto installer of OpenKarotz Web App with local sources (no need to b
 
 This work is based on latest Openkarotz Sources directly got from karotz filesystem, combined with a home installation script.
 
+This is a FORK of official OpenKarotz Sources.
+
 ## How does it work ?
 Automatically Installer OpenKarotz Web Application from Bash Script (no USB install) from local sources.
 
