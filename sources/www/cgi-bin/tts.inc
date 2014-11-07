@@ -23,7 +23,7 @@ function AcapelaTTS {
  
    if [ "$5" != "1" ]; then
      Log "[TTS]"  "Playing sound ${MD5FILE}.mp3"  
-     PlaySound $CNF_DATADIR/Tmp/${MD5FILE}.mp3
+     PlaySoundEx $CNF_DATADIR/Tmp/${MD5FILE}.mp3
    fi
 
    if [ "$NOCACHE" == "1" ]; then
@@ -43,7 +43,7 @@ function GoogleTTS {
    eval $(echo "curl -A '${UA}' -o $CNF_DATADIR/Tmp/${MD5FILE}.mp3 'http://translate.google.com/translate_tts?tl=fr&q=${TTS}'" )  >>/dev/null 2>>/dev/null
    echo $( echo "$RAW_TTS" | UrlDecode)  > $CNF_DATADIR/Tmp/${MD5FILE}.txt 
  
-   PlaySound $CNF_DATADIR/Tmp/${MD5FILE}.mp3     
+   PlaySoundEx $CNF_DATADIR/Tmp/${MD5FILE}.mp3     
 }
 
 
@@ -60,6 +60,6 @@ function ProsodyTTS {
     $(echo "curl -A '${UA}' -o $CNF_DATADIR/Tmp/${MD5FILE}.mp3 -s -data '${TTS}' http://188.165.228.65/tts/${VOICE}" )  >>/dev/null 2>>/dev/null
    echo $( echo "$RAW_TTS" | UrlDecode)  > $CNF_DATADIR/Tmp/${MD5FILE}.txt
             
-   PlaySound $CNF_DATADIR/Tmp/${MD5FILE}.mp3
+   PlaySoundEx $CNF_DATADIR/Tmp/${MD5FILE}.mp3
 }
           

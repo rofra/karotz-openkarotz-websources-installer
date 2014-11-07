@@ -28,11 +28,16 @@ fi
 # Remove old PID
 rm -f /var/run/karotz/led.pid /var/run/karotz/rfid.pid /var/run/karotz/button.pid 
 rm -f /var/run/karotz/ears.pid var/run/karotz/webcam.pid /var/run/karotz/dbus_events.pid
+rm -f /var/run/karotz/voice.pid /var/run/karotz/controller.pid
+
+# Start the ntpd daemon to allow actualisation of time once deconnected from official servers
+killall ntpd
+/bin/ntpd -p fr.pool.ntp.org
 
 # killing immortal dog daemon
 killall immortaldog
 
-sleep 1
+sleep 5
 
 # Kill dbus Monitoring
 killall dbus-monitor
@@ -48,6 +53,14 @@ rm -f $CNF_DATADIR/Run/rfid.record
 rm -f $CNF_DATADIR/Run/rfid.delete
 
 
+# Start The TTS emulator service
+if [ -f /usr/karotz/ttsemulator/launcher.sh ]; then
+     chmod a+x /usr/karotz/ttsemulator/launcher.sh
+    /usr/karotz/ttsemulator/launcher.sh start
+fi
+
+sleep 8
+
 # Launch needed daemon only
 /usr/karotz/bin/immortaldog /var/run/karotz/led.pid /usr/karotz/bin/led-daemon
 /usr/karotz/bin/immortaldog /var/run/karotz/rfid.pid /usr/karotz/bin/rfid-daemon
@@ -55,6 +68,12 @@ rm -f $CNF_DATADIR/Run/rfid.delete
 /usr/karotz/bin/immortaldog /var/run/karotz/ears.pid /usr/karotz/bin/ears-daemon
 /usr/karotz/bin/immortaldog /var/run/karotz/webcam.pid /usr/karotz/bin/webcam-daemon 
 /usr/karotz/bin/immortaldog /var/run/karotz/dbus_events.pid /www/cgi-bin/dbus_events
+
+if [ -f /usr/karotz/ttsemulator/launcher.sh ]; then
+    /usr/karotz/bin/immortaldog /var/run/karotz/voice.pid /usr/karotz/bin/voice-daemon
+    /usr/karotz/bin/immortaldog /var/run/karotz/controller.pid /usr/karotz/bin/controller
+fi
+
 
 PlaySound $CNF_DATADIR/Sounds/ready.mp3
 Leds 00FF00 000000 1

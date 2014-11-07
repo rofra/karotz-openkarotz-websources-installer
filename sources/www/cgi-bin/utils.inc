@@ -442,11 +442,12 @@ function StopTagRecording {
 function StartOrStopRfidRecording {                                             
     RIFDSTARTALLOWED=$(TagRecordingRunning)                
     if [ "$RIFDSTARTALLOWED" -eq "1" ]; then
-         StopTagRecording
-         LOG "StopTagRecording"
+         StopTagRecording                                                       
+         LOG "StopTagRecording"                                                 
     else                                                                        
-         StartTagRecording 
-         LOG "StartTagRecording"                                                   fi
+         StartTagRecording                                                      
+         LOG "StartTagRecording"                                                
+    fi                                                                          
 } 
 
 
