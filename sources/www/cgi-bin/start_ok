@@ -30,6 +30,10 @@ rm -f /var/run/karotz/led.pid /var/run/karotz/rfid.pid /var/run/karotz/button.pi
 rm -f /var/run/karotz/ears.pid var/run/karotz/webcam.pid /var/run/karotz/dbus_events.pid
 rm -f /var/run/karotz/voice.pid /var/run/karotz/controller.pid
 
+# Set the timezone
+echo -n "CET-1CEST,M3.5.0,M10.5.0/3
+" > /etc/TZ
+
 # Start the ntpd daemon to allow actualisation of time once deconnected from official servers
 killall ntpd
 /bin/ntpd -p fr.pool.ntp.org
