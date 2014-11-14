@@ -1,0 +1,11 @@
+<descriptor>
+	<name>Vélo:Starz</name>
+	<apikey>23eebe1a-313b-4517-9f81-486a74987b42</apikey>
+	<editor>35niavlys</editor>
+	<version>1.0.0</version>
+	<accesses>
+        	<access>http</access>
+        	<access>led</access>
+        	<access>tts</access>
+    	</accesses>
+</descriptor>

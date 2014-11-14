@@ -1,0 +1,24 @@
+<descriptor>
+    <name>twitter</name>
+    <asrName>twitter {$.cmd='none'} | twitter photo {$.cmd='takePhoto'} | twitter enregistrement {$.cmd='postSound'} | twitter texte {$.cmd='postMessage'} | twitter texte (et) photo {$.cmd='postMessagePhoto'} | twitter lecture {$.cmd='readTwitter'}</asrName>
+    <apikey>apikey</apikey>
+    <version>0.0.71</version>
+   <accesses>
+       <access>tts</access>
+       <access>ears</access>
+       <access>led</access>
+       <access>http</access>
+       <access>button</access>
+       <access>multimedia</access>
+       <access>webcam</access>
+       <access>soundcloud</access>
+       <access>twitter</access>
+       <access>asr</access>
+    </accesses>
+    <deployment>hosted</deployment>
+    <interruptible>true</interruptible>
+    <awake>true</awake>
+    <callback></callback>
+    <multiConf>false</multiConf>
+    <parameters></parameters>
+</descriptor>

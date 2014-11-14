@@ -1,0 +1,12 @@
+<descriptor>
+	<name>Phrase du jour</name>
+	<editor>35niavlys</editor>
+	<version>1.0.1</version>
+	<accesses>
+        	<access>button</access>
+        	<access>http</access>
+        	<access>led</access>
+        	<access>tts</access>
+    	</accesses>
+	<multiConf>false</multiConf>
+</descriptor>

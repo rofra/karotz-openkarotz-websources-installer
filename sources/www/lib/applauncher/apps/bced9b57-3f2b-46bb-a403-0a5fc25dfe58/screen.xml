@@ -1,0 +1,16 @@
+<screen>
+	<button link="http://www.karotz.com/my/information/social_network" label="Se connecter sur Twitter" />
+	<select label="Contenu" name="content" type="one" required="true">
+		<option label="messages" key="0" checked="true"/>
+		<option label="messages + mentions" key="1" checked="false"/>
+		<option label="messages + mentions + fil" key="2" checked="false"/>
+	</select>
+    <select label="Langue de lecture" name="lang" type="one" required="true">
+		<option label="français" key="fr" checked="true"/>
+		<option label="anglais" key="en" checked="false"/>
+    </select>
+    <select label="Option de lecture" name="msgread" type="one" required="true">
+		<option label="après appui sur bouton" key="buttonread" checked="true"/>
+		<option label="immédiatement" key="autoread" checked="false"/>
+    </select>
+</screen>

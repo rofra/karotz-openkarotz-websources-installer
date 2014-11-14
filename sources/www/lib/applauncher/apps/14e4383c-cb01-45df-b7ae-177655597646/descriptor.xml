@@ -1,0 +1,16 @@
+ <descriptor>
+	<name>Lanc&#233; de d&#233;s</name>
+	<version>1.0.5</version>
+	<apikey>14e4383c-cb01-45df-b7ae-177655597646</apikey>
+	<accesses>
+		<access>button</access>
+		<access>led</access>
+		<access>tts</access>
+		<access>asr</access>
+		<access>http</access>		
+		<access>ears</access>		
+	</accesses>
+	<editor>gpower.fr</editor>
+	<deployment>hosted</deployment>
+	<multiConf>false</multiConf>
+</descriptor>

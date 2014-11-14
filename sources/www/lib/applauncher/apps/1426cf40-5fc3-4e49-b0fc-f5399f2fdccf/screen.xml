@@ -1,0 +1,38 @@
+<screen nanoTrigger="true"
+permanentTrigger="false"
+scheduledTrigger="true"
+scheduledDateTrigger="true"
+voiceTrigger="true">
+
+    <text label="appel pour la radio 1" name="appel_radio1" default="nom radio" validation="" required="true" errorMessage="" />
+	<text label="Url de la radio 1" name="lien_radio1" default="http://________.m3u" validation="" required="true" errorMessage="" />
+     
+	<text label="appel pour la radio 2" name="appel_radio2" default="nom radio" validation="" required="true" errorMessage="" />
+	<text label="Url de la radio 2" name="lien_radio2" default="http://________.m3u" validation="" required="true" errorMessage="" />
+	    
+	<text label="appel pour la radio 3" name="appel_radio3" default="nom radio" validation="" required="true" errorMessage="" />
+	<text label="Url de la radio 3" name="lien_radio3" default="http://________.m3u" validation="" required="true" errorMessage="" />
+	    
+	<text label="appel pour la radio 4" name="appel_radio4" default="nom radio" validation="" required="true" errorMessage="" />
+	<text label="Url de la radio 4" name="lien_radio4" default="http://________.m3u" validation="" required="true" errorMessage="" />
+	    
+	<text label="appel pour la radio 5" name="appel_radio5" default="nom radio" validation="" required="true" errorMessage="" />
+	<text label="Url de la radio 5" name="lien_radio5" default="http://________.m3u" validation="" required="true" errorMessage="" />
+	    
+	<text label="appel pour la radio 6" name="appel_radio6" default="nom radio" validation="" required="true" errorMessage="" />
+	<text label="Url de la radio 6" name="lien_radio6" default="http://________.m3u" validation="" required="true" errorMessage="" />
+	   
+	<text label="appel pour la radio 7" name="appel_radio7" default="nom radio" validation="" required="true" errorMessage="" />
+	<text label="Url de la radio 7" name="lien_radio7" default="http://________.m3u" validation="" required="true" errorMessage="" />
+	    
+	<text label="appel pour la radio 8" name="appel_radio8" default="nom radio" validation="" required="true" errorMessage="" />
+	<text label="Url de la radio 8" name="lien_radio8" default="http://________.m3u" validation="" required="true" errorMessage="" />
+	    
+	<text label="appel pour la radio 9" name="appel_radio9" default="nom radio" validation="" required="true" errorMessage="" />
+	<text label="Url de la radio 9" name="lien_radio9" default="http://________.m3u" validation="" required="true" errorMessage="" />
+	    
+	<text label="appel pour la radio 10" name="appel_radio10" default="nom radio" validation="" required="true" errorMessage="" />
+	<text label="Url de la radio 10" name="lien_radio10" default="http://________.m3u" validation="" required="true" errorMessage="" />
+
+
+</screen>

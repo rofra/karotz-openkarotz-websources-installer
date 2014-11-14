@@ -1,0 +1,34 @@
+<screen 
+	nanoTrigger="true"
+	permanentTrigger="true"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true" >
+    <select label="Pistes" name="mp3" type="one" required="false">
+        <option label="_Au hasard_" key="0" checked="false"/>
+        <option label="En apesanteur" key="1" checked="true"/>
+        <option label="Éveil de la conscience" key="2" checked="false"/>
+        <option label="Fleur de lotus" key="3" checked="false"/>
+		<option label="Éclosion 1" key="4" checked="false"/>
+		<option label="Éclosion 2" key="5" checked="false"/>
+		<option label="Inspiration vital" key="6" checked="false"/>
+		<option label="Plénitude" key="7" checked="false"/>
+		<option label="Voyage contemplatif" key="8" checked="false"/>
+		<option label="Jardin zen" key="9" checked="false"/>
+		<option label="Libération salvatrice" key="10" checked="false"/>
+		<option label="Mille pétales" key="11" checked="false"/>
+		<option label="Paix intérieur" key="12" checked="false"/>
+		<option label="Flânerie matinale" key="13" checked="false"/>
+		<option label="Pureté de l'âme" key="14" checked="false"/>
+		<option label="Balade ensoleillée" key="15" checked="false"/>
+		<option label="Respiration profonde" key="16" checked="false"/>
+		<option label="Sens oubliés" key="17" checked="false"/>
+		<option label="Souffle spirituel" key="18" checked="false"/>
+		<option label="Source énergétique" key="19" checked="false"/>
+		<option label="Unité naturelle" key="20" checked="false"/>
+	</select>
+    <select label="Ne lire qu&#180;une seule piste" name="fquit" type="one" required="false">
+        <option label="Oui" key="1" checked="false"/>
+        <option label="Non" key="0" checked="true"/>
+    </select>
+</screen>

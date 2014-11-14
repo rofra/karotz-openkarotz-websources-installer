@@ -1,0 +1,9 @@
+<descriptor>
+    <version>1.0.0</version>
+    <accesses>
+        <access>led</access>
+        <access>ears</access>
+		<access>button</access>
+		<access>multimedia</access>
+    </accesses>
+</descriptor>

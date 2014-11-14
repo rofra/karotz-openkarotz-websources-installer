@@ -1,0 +1,32 @@
+#!/bin/bash
+
+source /usr/www/cgi-bin/setup.inc
+source /usr/www/cgi-bin/leds.inc
+source /usr/www/cgi-bin/utils.inc
+source /usr/www/cgi-bin/officialapps.inc
+
+function ReadUrlParam
+{           
+ saveIFS=$IFS
+  IFS='=&'
+  parm=($QUERY_STRING)
+  IFS=$saveIFS     
+  for ((i=0; i<${#parm[@]}; i+=2))
+  do
+      if [ "${parm[i]}" == "app" ]; then
+          APPNAME=${parm[i+1]}
+      fi
+      if [ "${parm[i]}" == "config" ]; then
+          CONFIGNAME=${parm[i+1]}
+      fi
+  done
+} 
+
+
+ReadUrlParam
+
+LaunchOfficialApp ${APPNAME} ${CONFIGNAME}
+
+RETCODE="0"
+DATA="{'appname':'${APPNAME}','configname':'${CONFIGNAME}','return':'${RETCODE}'}"
+SendResponse "$DATA"

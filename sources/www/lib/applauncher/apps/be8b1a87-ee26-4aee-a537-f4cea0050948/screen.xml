@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<screen nanoTrigger="true"
+		permanentTrigger="true"
+		scheduledTrigger="true"
+		scheduledDateTrigger="false"
+		voiceTrigger="true">
+<select label="D&#233;partement" name="dept" type="one" required="true">
+<option label="01 Ain" key="1" checked="true"/>
+<option label="02 Aisne" key="2" checked="false"/>
+<option label="03 Allier" key="3" checked="false"/>
+<option label="04 Alpes-de-Haute-Provence" key="4" checked="false"/>
+<option label="05 Hautes-Alpes" key="5" checked="false"/>
+<option label="06 Alpes-Maritimes" key="6" checked="false"/>
+<option label="07 Ard&#232;che" key="7" checked="false"/>
+<option label="08 Ardennes" key="8" checked="false"/>
+<option label="09 Ari&#232;ge" key="9" checked="false"/>
+<option label="10 Aube" key="10" checked="false"/>
+<option label="11 Aude" key="11" checked="false"/>
+<option label="12 Aveyron" key="12" checked="false"/>
+<option label="13 Bouches-du-Rh&#244;ne" key="13" checked="false"/>
+<option label="14 Calvados" key="14" checked="false"/>
+<option label="15 Cantal" key="15" checked="false"/>
+<option label="16 Charente" key="16" checked="false"/>
+<option label="17 Charente-Maritime" key="17" checked="false"/>
+<option label="18 Cher" key="18" checked="false"/>
+<option label="19 Corr&#232;ze" key="19" checked="false"/>
+<option label="2A Corse-du-Sud" key="2A" checked="false"/>
+<option label="2B Haute-Corse" key="2B" checked="false"/>
+<option label="21 C&#244;te-d&#130;Or" key="21" checked="false"/>
+<option label="22 C&#244;tes-d&#130;Armor" key="22" checked="false"/>
+<option label="23 Creuse" key="23" checked="false"/>
+<option label="24 Dordogne" key="24" checked="false"/>
+<option label="25 Doubs" key="25" checked="false"/>
+<option label="26 Dr&#244;me" key="26" checked="false"/>
+<option label="27 Eure" key="27" checked="false"/>
+<option label="28 Eure-et-Loir" key="28" checked="false"/>
+<option label="29 Finist&#232;re" key="29" checked="false"/>
+<option label="30 Gard" key="30" checked="false"/>
+<option label="31 Haute-Garonne" key="31" checked="false"/>
+<option label="32 Gers" key="32" checked="false"/>
+<option label="33 Gironde" key="33" checked="false"/>
+<option label="34 H&#233;rault" key="34" checked="false"/>
+<option label="35 Ille-et-Vilaine" key="35" checked="false"/>
+<option label="36 Indre" key="36" checked="false"/>
+<option label="37 Indre-et-Loire" key="37" checked="false"/>
+<option label="38 Is&#232;re" key="38" checked="false"/>
+<option label="39 Jura" key="39" checked="false"/>
+<option label="40 Landes" key="40" checked="false"/>
+<option label="41 Loir-et-Cher" key="41" checked="false"/>
+<option label="42 Loire" key="42" checked="false"/>
+<option label="43 Haute-Loire" key="43" checked="false"/>
+<option label="44 Loire-Atlantique" key="44" checked="false"/>
+<option label="45 Loiret" key="45" checked="false"/>
+<option label="46 Lot" key="46" checked="false"/>
+<option label="47 Lot-et-Garonne" key="47" checked="false"/>
+<option label="48 Loz&#232;re" key="48" checked="false"/>
+<option label="49 Maine-et-Loire" key="49" checked="false"/>
+<option label="50 Manche" key="50" checked="false"/>
+<option label="51 Marne" key="51" checked="false"/>
+<option label="52 Haute-Marne" key="52" checked="false"/>
+<option label="53 Mayenne" key="53" checked="false"/>
+<option label="54 Meurthe-et-Moselle" key="54" checked="false"/>
+<option label="55 Meuse" key="55" checked="false"/>
+<option label="56 Morbihan" key="56" checked="false"/>
+<option label="57 Moselle" key="57" checked="false"/>
+<option label="58 Ni&#232;vre" key="58" checked="false"/>
+<option label="59 Nord" key="59" checked="false"/>
+<option label="60 Oise" key="60" checked="false"/>
+<option label="61 Orne" key="61" checked="false"/>
+<option label="62 Pas-de-Calais" key="62" checked="false"/>
+<option label="63 Puy-de-D&#244;me" key="63" checked="false"/>
+<option label="64 Pyr&#233;n&#233;es-Atlantiques" key="64" checked="false"/>
+<option label="65 Hautes-Pyr&#233;n&#233;es" key="65" checked="false"/>
+<option label="66 Pyr&#233;n&#233;es-Orientales" key="66" checked="false"/>
+<option label="67 Bas-Rhin" key="67" checked="false"/>
+<option label="68 Haut-Rhin" key="68" checked="false"/>
+<option label="69 Rh&#244;ne" key="69" checked="false"/>
+<option label="70 Haute-Sa&#244;ne" key="70" checked="false"/>
+<option label="71 Sa&#244;ne-et-Loire" key="71" checked="false"/>
+<option label="72 Sarthe" key="72" checked="false"/>
+<option label="73 Savoie" key="73" checked="false"/>
+<option label="74 Haute-Savoie" key="74" checked="false"/>
+<option label="75 Paris" key="75" checked="false"/>
+<option label="76 Seine-Maritime" key="76" checked="false"/>
+<option label="77 Seine-et-Marne" key="77" checked="false"/>
+<option label="78 Yvelines" key="78" checked="false"/>
+<option label="79 Deux-S&#232;vres" key="79" checked="false"/>
+<option label="80 Somme" key="80" checked="false"/>
+<option label="81 Tarn" key="81" checked="false"/>
+<option label="82 Tarn-et-Garonne" key="82" checked="false"/>
+<option label="83 Var" key="83" checked="false"/>
+<option label="84 Vaucluse" key="84" checked="false"/>
+<option label="85 Vend&#233;e" key="85" checked="false"/>
+<option label="86 Vienne" key="86" checked="false"/>
+<option label="87 Haute-Vienne" key="87" checked="false"/>
+<option label="88 Vosges" key="88" checked="false"/>
+<option label="89 Yonne" key="89" checked="false"/>
+<option label="90 Territoire de Belfort" key="90" checked="false"/>
+<option label="91 Essonne" key="91" checked="false"/>
+<option label="92 Hauts-de-Seine" key="92" checked="false"/>
+<option label="93 Seine-Saint-Denis" key="93" checked="false"/>
+<option label="94 Val-de-Marne" key="94" checked="false"/>
+<option label="95 Val-d&#130;Oise" key="95" checked="false"/>
+</select>
+</screen>

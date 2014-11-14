@@ -1,0 +1,41 @@
+<screen 
+	nanoTrigger="true"
+	permanentTrigger="true"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true" >
+    <select label="Mon dictionnaire de cuisine" name="recette" type="one" required="false">
+        <option label="_Au hasard_" key="0" checked="false"/>
+        <option label="Intro + Agneau" key="1" checked="true"/>
+        <option label="Alouette" key="2" checked="false"/>
+        <option label="Ane" key="3" checked="false"/>
+        <option label="Artichauts" key="4" checked="false"/>
+        <option label="Asperges &#224; la Pompadour" key="5" checked="false"/>
+        <option label="Baba" key="6" checked="false"/>
+        <option label="Bartavelle" key="7" checked="false"/>
+        <option label="Beignets" key="8" checked="false"/>
+        <option label="Beurre" key="9" checked="false"/>
+        <option label="Blanc manger" key="10" checked="false"/>
+        <option label="Boeuf" key="11" checked="false"/>
+        <option label="Brandade" key="12" checked="false"/>
+        <option label="Brioche" key="13" checked="false"/>
+        <option label="Cabillaud" key="14" checked="false"/>
+        <option label="Cacao" key="15" checked="false"/>
+        <option label="Caf&#233;" key="16" checked="false"/>
+        <option label="Caf&#233; &#224; la cr&#232;me frapp&#233;e de glace" key="17" checked="false"/>
+        <option label="Cake" key="18" checked="false"/>
+        <option label="Canepeti&#232;te" key="19" checked="false"/>
+        <option label="Cannetons &#224; la rouennaise" key="20" checked="false"/>
+        <option label="Car&#234;me" key="21" checked="false"/>
+        <option label="Car&#234;me Marie-Antoine" key="22" checked="false"/>
+        <option label="Carpe &#224; la Chambord" key="23" checked="false"/>
+        <option label="Cavaillon" key="24" checked="false"/>
+        <option label="Cave" key="25" checked="false"/>
+        <option label="Cerise" key="26" checked="false"/>
+        <option label="Champignons" key="27" checked="false"/>
+        <option label="Chartreuse" key="28" checked="false"/>
+        <option label="Chocolat" key="29" checked="false"/>
+        <option label="Cidre" key="30" checked="false"/>
+        <option label="Salmis de B&#233;casses &#224; la royale" key="31" checked="false"/>
+    </select>
+</screen>

@@ -1,0 +1,8 @@
+<screen>
+<select label="Lister le contenu de la cle par" name="mytype" type="one" required="true">
+	<option label="Repertoire"  key="dir" checked="true"/>
+	<option label="Artiste" key="artist" checked="false"/> 
+	<option label="Genre" key="genre" checked="false"/> 
+	<option label="Playlist" key="playlist" checked="false"/> 
+</select>
+</screen>

@@ -1,0 +1,24 @@
+<screen 
+	nanoTrigger="true"
+	permanentTrigger="true"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true" >
+    <select label="Contes" name="mp3" type="one" required="false">
+        <option label="_Au hasard_" key="0" checked="false"/>
+        <option label="Ali Baba" key="1" checked="true"/>
+        <option label="Le petit Chaperon rouge" key="2" checked="false"/>
+        <option label="Hensel et Gretel" key="3" checked="false"/>
+		<option label="Aladin et la lampe merveilleuse" key="4" checked="false"/>
+		<option label="Cendrillon" key="5" checked="false"/>
+		<option label="Le vilain petit canard" key="6" checked="false"/>
+		<option label="Le chat botté" key="7" checked="false"/>
+		<option label="La belle au bois dormant" key="8" checked="false"/>
+		<option label="La petite marchande d'allumettes" key="9" checked="false"/>
+		<option label="Les trois petits cochons" key="10" checked="false"/>
+	</select>
+    <select label="Ne lire qu&#180;un seul conte" name="fquit" type="one" required="false">
+        <option label="Oui" key="1" checked="false"/>
+        <option label="Non" key="0" checked="true"/>
+    </select>
+</screen>

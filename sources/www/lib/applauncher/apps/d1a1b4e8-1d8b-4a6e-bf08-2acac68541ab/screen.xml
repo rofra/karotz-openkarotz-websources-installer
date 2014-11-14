@@ -1,0 +1,17 @@
+<screen>
+	<select label="Application" name="appid" type="one" required="true">
+        <option label="Team Fortress 2" key="440" checked="true"/>
+        <option label="Half Life 2" key="220" checked="false"/>
+		<option label="Counter Strike: Source" key="240" checked="false"/>
+		<option label="Half-Life: Source" key="280" checked="false"/>
+		<option label="Day of Defeat: Source" key="300" checked="false"/>
+		<option label="Half-Life 2: Deathmatch" key="320" checked="false"/>
+		<option label="Portal" key="400" checked="false"/>
+		<option label="Portal 2" key="620" checked="false"/>
+		<option label="Left 4 Dead" key="500" checked="false"/>
+		<option label="Left 4 Dead 2" key="550" checked="false"/>
+		<option label="Dota 2" key="570" checked="false"/>
+		<option label="Alien Swarm" key="630" checked="false"/>
+		<option label="Counter Strike Global Offensive" key="730" checked="false"/>
+    </select>
+</screen>

@@ -1,0 +1,13 @@
+<screen 
+	nanoTrigger="true"
+	permanentTrigger="false"
+	scheduledTrigger="true"
+	scheduledDateTrigger="false"
+	voiceTrigger="true" >
+
+	<select label="Flux" name="flux" type="one" required="true">
+		<option label="128 kbps" key="128" checked="true"/>
+		<option label="64 kbps" key="64" checked="false"/>
+	</select>
+
+</screen>

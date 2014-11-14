@@ -1,0 +1,12 @@
+ <descriptor>
+	<name>Réveil Brutal</name>
+	<version>1.0</version>
+	<accesses>
+		<access>button</access>
+		<access>led</access>
+		<access>multimedia</access>
+	</accesses>
+	<editor>melka</editor>
+	<deployment>hosted</deployment>
+	<multiConf>false</multiConf>
+</descriptor>

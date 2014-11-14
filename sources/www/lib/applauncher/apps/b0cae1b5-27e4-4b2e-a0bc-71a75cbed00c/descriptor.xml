@@ -1,0 +1,11 @@
+ <descriptor>
+	<name>Heure Normale Nabaztag</name>
+	<version>1.2</version>
+	<accesses>
+		<access>led</access>
+		<access>multimedia</access>
+	</accesses>
+	<editor>Julien Kebaili</editor>
+	<deployment>hosted</deployment>
+	<multiConf>false</multiConf>
+</descriptor>

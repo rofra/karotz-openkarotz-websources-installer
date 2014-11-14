@@ -1,0 +1,23 @@
+ <descriptor>
+	<name>Karotz Live!</name>
+	<asrName>live</asrName>
+	<version>1.1</version>
+	<accesses>
+		<access>asr</access>
+		<access>ears</access>
+		<access>led</access>
+		<access>multimedia</access>
+		<access>remoteauth</access>
+		<access>tts</access>
+		<access>webcam</access>
+	</accesses>
+	<editor>http://wizz.cc</editor>
+	<deployment>external</deployment>
+	<multiConf>false</multiConf>
+	<parameters>
+		<parameter key="showInstallUuid" value="true"/>
+    </parameters>
+	<interruptible>false</interruptible>
+	<awake>true</awake>
+	<callback>http://api.wizz.cc/setup.php</callback>
+</descriptor>

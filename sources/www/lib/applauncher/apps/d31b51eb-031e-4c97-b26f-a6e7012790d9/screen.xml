@@ -1,0 +1,26 @@
+<screen 
+	nanoTrigger="true"
+	permanentTrigger="true"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true" >
+    <select label="Chansons" name="mp3" type="one" required="false">
+        <option label="_Au hasard_" key="0" checked="false"/>
+        <option label="A cause des garçons" key="1" checked="true"/>
+        <option label="Les bêtises" key="2" checked="false"/>
+        <option label="Je ne veux pas rentrer" key="3" checked="false"/>
+		<option label="Quand une fille est love" key="4" checked="false"/>
+		<option label="Africa" key="5" checked="false"/>
+		<option label="Elle me controle" key="6" checked="false"/>
+		<option label="VIP" key="7" checked="false"/>
+		<option label="Ring my bell" key="8" checked="false"/>
+		<option label="Eve lève toi" key="9" checked="false"/>
+		<option label="It's rainning men" key="10" checked="false"/>
+		<option label="Never can say goodbye" key="11" checked="false"/>
+		<option label="Bette Davis eyes" key="12" checked="false"/>
+	</select>
+    <select label="Ne lire qu&#180;une seule Chanson" name="fquit" type="one" required="false">
+        <option label="Oui" key="1" checked="false"/>
+        <option label="Non" key="0" checked="true"/>
+    </select>
+</screen>

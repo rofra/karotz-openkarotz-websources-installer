@@ -1,0 +1,156 @@
+<screen
+ nanoTrigger="true"
+ permanentTrigger="false"
+ scheduledTrigger="true"
+ scheduledDateTrigger="true"
+ voiceTrigger="true"> 
+
+  <select label="Station Vcub" name="station" type="one" required="true">
+    <option key="67" label="Allee de Serr Abadie" checked="true"/>
+    <option key="60" label="Allees de Chartres" checked="false"/>
+    <option key="112" label="Arts et Metiers" checked="false"/>
+    <option key="138" label="Barbey" checked="false"/>
+    <option key="129" label="Barriere de Begles" checked="false"/>
+    <option key="48" label="Barriere de Pessac" checked="false"/>
+    <option key="130" label="Barriere de Toulouse" checked="false"/>
+    <option key="33" label="Barriere du Medoc" checked="false"/>
+    <option key="109" label="Barriere St Genes" checked="false"/>
+    <option key="13" label="Barriere St Medard" checked="false"/>
+    <option key="98" label="Bassins a flot" checked="false"/>
+    <option key="46" label="Belcier" checked="false"/>
+    <option key="108" label="Bergonie" checked="false"/>
+    <option key="27" label="Bordeaux II" checked="false"/>
+    <option key="78" label="Bougnard" checked="false"/>
+    <option key="95" label="Bruges Hotel de Ville" checked="false"/>
+    <option key="70" label="Buttiniere" checked="false"/>
+    <option key="55" label="Camille Godard" checked="false"/>
+    <option key="42" label="Camille Jullian" checked="false"/>
+    <option key="59" label="CAPC" checked="false"/>
+    <option key="133" label="Capucins" checked="false"/>
+    <option key="31" label="Cauderan" checked="false"/>
+    <option key="62" label="Cenon Gare" checked="false"/>
+    <option key="58" label="Chartrons" checked="false"/>
+    <option key="11" label="Cite Administrative" checked="false"/>
+    <option key="97" label="Claveau" checked="false"/>
+    <option key="114" label="Compostelle" checked="false"/>
+    <option key="125" label="Conservatoire" checked="false"/>
+    <option key="132" label="Cours de la Somme" checked="false"/>
+    <option key="100" label="Cours du Medoc" checked="false"/>
+    <option key="69" label="Cours Le Rouzic" checked="false"/>
+    <option key="122" label="Cours St Louis Medoc" checked="false"/>
+    <option key="115" label="CREPS" checked="false"/>
+    <option key="117" label="Doyen Brus" checked="false"/>
+    <option key="14" label="Dubreuil / Turenne" checked="false"/>
+    <option key="113" label="Ecole de Management" checked="false"/>
+    <option key="57" label="Eglise St Louis" checked="false"/>
+    <option key="136" label="Eglise Ste Croix" checked="false"/>
+    <option key="93" label="Eysines Centre" checked="false"/>
+    <option key="75" label="Ferdinand Buisson" checked="false"/>
+    <option key="90" label="Fontaine d'Arlac" checked="false"/>
+    <option key="110" label="Forum" checked="false"/>
+    <option key="63" label="Francois Mitterrand" checked="false"/>
+    <option key="16" label="Galin" checked="false"/>
+    <option key="80" label="Gare Alouette" checked="false"/>
+    <option key="66" label="Gare d'Orleans" checked="false"/>
+    <option key="94" label="Gare de Blanquefort" checked="false"/>
+    <option key="127" label="Gare St Jean" checked="false"/>
+    <option key="9" label="Gavinies" checked="false"/>
+    <option key="12" label="Grand Lebrun" checked="false"/>
+    <option key="40" label="Grand Theatre" checked="false"/>
+    <option key="20" label="Grands Hommes" checked="false"/>
+    <option key="104" label="Grosse Cloche" checked="false"/>
+    <option key="22" label="Hotel de Ville" checked="false"/>
+    <option key="18" label="Huguerie" checked="false"/>
+    <option key="37" label="Jardin Public" checked="false"/>
+    <option key="72" label="Jean Zay" checked="false"/>
+    <option key="87" label="Kennedy Parc Hotelier" checked="false"/>
+    <option key="81" label="L. Morin Cazalet" checked="false"/>
+    <option key="64" label="La Benauge" checked="false"/>
+    <option key="82" label="La Chataigneraie" checked="false"/>
+    <option key="71" label="La Gardette" checked="false"/>
+    <option key="30" label="La Glaciere Mondesir" checked="false"/>
+    <option key="49" label="Le Bouscat Mairie" checked="false"/>
+    <option key="118" label="Le Bouscat Ravezies" checked="false"/>
+    <option key="84" label="Le Burck" checked="false"/>
+    <option key="96" label="Les Aubiers" checked="false"/>
+    <option key="99" label="Les Hangars" checked="false"/>
+    <option key="24" label="Liberation" checked="false"/>
+    <option key="139" label="Lycee Bremontier" checked="false"/>
+    <option key="47" label="Magendie" checked="false"/>
+    <option key="91" label="Mairie du Haillan" checked="false"/>
+    <option key="50" label="Mandron Godard" checked="false"/>
+    <option key="1" label="Meriadeck" checked="false"/>
+    <option key="88" label="Merignac Capeyron" checked="false"/>
+    <option key="89" label="Merignac Centre" checked="false"/>
+    <option key="85" label="Merignac Quatre Chemins" checked="false"/>
+    <option key="86" label="Merignac Soleil" checked="false"/>
+    <option key="116" label="Montaigne Montesquieu" checked="false"/>
+    <option key="44" label="Musee d'Aquitaine" checked="false"/>
+    <option key="131" label="Nansouty" checked="false"/>
+    <option key="7" label="Palais de Justice" checked="false"/>
+    <option key="17" label="Palais Gallien" checked="false"/>
+    <option key="61" label="Parc aux Angeliques" checked="false"/>
+    <option key="32" label="Parc Bordelais" checked="false"/>
+    <option key="124" label="Parc des Sports" checked="false"/>
+    <option key="53" label="Parc Riviere" checked="false"/>
+    <option key="8" label="Patinoire" checked="false"/>
+    <option key="111" label="Peixotto" checked="false"/>
+    <option key="28" label="Pellegrin" checked="false"/>
+    <option key="79" label="Pessac Bersol" checked="false"/>
+    <option key="83" label="Pessac Centre" checked="false"/>
+    <option key="137" label="Pl. Andre Meunier" checked="false"/>
+    <option key="77" label="Pl. Bernard Roumegoux" checked="false"/>
+    <option key="38" label="Pl. Charles Gruet" checked="false"/>
+    <option key="36" label="Pl. de Longchamps" checked="false"/>
+    <option key="134" label="Pl. du Maucaillou" checked="false"/>
+    <option key="101" label="Pl. Jean Jaures" checked="false"/>
+    <option key="35" label="Pl. Marie Brizard" checked="false"/>
+    <option key="56" label="Pl. Paul Doumer" checked="false"/>
+    <option key="45" label="Pl. Ste Eulalie" checked="false"/>
+    <option key="51" label="Place Ampere" checked="false"/>
+    <option key="52" label="Place de l'Europe" checked="false"/>
+    <option key="102" label="Place de la Bourse" checked="false"/>
+    <option key="106" label="Place de la Victoire" checked="false"/>
+    <option key="74" label="Place du 14 juillet" checked="false"/>
+    <option key="103" label="Place du Palais" checked="false"/>
+    <option key="5" label="Place Gambetta" checked="false"/>
+    <option key="121" label="Place St Martial" checked="false"/>
+    <option key="135" label="Place St Michel" checked="false"/>
+    <option key="41" label="Place St Projet" checked="false"/>
+    <option key="3" label="Place Tartas" checked="false"/>
+    <option key="19" label="Place Tourny" checked="false"/>
+    <option key="76" label="Pont de la Maye" checked="false"/>
+    <option key="123" label="Porte de Bourgogne" checked="false"/>
+    <option key="21" label="Puy Paulin" checked="false"/>
+    <option key="126" label="Quai de Paludate" checked="false"/>
+    <option key="39" label="Quinconces" checked="false"/>
+    <option key="23" label="Republique" checked="false"/>
+    <option key="15" label="Rue de la Croix Blanche" checked="false"/>
+    <option key="105" label="Rue du Mirail" checked="false"/>
+    <option key="25" label="Rue F. de Sourdis" checked="false"/>
+    <option key="54" label="Rue St Vincent de Paul" checked="false"/>
+    <option key="128" label="Sacre Coeur" checked="false"/>
+    <option key="120" label="Saint Louis Haussmann" checked="false"/>
+    <option key="6" label="Square A. Lhote" checked="false"/>
+    <option key="29" label="St Augustin" checked="false"/>
+    <option key="2" label="St Bruno" checked="false"/>
+    <option key="92" label="St Medard Republique" checked="false"/>
+    <option key="107" label="St Nicolas" checked="false"/>
+    <option key="43" label="St Paul" checked="false"/>
+    <option key="4" label="St Seurin" checked="false"/>
+    <option key="10" label="Stade Chaban Delmas" checked="false"/>
+    <option key="65" label="Stalingrad" checked="false"/>
+    <option key="73" label="Terres Neuves" checked="false"/>
+    <option key="68" label="Thiers Jardin Botanique" checked="false"/>
+    <option key="34" label="Tivoli" checked="false"/>
+    <option key="119" label="Tram station Grd Parc" checked="false"/>
+    <option key="26" label="Xaintrailles" checked="false"/>
+  </select>
+  
+  <select label="Info souhait&#233;e" name="info" type="one" required="true">
+    <option key="bikes" label="V&#233;los disponibles" checked="true"/>
+    <option key="slots" label="Bornes disponibles" checked="false"/>
+    <option key="both" label="V&#233;los et bornes disponibles" checked="false"/>
+  </select>
+</screen>
+

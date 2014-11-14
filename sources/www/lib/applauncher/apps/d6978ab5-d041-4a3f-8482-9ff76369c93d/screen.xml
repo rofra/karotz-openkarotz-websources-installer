@@ -1,0 +1,8 @@
+<screen
+	nanoTrigger="true"
+	permanentTrigger="false"
+	scheduledTrigger="true"
+	voiceTrigger="true" >
+	
+	<text label="Email" name="email" default="@" validation="" required="true" errorMessage="" />
+</screen>

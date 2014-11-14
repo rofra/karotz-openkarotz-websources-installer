@@ -1,0 +1,16 @@
+<descriptor>
+    <version>1.0.2</version>
+	<apikey>2af19ad0-9afc-4d0e-98e4-0b61722b2885</apikey>
+	<editor>Joel Matteotti</editor>
+	<asrName>Fortune</asrName>
+	<deployment>hosted</deployment>
+	<multiConf>false</multiConf>
+	<interruptible>true</interruptible>
+	<awake>false</awake>
+    <accesses>
+        <access>tts</access>
+        <access>button</access>
+		<access>http</access>
+		<access>asr</access>
+    </accesses>
+</descriptor>

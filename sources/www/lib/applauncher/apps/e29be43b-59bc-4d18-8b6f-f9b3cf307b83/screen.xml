@@ -1,0 +1,10 @@
+<screen>
+<text label="Gare de départ" name="gare_depart" validation="" required="true" errorMessage="Entrée non valide. Voir l'aide ci-contre." />
+<text label="Gare d'arrivée" name="gare_arrivee" validation="" required="true" errorMessage="Entrée non valide. Voir l'aide ci-contre." />
+<text label="URL directe du flux SNCF" name="url_directe" validation="" required="false" errorMessage="Entrée non valide. Voir l'aide ci-contre." />
+<select label="Nombre de trains à annoncer" name="nb_desire" type="one" required="true">
+        <option label="1" key="1" checked="true"/>
+        <option label="2" key="2" checked="false"/>
+        <option label="3" key="3" checked="false"/>
+</select>
+</screen>

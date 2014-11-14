@@ -1,0 +1,12 @@
+<descriptor>
+	<name>Geek Attitude</name>
+	<apikey>ee3d1fdc-6a3b-48f4-ac0c-6e8858bb85f3 </apikey>
+	<editor>Geekattitu.de</editor>
+	<version>1.0.2</version>
+	<accesses>
+        	<access>http</access>
+		<access>tts</access>
+		<access>button</access>
+	</accesses>
+	<multiConf>false</multiConf>
+</descriptor>

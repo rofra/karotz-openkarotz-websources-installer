@@ -1,0 +1,4 @@
+<screen>
+	<text label="URL privee de votre agenda google" name="url" default="https://www.google.com/calendar/feeds/xxxxxxxxxxxxxxxxxxxgmail.com/private-xxxxxxxxxxxxxxxxxxxxxxx/basic" validation="" required="true" errorMessage="" />
+</screen>
+

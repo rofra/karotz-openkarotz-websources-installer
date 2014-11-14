@@ -1,0 +1,9 @@
+<screen 
+	nanoTrigger="true"
+	permanentTrigger="false"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true">
+	
+<text label="Requete HTTP (URL)" name="url" default="http://" validation="" required="true" errorMessage="" />
+</screen>

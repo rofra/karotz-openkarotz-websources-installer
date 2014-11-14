@@ -1,0 +1,3 @@
+<screen>
+  <text label="url" name="url" default="" validation="" required="true" errorMessage="" />
+</screen>

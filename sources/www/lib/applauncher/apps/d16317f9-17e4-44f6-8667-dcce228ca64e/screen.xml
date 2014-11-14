@@ -1,0 +1,14 @@
+<screen nanoTrigger="true"
+permanentTrigger="true"
+scheduledTrigger="true"
+scheduledDateTrigger="true"
+voiceTrigger="true">
+	<!-- <select label="Niveau maximum" name="maxLevel" type="one" required="true">
+        <option label="5" key="5" checked="false"/>
+        <option label="10" key="10" checked="false"/>
+        <option label="15" key="15" checked="true"/>
+        <option label="20" key="20" checked="false"/>
+        <option label="25" key="25" checked="false"/>
+        <option label="30" key="30" checked="false"/>
+    </select>-->
+</screen>

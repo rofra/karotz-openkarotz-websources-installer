@@ -1,0 +1,8 @@
+<descriptor>
+    <name>Karotzaire</name>
+    <version>0.1.3</version>
+    <accesses>
+        <access>tts</access>
+        <access>button</access>
+    </accesses>
+</descriptor>

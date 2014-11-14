@@ -1,0 +1,3 @@
+<screen>
+    <text label="Pr&#233;noms &#224; chercher" name="prenom" default="tony;julien;sandrine;" validation="" required="false" errorMessage="" />
+</screen>

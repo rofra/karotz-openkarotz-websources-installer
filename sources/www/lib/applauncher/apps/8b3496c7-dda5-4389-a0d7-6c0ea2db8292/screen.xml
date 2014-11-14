@@ -1,0 +1,39 @@
+<screen nanoTrigger="true"
+	permanentTrigger="false"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true" >
+
+	<select label="Flux RSS" name="category" type="one" required="true">
+		<option label="Toutes catégories" key="anecdotes" checked="true"/>
+		<option label="Animaux" key="animaux" checked="false"/>
+		<option label="Art" key="art" checked="false"/>
+		<option label="Bandes dessinées" key="bandes-dessinees" checked="false"/>
+		<option label="Chiffres" key="chiffres-statistiques" checked="false"/>
+		<option label="Cinéma" key="cinema" checked="false"/>
+		<option label="Cuisine" key="cuisine" checked="false"/>
+		<option label="Expressions" key="expressions" checked="false"/>
+		<option label="Géographie" key="geographie" checked="false"/>
+		<option label="Histoire" key="histoire" checked="false"/>
+		<option label="Inclassable" key="inclassable" checked="false"/>
+		<option label="Informatique" key="informatique" checked="false"/>
+		<option label="Insolite" key="insolite" checked="false"/>
+		<option label="Jeux" key="jeux" checked="false"/>
+		<option label="Légende urbaine" key="legende-urbaine" checked="false"/>
+		<option label="Littérature" key="litterature" checked="false"/>
+		<option label="Marques et logo" key="marques" checked="false"/>
+		<option label="Musique" key="musique" checked="false"/>
+		<option label="Personnalités" key="personnalites" checked="false"/>
+		<option label="Santé" key="sante" checked="false"/>
+		<option label="Sciences" key="sciences" checked="false"/>
+		<option label="Sport" key="sport" checked="false"/>
+		<option label="Télévision" key="television" checked="false"/>
+		<option label="Vie pratique" key="vie-pratique" checked="false"/>
+	</select>
+
+
+	<text label="Nombre de flux que vous souhaitez lire" name="limit" default="5" validation="" required="true" errorMessage="" />
+
+	<button label="Cliquez-ici pour voir mes autres applications..." link="http://karotz.sylvainmenu.com" />
+
+</screen>

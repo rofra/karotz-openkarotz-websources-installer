@@ -1,0 +1,8 @@
+<screen 
+	nanoTrigger="false"
+	permanentTrigger="false"
+	scheduledTrigger="false"
+	scheduledDateTrigger="false"
+	voiceTrigger="false">
+	<button label="Cliquez-ici pour lancer Karotz remote Kontroller..." link="http://www.karotz.com/authentication/run/karotz/aca666fd-ab53-41dc-820b-1d392c6412fb" />	
+</screen>

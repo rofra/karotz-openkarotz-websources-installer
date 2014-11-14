@@ -1,0 +1,17 @@
+<?xml version="1.0" ?><descriptor>
+    <name>Voici</name>
+    <apikey>3d922950-384c-11e0-86c3-001fc63cfdff</apikey>
+    <version>0.9.7</version>
+   <accesses>
+       <access>tts</access>
+       <access>led</access>
+       <access>http</access>
+       <access>button</access>
+    </accesses>
+    <deployment>hosted</deployment>
+    <interruptible>true</interruptible>
+    <awake>true</awake>
+    <callback/>
+    <multiConf>false</multiConf>
+    <parameters/>
+</descriptor>

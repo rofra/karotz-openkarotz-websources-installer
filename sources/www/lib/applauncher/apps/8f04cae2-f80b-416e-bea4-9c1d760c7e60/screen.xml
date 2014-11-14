@@ -1,0 +1,8 @@
+<screen 
+	nanoTrigger="false"
+	permanentTrigger="false"
+	scheduledTrigger="false"
+	scheduledDateTrigger="false"
+	voiceTrigger="false" >
+	<button label="cliquez ici pour démarrer l'application" link="http://www.karotz.com/authentication/run/karotz/8f04cae2-f80b-416e-bea4-9c1d760c7e60"/>
+</screen>

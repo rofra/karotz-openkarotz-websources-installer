@@ -1,0 +1,14 @@
+ <descriptor>
+	<name>K-Koukou</name>
+	<asrName>coucou</asrName>
+	<version>1.0.0</version>
+	<accesses>
+		<access>button</access>
+		<access>led</access>
+		<access>multimedia</access>
+		<access>tts</access>
+	</accesses>
+	<editor>http://wizz.cc</editor>
+	<deployment>hosted</deployment>
+	<multiConf>false</multiConf>
+</descriptor>

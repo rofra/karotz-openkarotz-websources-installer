@@ -1,0 +1,9 @@
+<descriptor>
+	<editor>olivierdu95@live.fr</editor>
+    <version>0.0.1</version>
+    <accesses>
+		<access>rfid</access>
+        <access>tts</access>
+        <access>button</access>
+    </accesses>
+</descriptor>

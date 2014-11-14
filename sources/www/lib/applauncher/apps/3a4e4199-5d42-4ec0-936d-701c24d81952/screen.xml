@@ -1,0 +1,22 @@
+<screen 
+	nanoTrigger="true"
+	permanentTrigger="false"
+	scheduledTrigger="true"
+	scheduledDateTrigger="false"
+	voiceTrigger="true" >
+    <select label="Sonneries" name="mp3" type="one" required="false">
+        <option label="_Au hasard_" key="0" checked="false"/>
+        <option label="Cocorico" key="1" checked="true"/>
+        <option label="Buzzer" key="2" checked="false"/>
+        <option label="Clairon" key="3" checked="false"/>
+		<option label="Petits oiseaux" key="4" checked="false"/>
+		<option label="Horloge rétro" key="5" checked="false"/>
+		<option label="Le coucou" key="6" checked="false"/>
+		<option label="Electronique" key="7" checked="false"/>
+		<option label="Oiseaux et vieux réveil" key="8" checked="false"/>
+		<option label="Vieille sonnerie 1" key="9" checked="false"/>
+		<option label="Vieille sonnerie 2" key="10" checked="false"/>
+		<option label="Flûte de Pan" key="11" checked="false"/>
+		<option label="Réveillez vous Tontons flingueurs" key="12" checked="false"/>
+	</select>
+</screen>

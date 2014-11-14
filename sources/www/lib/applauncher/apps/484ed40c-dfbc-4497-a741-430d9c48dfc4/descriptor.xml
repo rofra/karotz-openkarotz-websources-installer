@@ -1,0 +1,13 @@
+ <descriptor>
+	<name>La Radio du P&#232;re No&#235;l</name>
+	<version>1.0</version>
+	<asrName>no elle</asrName>
+	<accesses>
+		<access>button</access>
+		<access>led</access>
+		<access>multimedia</access>
+	</accesses>
+	<editor>http://wizz.cc</editor>
+	<deployment>hosted</deployment>
+	<multiConf>false</multiConf>
+</descriptor>

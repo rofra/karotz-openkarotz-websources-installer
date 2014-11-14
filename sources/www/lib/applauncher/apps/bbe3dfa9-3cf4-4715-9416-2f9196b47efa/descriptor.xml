@@ -1,0 +1,13 @@
+<descriptor>
+   <version>1.0.2</version>
+   <accesses>
+       <access>tts</access>
+    </accesses>
+    <deployment>external</deployment>
+	<editor>YPROUST</editor>
+    <parameters>
+		<parameter key="showInstallUuid" value="true"/>
+	</parameters>
+	<interruptible>false</interruptible>
+	<awake>true</awake>
+</descriptor>

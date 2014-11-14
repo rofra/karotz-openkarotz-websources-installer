@@ -1,0 +1,33 @@
+<screen 
+	nanoTrigger="true"
+	permanentTrigger="false"
+	scheduledTrigger="true"
+	scheduledDateTrigger="false"
+	voiceTrigger="true" >
+    <select label="Histoires" name="mp3" type="one" required="false">
+        <option label="_Au hasard_" key="0" checked="false"/>
+        <option label="D&#233;sert" key="1" checked="true"/>
+        <option label="A&#233;roport 1 et 2" key="2" checked="false"/> 
+        <option label="Frites et p&#233;trole" key="3" checked="false"/>
+		<option label="Langue de boeuf" key="4" checked="false"/>
+		<option label="Repassage" key="5" checked="false"/>
+		<option label="Piscine" key="6" checked="false"/>
+		<option label="Eglise" key="7" checked="false"/>
+		<option label="Accident" key="8" checked="false"/>
+		<option label="Eau plate" key="9" checked="false"/>
+		<option label="Bi&#232;res Belges" key="10" checked="false"/>
+		<option label="Pas de Calais" key="11" checked="false"/>
+		<option label="Loubard" key="12" checked="false"/>
+		<option label="Messe" key="13" checked="false"/>
+		<option label="Les prix bas" key="14" checked="false"/>
+		<option label="Canard WC" key="15" checked="false"/>
+		<option label="Reconstitution" key="16" checked="false"/>
+		<option label="La lune" key="17" checked="false"/>
+		<option label="Braqueurs" key="18" checked="false"/>
+		<option label="La chasse" key="19" checked="false"/>
+	</select>
+    <select label="Ne lire qu&#180;une seule histoire" name="fquit" type="one" required="false">
+        <option label="Oui" key="1" checked="false"/>
+        <option label="Non" key="0" checked="true"/>
+    </select>
+</screen>

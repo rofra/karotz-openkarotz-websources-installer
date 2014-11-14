@@ -1,0 +1,15 @@
+<screen nanoTrigger="true"
+	permanentTrigger="false"
+	scheduledTrigger="true"
+	scheduledDateTrigger="false"
+	voiceTrigger="true" >
+
+	<select label="Ecouter" name="bfm" type="one" required="true">
+		<option label="la radio" key="d" checked="true"/>
+		<option label="un podcast" key="p" checked="false"/>
+	</select>
+
+	<text label="ID du podcast de l'émission" name="podcast" default="9" validation="" required="false" errorMessage="" />
+
+	<button label="Trouver cet ID" link="http://www.radiobfm.com/podcast/"/>
+</screen>

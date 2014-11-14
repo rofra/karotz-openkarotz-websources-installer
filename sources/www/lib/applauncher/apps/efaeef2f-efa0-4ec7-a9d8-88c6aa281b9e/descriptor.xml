@@ -1,0 +1,9 @@
+<descriptor>
+     <name>Lapinos</name>
+     <version>2.8.6</version>
+   <accesses>
+     <access>tts</access>
+     <access>button</access>
+     <access>asr</access>
+   </accesses>
+</descriptor>

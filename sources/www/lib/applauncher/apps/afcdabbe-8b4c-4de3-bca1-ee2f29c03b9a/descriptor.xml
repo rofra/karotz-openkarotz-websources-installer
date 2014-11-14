@@ -1,0 +1,19 @@
+﻿<descriptor>
+    <version>1.0.5</version>
+    <accesses>
+        <access>tts</access>
+		<access>asr</access>
+        <access>button</access>
+		<access>led</access>
+		<access>multimedia</access>
+		<access>http</access>
+    </accesses>
+	
+	<editor>Raikoryu</editor>
+	<asrName>Pere La Chantz</asrName>
+	<deployment>hosted</deployment>
+	<multiConf>false</multiConf>
+	
+	<interruptible>true</interruptible>
+	<awake>false</awake>
+</descriptor>

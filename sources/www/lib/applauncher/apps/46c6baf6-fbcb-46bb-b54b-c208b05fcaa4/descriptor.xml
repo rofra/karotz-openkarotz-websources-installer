@@ -1,0 +1,14 @@
+<descriptor>
+    <version>0.9.12.fr</version>
+    <accesses>
+        <access>button</access>
+		<access>ears</access>
+		<access>led</access>
+		<access>tts</access>
+    </accesses>
+	<editor>OpenKarotz</editor>
+	<asrName>Boule de cristal</asrName>
+	<multiConf>false</multiConf>
+	<interruptible>true</interruptible>
+	<awake>false</awake>
+</descriptor>

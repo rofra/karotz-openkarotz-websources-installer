@@ -1,0 +1,16 @@
+<?xml version="1.0" ?><descriptor>
+    <name>Ma WebRadio</name>
+    <apikey>bcaa1a08-f7ca-11df-ba89-0019d145fb1e</apikey>
+    <version>0.9.3</version>
+   <accesses>
+       <access>led</access>
+       <access>multimedia</access>
+       <access>button</access>
+       <access>tts</access>
+    </accesses>
+    <deployment>hosted</deployment>
+    <interruptible>true</interruptible>
+    <awake>true</awake>
+    <callback/>
+    <multiConf>true</multiConf>
+</descriptor>

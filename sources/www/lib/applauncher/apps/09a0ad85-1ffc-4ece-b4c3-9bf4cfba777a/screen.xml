@@ -1,0 +1,12 @@
+<screen  nanoTrigger="false" permanentTrigger="false" scheduledTrigger="false" scheduledDateTrigger="false" voiceTrigger="true">
+  <select label="langue" name="lang" type="multi" required="true">
+    <option label="BR" key="br" checked="false"/>
+    <option label="DE" key="de" checked="false"/>
+    <option label="ES" key="es" checked="false"/>
+    <option label="FR" key="fr" checked="true"/>
+    <option label="IT" key="it" checked="false"/>
+    <option label="JA" key="ja-JP" checked="false"/>
+    <option label="UK" key="uk" checked="false"/>
+    <option label="US" key="us" checked="false"/>
+  </select>
+</screen>

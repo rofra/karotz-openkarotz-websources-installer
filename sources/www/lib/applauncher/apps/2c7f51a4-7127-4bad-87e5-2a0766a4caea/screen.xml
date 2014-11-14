@@ -1,0 +1,3 @@
+<screen nanoTrigger="false" permanentTrigger="false" scheduledTrigger="false" scheduledDateTrigger="false" voiceTrigger="false">
+    <button link="http://livecam.karotz.com?apikey=2c7f51a4-7127-4bad-87e5-2a0766a4caea" label="Cliquez ici pour démarrer Karotz Live Cam" />
+</screen>

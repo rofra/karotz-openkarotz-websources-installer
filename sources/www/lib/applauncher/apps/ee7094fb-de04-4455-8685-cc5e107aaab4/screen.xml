@@ -1,0 +1,14 @@
+<screen
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	>
+    <text label="Nom de la personne" name="nom" default="" validation="" required="true" errorMessage="" />
+    <text label="Jour de la naissance" name="jour" default="" validation="" required="true" errorMessage="" />
+	<text label="Mois de la naissance" name="mois" default="" validation="" required="true" errorMessage="" />
+	<text label="Annee de la naissance" name="annee" default="" validation="" required="true" errorMessage="" />
+	<select label="Pronom" name="genre" type="one" required="true">
+        <option label="il" key="il" checked="true"/>
+        <option label="elle" key="elle" checked="false"/>
+    </select>
+
+</screen>

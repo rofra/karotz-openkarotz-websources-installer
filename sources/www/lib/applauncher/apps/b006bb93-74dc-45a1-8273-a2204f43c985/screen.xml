@@ -1,0 +1,15 @@
+<screen nanoTrigger="true"
+	permanentTrigger="true"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true" >
+	<text label="Nom de la ville " name="ville" default="paris" validation="" required="true" errorMessage="" />
+	<select label="Pays" name="pays" type="one" required="true">
+        <option label="France" key="france" checked="true"/>
+        <option label="Belgique" key="belgique" checked="false"/>
+        <option label="Suisse" key="suisse" checked="false"/>
+        <option label="Allemagne" key="allemagne" checked="false"/>
+        <option label="Luxembourg" key="luxembourg" checked="false"/>
+    </select>
+	<text label="Duree affichage (en minutes)" name="temps" default="1" validation="" required="true" errorMessage="" />
+</screen>

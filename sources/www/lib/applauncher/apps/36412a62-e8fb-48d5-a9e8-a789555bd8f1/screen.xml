@@ -1,0 +1,54 @@
+<screen 
+	nanoTrigger="true"
+	permanentTrigger="true"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true" >
+    <select label="Histoires et Chansons" name="mp3" type="one" required="false">
+        <option label="_Au hasard_" key="0" checked="false"/>
+        <option label="Petit papa no&#235;l" key="1" checked="true"/>
+        <option label="Vive le vent" key="2" checked="false"/>
+        <option label="La cloche du vieux manoir" key="3" checked="false"/>
+		<option label="Douce nuit" key="4" checked="false"/>
+		<option label="La marche des rois mages" key="5" checked="false"/>
+		<option label="Il est n&#233; le divin enfant" key="6" checked="false"/>
+		<option label="Mon beau sapin" key="7" checked="false"/>
+		<option label="La l&#233;gende de Saint Nicolas" key="8" checked="false"/>
+		<option label="Guillot" key="9" checked="false"/>
+		<option label="Joyeux no&#235;l" key="10" checked="false"/>
+		<option label="L&#39;hiver" key="11" checked="false"/>
+		<option label="Chantons no&#235;l" key="12" checked="false"/>
+		<option label="Mon ch&#226;let" key="13" checked="false"/>
+		<option label="Neige blanche" key="14" checked="false"/>
+		<option label="Cinq petits moutons" key="15" checked="false"/>
+		<option label="Je t&#39;attends" key="16" checked="false"/>
+        <option label="La ronde des petits lapins" key="17" checked="false"/>
+        <option label="L&#39;as tu vu &#63;" key="18" checked="false"/>
+		<option label="Vent frais" key="19" checked="false"/>
+		<option label="Entre le boeuf et l&#39;&#226;ne gris" key="20" checked="false"/>
+		<option label="La nuit de no&#235;l" key="21" checked="false"/>
+		<option label="La haut sur la montagne" key="22" checked="false"/>
+		<option label="Le p&#232;re no&#235;l est en p&#233;tard" key="23" checked="false"/>
+		<option label="M&#232;re no&#235;l" key="24" checked="false"/>
+		<option label="Atchoum" key="25" checked="false"/>
+		<option label="Dehors dedans" key="26" checked="false"/>
+		<option label="No&#235;l" key="27" checked="false"/>
+		<option label="Le sapin de no&#235;l" key="28" checked="false"/>
+		<option label="Jusqu&#39;&#224; 7" key="29" checked="false"/>
+		<option label="Au coin de la chemin&#233;e" key="30" checked="false"/>
+		<option label="Cassandre" key="31" checked="false"/>
+		<option label="Le no&#235;l des cr&#233;atures" key="32" checked="false"/>
+		<option label="Et pour moi &#63;" key="33" checked="false"/>
+		<option label="Une rencontre extraordinaire" key="34" checked="false"/>
+		<option label="Clic clac dans les mains" key="35" checked="false"/>
+		<option label="Les rois mages" key="36" checked="false"/>
+		<option label="L&#39;hiver et l&#39;&#233;t&#233;" key="37" checked="false"/>
+		<option label="Lorsque l&#39;enfant para&#238;t" key="38" checked="false"/>
+		<option label="Sapin vert" key="39" checked="false"/>
+		<option label="P&#232;re no&#235;l est pass&#233;" key="40" checked="false"/>
+	</select>
+    <select label="Ne lire qu&#180;une seule histoire ou chanson" name="fquit" type="one" required="false">
+        <option label="Oui" key="1" checked="false"/>
+        <option label="Non" key="0" checked="true"/>
+    </select>
+</screen>

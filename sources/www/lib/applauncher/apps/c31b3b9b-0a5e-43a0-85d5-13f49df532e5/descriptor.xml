@@ -1,0 +1,11 @@
+<descriptor>
+	<name>Livre du jour</name>
+	<editor>35niavlys</editor>
+	<version>1.0.1</version>
+	<accesses>
+		<access>http</access>
+		<access>tts</access>
+		<access>button</access>
+	</accesses>
+	<multiConf>false</multiConf>
+</descriptor>

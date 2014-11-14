@@ -1,0 +1,15 @@
+<descriptor>
+	<version>1.0.3</version>
+	<accesses>
+		<access>tts</access>
+		<access>button</access>
+		<access>led</access>
+		<access>ears</access>
+		<access>file</access>
+		<access>multimedia</access>
+		<access>asr</access>
+	</accesses>
+	<editor>Vincent RAGUET</editor>
+	<asrName>Quizz</asrName>
+	<deployment>hosted</deployment>
+</descriptor>

@@ -1,0 +1,42 @@
+<screen>
+	<select label="Type de lecture" name="typeLecture" type="one" required="true">
+		<option label="Top points" key="1" checked="true"/>
+		<option label="Flop points" key="2" checked="false"/>
+		<option label="Top moyenne" key="3" checked="false"/>
+		<option label="Flop moyenne" key="4" checked="false"/>
+		<option label="Al&#233;atoire" key="5" checked="false"/>
+		<option label="Derniers ajouts" key="6" checked="false"/>
+	</select>
+	<select label="Nb. de facts &#224; lire" name="nb_facts" type="one" required="true">
+		<option label="1" key="1" checked="false"/>
+		<option label="2" key="2" checked="false"/>
+		<option label="3" key="3" checked="false"/>
+		<option label="4" key="4" checked="false"/>
+		<option label="5" key="5" checked="true"/>
+		<option label="6" key="6" checked="false"/>
+		<option label="7" key="7" checked="false"/>
+		<option label="8" key="8" checked="false"/>
+		<option label="9" key="9" checked="false"/>
+		<option label="10" key="10" checked="false"/>
+		<option label="11" key="11" checked="false"/>
+		<option label="12" key="12" checked="false"/>
+		<option label="13" key="13" checked="false"/>
+		<option label="14" key="14" checked="false"/>
+		<option label="15" key="15" checked="false"/>
+		<option label="16" key="16" checked="false"/>
+		<option label="17" key="17" checked="false"/>
+		<option label="18" key="18" checked="false"/>
+		<option label="19" key="19" checked="false"/>
+		<option label="20" key="20" checked="false"/>
+		<option label="21" key="21" checked="false"/>
+		<option label="22" key="22" checked="false"/>
+		<option label="23" key="23" checked="false"/>
+		<option label="24" key="24" checked="false"/>
+		<option label="25" key="25" checked="false"/>
+		<option label="26" key="26" checked="false"/>
+		<option label="27" key="27" checked="false"/>
+		<option label="28" key="28" checked="false"/>
+		<option label="29" key="29" checked="false"/>
+		<option label="30" key="30" checked="false"/>
+	</select>	
+</screen>

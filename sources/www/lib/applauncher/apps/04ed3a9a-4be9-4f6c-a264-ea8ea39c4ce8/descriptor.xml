@@ -1,0 +1,12 @@
+<descriptor>
+	<name>Hit West</name>
+	<apikey>04ed3a9a-4be9-4f6c-a264-ea8ea39c4ce8</apikey>
+	<editor>35niavlys</editor>
+	<version>1.0.0</version>
+	<accesses>
+        	<access>button</access>
+        	<access>led</access>
+        	<access>multimedia</access>
+    	</accesses>
+	<multiConf>false</multiConf>
+</descriptor>

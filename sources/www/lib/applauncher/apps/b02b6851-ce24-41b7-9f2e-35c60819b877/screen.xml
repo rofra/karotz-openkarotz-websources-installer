@@ -1,0 +1,35 @@
+<screen 
+	nanoTrigger="true"
+	permanentTrigger="false"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true">
+	
+<text label="code telecommande" name="codetel" default="" validation="" required="true" errorMessage="" />
+<select label="Boitier" name="boitier" type="one" required="true">
+        <option label="HD1" key="hd1" checked="true"/>
+        <option label="HD2" key="hd2" checked="false"/>
+</select>
+<select label="Touche de fonction" name="keytel" type="one" required="true">
+		<option label="Touche numérotées utiliser champs ci-dessous" key="numeros" checked="true"/>
+        <option label="OK" key="ok" checked="false"/>
+        <option label="Vol+" key="vol_inc" checked="false"/>
+		<option label="Vol-" key="vol_dec" checked="false"/>
+		<option label="Mute" key="mute" checked="false"/>
+		<option label="P+" key="prgm_inc" checked="false"/>
+		<option label="P-" key="prgm_dec" checked="false"/>
+		<option label="FREE" key="home" checked="false"/>
+		<option label="Veille" key="power" checked="false"/>
+		<option label="Rouge" key="red" checked="false"/>
+		<option label="Jaune" key="yellow" checked="false"/>
+		<option label="Bleu" key="blue" checked="false"/>
+		<option label="Vert" key="vert" checked="false"/>
+</select>
+<text label="1er Chiffre" name="keytel1" default="" validation="" required="false" errorMessage="" />
+<text label="2ème Chiffre" name="keytel2" default="" validation="" required="false" errorMessage="" />
+<text label="3ème Chiffre" name="keytel3" default="" validation="" required="false" errorMessage="" />
+<select label="Appui long" name="appui" type="one" required="true">
+        <option label="Non" key="false" checked="true"/>
+        <option label="Oui" key="true" checked="false"/>
+</select>		
+</screen>

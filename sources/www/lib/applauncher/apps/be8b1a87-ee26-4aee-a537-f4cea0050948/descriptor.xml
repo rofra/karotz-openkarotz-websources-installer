@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<descriptor>
+ <version>1.0.1</version>
+ <accesses>
+ <access>tts</access>
+ <access>led</access>
+ <access>rfid</access>
+ <access>asr</access>
+ <access>http</access>
+ <access>button</access>
+ </accesses>
+ <editor>ben2paris</editor>
+ <deployment>hosted</deployment>
+ <multiConf>true</multiConf>
+ <parameters>
+ <parameter key="showInstallUuid" value="true"/>
+ </parameters>
+ <interruptible>true</interruptible>
+ <awake>false</awake>
+</descriptor>

@@ -1,0 +1,14 @@
+<descriptor>
+    <version>0.0.1</version>
+    <accesses>
+        <access>button</access>
+        <access>tts</access>
+        <access>http</access>
+    </accesses>
+        <editor>PEC</editor>
+        <asrName>biclou</asrName>
+        <multiConf>true</multiConf>
+        <interruptible>true</interruptible>
+        <awake>true</awake>
+</descriptor>
+

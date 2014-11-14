@@ -1,0 +1,12 @@
+<descriptor>
+	<name>Se coucher moins bete</name>
+	<editor>35niavlys</editor>
+	<version>1.0.2</version>
+	<accesses>
+			<access>button</access>
+			<access>ears</access>
+			<access>http</access>
+			<access>led</access>
+			<access>tts</access>
+		</accesses>
+</descriptor>

@@ -1,0 +1,12 @@
+<descriptor>
+  <name>Meditation</name>
+  <version>0.0.8</version>
+  <accesses>
+    <access>http</access>
+    <access>ears</access>
+    <access>button</access>
+    <access>led</access>    
+    <access>multimedia</access>
+  </accesses>
+  <multiConf>false</multiConf>
+</descriptor>

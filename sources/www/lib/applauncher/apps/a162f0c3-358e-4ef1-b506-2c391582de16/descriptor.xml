@@ -1,0 +1,19 @@
+<descriptor>
+	<multiConf>false</multiConf> 
+	<version>1.0.4</version>
+	<accesses>
+		<access>ears</access>
+		<access>led</access>
+		<access>rfid</access>
+		<access>tts</access>
+		<access>asr</access>
+		<access>multimedia</access>
+		<access>http</access>
+	</accesses>
+	<editor>Vince</editor>
+    <asrName>Frequence 3</asrName>
+	<deployment>external</deployment>
+	<interruptible>true</interruptible>
+	<awake>true</awake>
+	<callback>http://www.vinceonline.fr/karotz/Frequence3/index.php</callback>
+</descriptor>

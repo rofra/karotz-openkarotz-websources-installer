@@ -1,0 +1,24 @@
+<screen 
+	nanoTrigger="true"
+	permanentTrigger="true"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true" >
+    <select label="Berceuses" name="mp3" type="one" required="false">
+        <option label="_Au hasard_" key="0" checked="false"/>
+        <option label="Dodo l enfant do" key="1" checked="true"/>
+        <option label="Au clair de la lune" key="2" checked="false"/>
+        <option label="Frere Jacques" key="3" checked="false"/>
+		<option label="Meunier du dors" key="4" checked="false"/>
+		<option label="Fais dodo Colas mon petit frere" key="5" checked="false"/>
+		<option label="A la claire Fontaine" key="6" checked="false"/>
+		<option label="Dame tartine" key="7" checked="false"/>
+		<option label="Derriere chez nous" key="8" checked="false"/>
+		<option label="Carillonneur" key="9" checked="false"/>
+		<option label="Voila le bon vent" key="10" checked="false"/>
+	</select>
+    <select label="Ne lire qu&#180;un seul conte" name="fquit" type="one" required="false">
+        <option label="Oui" key="1" checked="false"/>
+        <option label="Non" key="0" checked="true"/>
+    </select>
+</screen>

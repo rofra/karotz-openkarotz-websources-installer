@@ -1,0 +1,24 @@
+<screen 
+	nanoTrigger="true"
+	permanentTrigger="true"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true" >
+    <select label="Musique" name="song" type="one" required="false">
+        <option label="_Aucune_" key="_none_" checked="false"/>
+        <option label="_La Mienne_" key="_mp3_" checked="false"/>
+        <option label="Carillon" key="" checked="true"/>
+        <option label="Clairon" key="clairon" checked="false"/>
+        <option label="Cloche" key="cloche" checked="false"/>
+        <option label="Coq" key="coq" checked="false"/>
+        <option label="Coucou" key="coucou" checked="false"/>
+        <option label="Pouet" key="pouet" checked="false"/>
+        <option label="Reveil" key="reveil" checked="false"/>
+        <option label="Sirene" key="sirene" checked="false"/>
+        <option label="Sncf" key="sncf" checked="false"/>
+        <option label="Sncf long" key="sncf_long" checked="false"/>
+        <option label="Sonnerie" key="sonnerie" checked="false"/>
+        <option label="Vache" key="vache" checked="false"/>
+    </select>
+	<text label="Si vous avez choisi l'option '_La Mienne_' alors indiquez son emplacement sur Internet (au format MP3)" name="mp3" default="http://" required="false" validation="" errorMessage="" />
+</screen>

@@ -1,0 +1,24 @@
+<descriptor>
+   <version>0.02</version>
+   <accesses>
+       <access>tts</access>
+       <access>led</access>
+       <access>ears</access>
+       <access>button</access>
+       <access>webcam</access>
+       <access>asr</access>
+       <access>multimedia</access>
+       <access>rfid</access>
+       <access>http</access>
+    </accesses>
+    <editor>Antor</editor>
+    <asrName>Maison</asrName>
+    <deployment>external</deployment>
+    <awake>true</awake>
+    <interruptible>true</interruptible>
+    <multiConf>false</multiConf>
+    <callback>http://karotz.antor.fr/callback.php</callback>
+    <parameters>
+        <parameter key="showInstallUuid" value="true"/>
+    </parameters>
+</descriptor>

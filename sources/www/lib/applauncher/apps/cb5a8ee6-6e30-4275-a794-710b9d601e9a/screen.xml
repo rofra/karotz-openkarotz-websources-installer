@@ -1,0 +1,13 @@
+<screen nanoTrigger="false" permanentTrigger="false" scheduledTrigger="true" scheduledDateTrigger="true" voiceTrigger="true">
+<text label="Durée d'écoute (en min)" name="duree" default="10" validation="^[\d]+$" required="true" errorMessage="Veuillez entrer une valeur numérique." />
+<select label="Radio à jouer" name="radio_choisie" type="one" required="true">
+        <option label="Europe 1" key="1" checked="false"/>
+        <option label="RMC" key="2" checked="false"/>
+        <option label="BFM" key="3" checked="false"/>
+        <option label="RTL" key="4" checked="false"/>
+        <option label="France Inter" key="5" checked="false"/>
+        <option label="France Info" key="6" checked="true"/>
+        <option label="Autre..." key="7" checked="false"/>
+</select>
+<text label="Si 'Autre' sélectionné, entrez le flux à lire" name="autre_radio" validation="" required="false" errorMessage="Entrée non valide. Voir l'aide ci-contre." />
+</screen>

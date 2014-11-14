@@ -1,0 +1,13 @@
+<descriptor>
+	<name>cinéma</name>
+	<version>0.0.12</version>
+	<accesses>
+        <access>http</access>
+		<access>tts</access>
+		<access>ears</access>
+		<access>button</access>
+		<access>led</access>
+		<access>multimedia</access>
+	</accesses>
+	<multiConf>false</multiConf>
+</descriptor>

@@ -1,0 +1,17 @@
+<?xml version="1.0" ?><descriptor>
+    <name>Europe 1</name>
+    <apikey>69fda3fe-390d-11e0-9d3d-001fc63cfdff</apikey>
+    <version>0.10.3</version>
+   <accesses>
+       <access>led</access>
+       <access>multimedia</access>
+       <access>button</access>
+       <access>tts</access>
+    </accesses>
+    <deployment>hosted</deployment>
+    <interruptible>true</interruptible>
+    <awake>true</awake>
+    <callback/>
+    <multiConf>false</multiConf>
+    <parameters/>
+</descriptor>

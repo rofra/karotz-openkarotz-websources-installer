@@ -1,0 +1,26 @@
+<screen  nanoTrigger="true" 
+         permanentTrigger="true" 
+         scheduledTrigger="true" 
+         scheduledDateTrigger="true" 
+         voiceTrigger="true">
+         
+    <select label="Fonction de ce profil" name="typeaction" type="one" required="true">
+        <option label="Uniquement voix depuis appel externe" key="1" checked="true"/>
+        <option label="Lancer un scénario" key="2" checked="false"/>
+        <option label="Piloter un module ON" key="3" checked="false"/>
+        <option label="Piloter un module OFF" key="4" checked="false"/>
+        <option label="Lire la valeur d'une sonde" key="5" checked="false"/>
+    </select>
+    <select label="Plateforme Zibase" name="platform" type="one" required="true">
+        <option label="Zibase.net" key="zibase.net" checked="true"/>
+        <option label="Planete-zb.net" key="planete-zb.net" checked="false"/>
+        <option label="Domadoo-zb.net" key="domadoo-zb.net" checked="false"/>
+        <option label="Robolis-zb.net" key="robopolis-zb.net" checked="false"/>
+    </select>
+    <text label="Identifiant Zibase" name="zibaseid" default="" validation="" required="true" errorMessage="" comment="" />
+    <text label="Token Zibase" name="token" default="" validation="" required="true" errorMessage="" comment="" />
+    <text label="Nom Scénario" name="scenario" default="scen1" validation="" required="false" errorMessage="" comment=""/>
+    <text label="Code Actionneur" name="code" default="A1" validation="" required="false" errorMessage="" comment="" />
+    <text label="Identifiant Sonde" name="sensor" default="OSxxxxxx" validation="" required="false" errorMessage="" comment="" />
+    <text label="Phrase Lecture Sonde" name="txt_sensor" default="Valeur1 : %val1%, Valeur2 : %val2%" validation="" required="false" errorMessage="" comment="" />
+</screen>

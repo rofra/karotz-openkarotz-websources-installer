@@ -1,0 +1,344 @@
+<screen>
+<select label="Nom de la Station de depart:" name="origine1" type="one" required="true">
+<option label="Vocal"  key="Vocal" checked="true"/>
+<option label="Alphonse Gayet" key="Alphonse Gayet" checked="false"/> 
+<option label="Artois" key="Artois" checked="false"/> 
+<option label="Barthelemy Delespaul" key="Barthelemy Delespaul" checked="false"/> 
+<option label="Bd Napoleon 1er" key="Bd Napoleon 1er" checked="false"/> 
+<option label="Bd Victor Hugo" key="Bd Victor Hugo" checked="false"/> 
+<option label="Belfort" key="Belfort" checked="false"/> 
+<option label="Bois Blancs" key="Bois Blancs" checked="false"/> 
+<option label="Boulevard de Metz" key="Boulevard de Metz" checked="false"/> 
+<option label="Boulevard Louis XIV" key="Boulevard Louis XIV" checked="false"/> 
+<option label="Brule Maison" key="Brule Maison" checked="false"/> 
+<option label="Buisson" key="Buisson" checked="false"/> 
+<option label="Canteleu" key="Canteleu" checked="false"/> 
+<option label="Champ de Mars" key="Champ de Mars" checked="false"/> 
+<option label="Chanzy" key="Chanzy" checked="false"/> 
+<option label="Chasseurs de Driant" key="Chasseurs de Driant" checked="false"/> 
+<option label="Cimetiere du Sud" key="Cimetiere du Sud" checked="false"/> 
+<option label="Cite Administrative" key="Cite Administrative" checked="false"/> 
+<option label="Cormontaigne" key="Cormontaigne" checked="false"/> 
+<option label="Delesalle Mediatheque" key="Delesalle Mediatheque" checked="false"/> 
+<option label="Esplanade" key="Esplanade" checked="false"/> 
+<option label="Eugene Jacquet" key="Eugene Jacquet" checked="false"/> 
+<option label="EuraTechnologies" key="EuraTechnologies" checked="false"/> 
+<option label="Faubourg de Roubaix" key="Faubourg de Roubaix" checked="false"/> 
+<option label="Fives" key="Fives" checked="false"/> 
+<option label="Flandres Euralille" key="Flandres Euralille" checked="false"/> 
+<option label="Fulton" key="Fulton" checked="false"/> 
+<option label="Gambetta Utrecht" key="Gambetta Utrecht" checked="false"/> 
+<option label="Gare Lille Europe" key="Gare Lille Europe" checked="false"/> 
+<option label="Gare Lille Flandres" key="Gare Lille Flandres" checked="false"/> 
+<option label="General de Gaulle" key="General de Gaulle" checked="false"/> 
+<option label="Guinguette" key="Guinguette" checked="false"/> 
+<option label="Halle aux sucres" key="Halle aux sucres" checked="false"/> 
+<option label="Hellemmes" key="Hellemmes" checked="false"/> 
+<option label="Hotel de Police" key="Hotel de Police" checked="false"/> 
+<option label="Hotel de Region" key="Hotel de Region" checked="false"/> 
+<option label="Jardin Vauban" key="Jardin Vauban" checked="false"/> 
+<option label="JB Lebas" key="JB Lebas" checked="false"/> 
+<option label="Jules Guesde" key="Jules Guesde" checked="false"/> 
+<option label="La Madeleine Gare" key="La Madeleine Gare" checked="false"/> 
+<option label="La Madeleine Mairie" key="La Madeleine Mairie" checked="false"/> 
+<option label="Lacordaire" key="Lacordaire" checked="false"/> 
+<option label="Lavoisier" key="Lavoisier" checked="false"/> 
+<option label="Leclerc" key="Leclerc" checked="false"/> 
+<option label="Lille Grand Palais" key="Lille Grand Palais" checked="false"/> 
+<option label="Lille Metropole" key="Lille Metropole" checked="false"/> 
+<option label="Louise de Bettignies" key="Louise de Bettignies" checked="false"/> 
+<option label="Louviere" key="Louviere" checked="false"/> 
+<option label="Magasin" key="Magasin" checked="false"/> 
+<option label="Mairie de Lille" key="Mairie de Lille" checked="false"/> 
+<option label="Mairie de Mons" key="Mairie de Mons" checked="false"/> 
+<option label="Maison Folie Wazemmes" key="Maison Folie Wazemmes" checked="false"/> 
+<option label="Marbrerie" key="Marbrerie" checked="false"/> 
+<option label="Marche de Wazemmes" key="Marche de Wazemmes" checked="false"/> 
+<option label="Marx Dormoy" key="Marx Dormoy" checked="false"/> 
+<option label="Massena" key="Massena" checked="false"/> 
+<option label="Metro Gambetta" key="Metro Gambetta" checked="false"/> 
+<option label="Metro Wazemmes" key="Metro Wazemmes" checked="false"/> 
+<option label="Molinel" key="Molinel" checked="false"/> 
+<option label="Mons Sarts" key="Mons Sarts" checked="false"/> 
+<option label="Mont de Terre" key="Mont de Terre" checked="false"/> 
+<option label="Montebello" key="Montebello" checked="false"/> 
+<option label="N.D. de la Treille" key="N.D. de la Treille" checked="false"/> 
+<option label="Nationale Rue du Port" key="Nationale Rue du Port" checked="false"/> 
+<option label="Nouveau siecle" key="Nouveau siecle" checked="false"/> 
+<option label="Opera" key="Opera" checked="false"/> 
+<option label="Palais Rameau" key="Palais Rameau" checked="false"/> 
+<option label="Petit Maroc" key="Petit Maroc" checked="false"/> 
+<option label="Place aux Bleuets" key="Place aux Bleuets" checked="false"/> 
+<option label="Place Casquette" key="Place Casquette" checked="false"/> 
+<option label="Place Catinat" key="Place Catinat" checked="false"/> 
+<option label="Place Colette Besson" key="Place Colette Besson" checked="false"/> 
+<option label="Place de Strasbourg" key="Place de Strasbourg" checked="false"/> 
+<option label="Place Deliot" key="Place Deliot" checked="false"/> 
+<option label="Place du Concert" key="Place du Concert" checked="false"/> 
+<option label="Place du Marche" key="Place du Marche" checked="false"/> 
+<option label="Place Philippe Lebon" key="Place Philippe Lebon" checked="false"/> 
+<option label="Place Richebe" key="Place Richebe" checked="false"/> 
+<option label="Place Tacq" key="Place Tacq" checked="false"/> 
+<option label="Pont Neuf" key="Pont Neuf" checked="false"/> 
+<option label="Port de Lille" key="Port de Lille" checked="false"/> 
+<option label="Porte d'Arras" key="Porte d'Arras" checked="false"/> 
+<option label="Porte de Douai" key="Porte de Douai" checked="false"/> 
+<option label="Porte de Valenciennes" key="Porte de Valenciennes" checked="false"/> 
+<option label="Porte des Postes" key="Porte des Postes" checked="false"/> 
+<option label="Quai du Wault" key="Quai du Wault" checked="false"/> 
+<option label="Republique Beaux Arts" key="Republique Beaux Arts" checked="false"/> 
+<option label="Rihour" key="Rihour" checked="false"/> 
+<option label="Roger Salengro" key="Roger Salengro" checked="false"/> 
+<option label="Romarin" key="Romarin" checked="false"/> 
+<option label="Rue Bonte-Pollet" key="Rue Bonte-Pollet" checked="false"/> 
+<option label="Rue d'Arras" key="Rue d'Arras" checked="false"/> 
+<option label="Rue de Gand" key="Rue de Gand" checked="false"/> 
+<option label="Rue de la Gaite" key="Rue de la Gaite" checked="false"/> 
+<option label="Rue de Toul" key="Rue de Toul" checked="false"/> 
+<option label="Rue des Arts" key="Rue des Arts" checked="false"/> 
+<option label="Rue Nationale" key="Rue Nationale" checked="false"/> 
+<option label="Rue Royale" key="Rue Royale" checked="false"/> 
+<option label="Saint Maur" key="Saint Maur" checked="false"/> 
+<option label="Square des Meres" key="Square des Meres" checked="false"/> 
+<option label="Square du Portugal" key="Square du Portugal" checked="false"/> 
+<option label="St Maurice Pellevoisin" key="St Maurice Pellevoisin" checked="false"/> 
+<option label="St Sebastien" key="St Sebastien" checked="false"/> 
+<option label="Stade Ballet" key="Stade Ballet" checked="false"/> 
+<option label="Tanneurs" key="Tanneurs" checked="false"/> 
+<option label="Theatre Sebastopol" key="Theatre Sebastopol" checked="false"/> 
+<option label="Trevise" key="Trevise" checked="false"/> 
+<option label="Universite Catholique" key="Universite Catholique" checked="false"/> 
+<option label="Verdun" key="Verdun" checked="false"/> 
+<option label="Voltaire" key="Voltaire" checked="false"/> 
+<option label="Zenith" key="Zenith" checked="false"/> 
+ </select>
+<select label="Nom de la Station de backup:" name="origine2" type="one" required="true">
+<option label="Aucune"  key="None" checked="true"/>
+<option label="Vocal"  key="Vocal" checked="false"/>
+<option label="Alphonse Gayet" key="Alphonse Gayet" checked="false"/> 
+<option label="Artois" key="Artois" checked="false"/> 
+<option label="Barthelemy Delespaul" key="Barthelemy Delespaul" checked="false"/> 
+<option label="Bd Napoleon 1er" key="Bd Napoleon 1er" checked="false"/> 
+<option label="Bd Victor Hugo" key="Bd Victor Hugo" checked="false"/> 
+<option label="Belfort" key="Belfort" checked="false"/> 
+<option label="Bois Blancs" key="Bois Blancs" checked="false"/> 
+<option label="Boulevard de Metz" key="Boulevard de Metz" checked="false"/> 
+<option label="Boulevard Louis XIV" key="Boulevard Louis XIV" checked="false"/> 
+<option label="Brule Maison" key="Brule Maison" checked="false"/> 
+<option label="Buisson" key="Buisson" checked="false"/> 
+<option label="Canteleu" key="Canteleu" checked="false"/> 
+<option label="Champ de Mars" key="Champ de Mars" checked="false"/> 
+<option label="Chanzy" key="Chanzy" checked="false"/> 
+<option label="Chasseurs de Driant" key="Chasseurs de Driant" checked="false"/> 
+<option label="Cimetiere du Sud" key="Cimetiere du Sud" checked="false"/> 
+<option label="Cite Administrative" key="Cite Administrative" checked="false"/> 
+<option label="Cormontaigne" key="Cormontaigne" checked="false"/> 
+<option label="Delesalle Mediatheque" key="Delesalle Mediatheque" checked="false"/> 
+<option label="Esplanade" key="Esplanade" checked="false"/> 
+<option label="Eugene Jacquet" key="Eugene Jacquet" checked="false"/> 
+<option label="EuraTechnologies" key="EuraTechnologies" checked="false"/> 
+<option label="Faubourg de Roubaix" key="Faubourg de Roubaix" checked="false"/> 
+<option label="Fives" key="Fives" checked="false"/> 
+<option label="Flandres Euralille" key="Flandres Euralille" checked="false"/> 
+<option label="Fulton" key="Fulton" checked="false"/> 
+<option label="Gambetta Utrecht" key="Gambetta Utrecht" checked="false"/> 
+<option label="Gare Lille Europe" key="Gare Lille Europe" checked="false"/> 
+<option label="Gare Lille Flandres" key="Gare Lille Flandres" checked="false"/> 
+<option label="General de Gaulle" key="General de Gaulle" checked="false"/> 
+<option label="Guinguette" key="Guinguette" checked="false"/> 
+<option label="Halle aux sucres" key="Halle aux sucres" checked="false"/> 
+<option label="Hellemmes" key="Hellemmes" checked="false"/> 
+<option label="Hotel de Police" key="Hotel de Police" checked="false"/> 
+<option label="Hotel de Region" key="Hotel de Region" checked="false"/> 
+<option label="Jardin Vauban" key="Jardin Vauban" checked="false"/> 
+<option label="JB Lebas" key="JB Lebas" checked="false"/> 
+<option label="Jules Guesde" key="Jules Guesde" checked="false"/> 
+<option label="La Madeleine Gare" key="La Madeleine Gare" checked="false"/> 
+<option label="La Madeleine Mairie" key="La Madeleine Mairie" checked="false"/> 
+<option label="Lacordaire" key="Lacordaire" checked="false"/> 
+<option label="Lavoisier" key="Lavoisier" checked="false"/> 
+<option label="Leclerc" key="Leclerc" checked="false"/> 
+<option label="Lille Grand Palais" key="Lille Grand Palais" checked="false"/> 
+<option label="Lille Metropole" key="Lille Metropole" checked="false"/> 
+<option label="Louise de Bettignies" key="Louise de Bettignies" checked="false"/> 
+<option label="Louviere" key="Louviere" checked="false"/> 
+<option label="Magasin" key="Magasin" checked="false"/> 
+<option label="Mairie de Lille" key="Mairie de Lille" checked="false"/> 
+<option label="Mairie de Mons" key="Mairie de Mons" checked="false"/> 
+<option label="Maison Folie Wazemmes" key="Maison Folie Wazemmes" checked="false"/> 
+<option label="Marbrerie" key="Marbrerie" checked="false"/> 
+<option label="Marche de Wazemmes" key="Marche de Wazemmes" checked="false"/> 
+<option label="Marx Dormoy" key="Marx Dormoy" checked="false"/> 
+<option label="Massena" key="Massena" checked="false"/> 
+<option label="Metro Gambetta" key="Metro Gambetta" checked="false"/> 
+<option label="Metro Wazemmes" key="Metro Wazemmes" checked="false"/> 
+<option label="Molinel" key="Molinel" checked="false"/> 
+<option label="Mons Sarts" key="Mons Sarts" checked="false"/> 
+<option label="Mont de Terre" key="Mont de Terre" checked="false"/> 
+<option label="Montebello" key="Montebello" checked="false"/> 
+<option label="N.D. de la Treille" key="N.D. de la Treille" checked="false"/> 
+<option label="Nationale Rue du Port" key="Nationale Rue du Port" checked="false"/> 
+<option label="Nouveau siecle" key="Nouveau siecle" checked="false"/> 
+<option label="Opera" key="Opera" checked="false"/> 
+<option label="Palais Rameau" key="Palais Rameau" checked="false"/> 
+<option label="Petit Maroc" key="Petit Maroc" checked="false"/> 
+<option label="Place aux Bleuets" key="Place aux Bleuets" checked="false"/> 
+<option label="Place Casquette" key="Place Casquette" checked="false"/> 
+<option label="Place Catinat" key="Place Catinat" checked="false"/> 
+<option label="Place Colette Besson" key="Place Colette Besson" checked="false"/> 
+<option label="Place de Strasbourg" key="Place de Strasbourg" checked="false"/> 
+<option label="Place Deliot" key="Place Deliot" checked="false"/> 
+<option label="Place du Concert" key="Place du Concert" checked="false"/> 
+<option label="Place du Marche" key="Place du Marche" checked="false"/> 
+<option label="Place Philippe Lebon" key="Place Philippe Lebon" checked="false"/> 
+<option label="Place Richebe" key="Place Richebe" checked="false"/> 
+<option label="Place Tacq" key="Place Tacq" checked="false"/> 
+<option label="Pont Neuf" key="Pont Neuf" checked="false"/> 
+<option label="Port de Lille" key="Port de Lille" checked="false"/> 
+<option label="Porte d'Arras" key="Porte d'Arras" checked="false"/> 
+<option label="Porte de Douai" key="Porte de Douai" checked="false"/> 
+<option label="Porte de Valenciennes" key="Porte de Valenciennes" checked="false"/> 
+<option label="Porte des Postes" key="Porte des Postes" checked="false"/> 
+<option label="Quai du Wault" key="Quai du Wault" checked="false"/> 
+<option label="Republique Beaux Arts" key="Republique Beaux Arts" checked="false"/> 
+<option label="Rihour" key="Rihour" checked="false"/> 
+<option label="Roger Salengro" key="Roger Salengro" checked="false"/> 
+<option label="Romarin" key="Romarin" checked="false"/> 
+<option label="Rue Bonte-Pollet" key="Rue Bonte-Pollet" checked="false"/> 
+<option label="Rue d'Arras" key="Rue d'Arras" checked="false"/> 
+<option label="Rue de Gand" key="Rue de Gand" checked="false"/> 
+<option label="Rue de la Gaite" key="Rue de la Gaite" checked="false"/> 
+<option label="Rue de Toul" key="Rue de Toul" checked="false"/> 
+<option label="Rue des Arts" key="Rue des Arts" checked="false"/> 
+<option label="Rue Nationale" key="Rue Nationale" checked="false"/> 
+<option label="Rue Royale" key="Rue Royale" checked="false"/> 
+<option label="Saint Maur" key="Saint Maur" checked="false"/> 
+<option label="Square des Meres" key="Square des Meres" checked="false"/> 
+<option label="Square du Portugal" key="Square du Portugal" checked="false"/> 
+<option label="St Maurice Pellevoisin" key="St Maurice Pellevoisin" checked="false"/> 
+<option label="St Sebastien" key="St Sebastien" checked="false"/> 
+<option label="Stade Ballet" key="Stade Ballet" checked="false"/> 
+<option label="Tanneurs" key="Tanneurs" checked="false"/> 
+<option label="Theatre Sebastopol" key="Theatre Sebastopol" checked="false"/> 
+<option label="Trevise" key="Trevise" checked="false"/> 
+<option label="Universite Catholique" key="Universite Catholique" checked="false"/> 
+<option label="Verdun" key="Verdun" checked="false"/> 
+<option label="Voltaire" key="Voltaire" checked="false"/> 
+<option label="Zenith" key="Zenith" checked="false"/> 
+    </select>
+<select label="Nom de la Station d'arrivee:" name="dest" type="one" required="true">
+<option label="Aucune"  key="None" checked="true"/>
+<option label="Vocal"  key="Vocal" checked="false"/>
+<option label="Alphonse Gayet" key="Alphonse Gayet" checked="false"/> 
+<option label="Artois" key="Artois" checked="false"/> 
+<option label="Barthelemy Delespaul" key="Barthelemy Delespaul" checked="false"/> 
+<option label="Bd Napoleon 1er" key="Bd Napoleon 1er" checked="false"/> 
+<option label="Bd Victor Hugo" key="Bd Victor Hugo" checked="false"/> 
+<option label="Belfort" key="Belfort" checked="false"/> 
+<option label="Bois Blancs" key="Bois Blancs" checked="false"/> 
+<option label="Boulevard de Metz" key="Boulevard de Metz" checked="false"/> 
+<option label="Boulevard Louis XIV" key="Boulevard Louis XIV" checked="false"/> 
+<option label="Brule Maison" key="Brule Maison" checked="false"/> 
+<option label="Buisson" key="Buisson" checked="false"/> 
+<option label="Canteleu" key="Canteleu" checked="false"/> 
+<option label="Champ de Mars" key="Champ de Mars" checked="false"/> 
+<option label="Chanzy" key="Chanzy" checked="false"/> 
+<option label="Chasseurs de Driant" key="Chasseurs de Driant" checked="false"/> 
+<option label="Cimetiere du Sud" key="Cimetiere du Sud" checked="false"/> 
+<option label="Cite Administrative" key="Cite Administrative" checked="false"/> 
+<option label="Cormontaigne" key="Cormontaigne" checked="false"/> 
+<option label="Delesalle Mediatheque" key="Delesalle Mediatheque" checked="false"/> 
+<option label="Esplanade" key="Esplanade" checked="false"/> 
+<option label="Eugene Jacquet" key="Eugene Jacquet" checked="false"/> 
+<option label="EuraTechnologies" key="EuraTechnologies" checked="false"/> 
+<option label="Faubourg de Roubaix" key="Faubourg de Roubaix" checked="false"/> 
+<option label="Fives" key="Fives" checked="false"/> 
+<option label="Flandres Euralille" key="Flandres Euralille" checked="false"/> 
+<option label="Fulton" key="Fulton" checked="false"/> 
+<option label="Gambetta Utrecht" key="Gambetta Utrecht" checked="false"/> 
+<option label="Gare Lille Europe" key="Gare Lille Europe" checked="false"/> 
+<option label="Gare Lille Flandres" key="Gare Lille Flandres" checked="false"/> 
+<option label="General de Gaulle" key="General de Gaulle" checked="false"/> 
+<option label="Guinguette" key="Guinguette" checked="false"/> 
+<option label="Halle aux sucres" key="Halle aux sucres" checked="false"/> 
+<option label="Hellemmes" key="Hellemmes" checked="false"/> 
+<option label="Hotel de Police" key="Hotel de Police" checked="false"/> 
+<option label="Hotel de Region" key="Hotel de Region" checked="false"/> 
+<option label="Jardin Vauban" key="Jardin Vauban" checked="false"/> 
+<option label="JB Lebas" key="JB Lebas" checked="false"/> 
+<option label="Jules Guesde" key="Jules Guesde" checked="false"/> 
+<option label="La Madeleine Gare" key="La Madeleine Gare" checked="false"/> 
+<option label="La Madeleine Mairie" key="La Madeleine Mairie" checked="false"/> 
+<option label="Lacordaire" key="Lacordaire" checked="false"/> 
+<option label="Lavoisier" key="Lavoisier" checked="false"/> 
+<option label="Leclerc" key="Leclerc" checked="false"/> 
+<option label="Lille Grand Palais" key="Lille Grand Palais" checked="false"/> 
+<option label="Lille Metropole" key="Lille Metropole" checked="false"/> 
+<option label="Louise de Bettignies" key="Louise de Bettignies" checked="false"/> 
+<option label="Louviere" key="Louviere" checked="false"/> 
+<option label="Magasin" key="Magasin" checked="false"/> 
+<option label="Mairie de Lille" key="Mairie de Lille" checked="false"/> 
+<option label="Mairie de Mons" key="Mairie de Mons" checked="false"/> 
+<option label="Maison Folie Wazemmes" key="Maison Folie Wazemmes" checked="false"/> 
+<option label="Marbrerie" key="Marbrerie" checked="false"/> 
+<option label="Marche de Wazemmes" key="Marche de Wazemmes" checked="false"/> 
+<option label="Marx Dormoy" key="Marx Dormoy" checked="false"/> 
+<option label="Massena" key="Massena" checked="false"/> 
+<option label="Metro Gambetta" key="Metro Gambetta" checked="false"/> 
+<option label="Metro Wazemmes" key="Metro Wazemmes" checked="false"/> 
+<option label="Molinel" key="Molinel" checked="false"/> 
+<option label="Mons Sarts" key="Mons Sarts" checked="false"/> 
+<option label="Mont de Terre" key="Mont de Terre" checked="false"/> 
+<option label="Montebello" key="Montebello" checked="false"/> 
+<option label="N.D. de la Treille" key="N.D. de la Treille" checked="false"/> 
+<option label="Nationale Rue du Port" key="Nationale Rue du Port" checked="false"/> 
+<option label="Nouveau siecle" key="Nouveau siecle" checked="false"/> 
+<option label="Opera" key="Opera" checked="false"/> 
+<option label="Palais Rameau" key="Palais Rameau" checked="false"/> 
+<option label="Petit Maroc" key="Petit Maroc" checked="false"/> 
+<option label="Place aux Bleuets" key="Place aux Bleuets" checked="false"/> 
+<option label="Place Casquette" key="Place Casquette" checked="false"/> 
+<option label="Place Catinat" key="Place Catinat" checked="false"/> 
+<option label="Place Colette Besson" key="Place Colette Besson" checked="false"/> 
+<option label="Place de Strasbourg" key="Place de Strasbourg" checked="false"/> 
+<option label="Place Deliot" key="Place Deliot" checked="false"/> 
+<option label="Place du Concert" key="Place du Concert" checked="false"/> 
+<option label="Place du Marche" key="Place du Marche" checked="false"/> 
+<option label="Place Philippe Lebon" key="Place Philippe Lebon" checked="false"/> 
+<option label="Place Richebe" key="Place Richebe" checked="false"/> 
+<option label="Place Tacq" key="Place Tacq" checked="false"/> 
+<option label="Pont Neuf" key="Pont Neuf" checked="false"/> 
+<option label="Port de Lille" key="Port de Lille" checked="false"/> 
+<option label="Porte d'Arras" key="Porte d'Arras" checked="false"/> 
+<option label="Porte de Douai" key="Porte de Douai" checked="false"/> 
+<option label="Porte de Valenciennes" key="Porte de Valenciennes" checked="false"/> 
+<option label="Porte des Postes" key="Porte des Postes" checked="false"/> 
+<option label="Quai du Wault" key="Quai du Wault" checked="false"/> 
+<option label="Republique Beaux Arts" key="Republique Beaux Arts" checked="false"/> 
+<option label="Rihour" key="Rihour" checked="false"/> 
+<option label="Roger Salengro" key="Roger Salengro" checked="false"/> 
+<option label="Romarin" key="Romarin" checked="false"/> 
+<option label="Rue Bonte-Pollet" key="Rue Bonte-Pollet" checked="false"/> 
+<option label="Rue d'Arras" key="Rue d'Arras" checked="false"/> 
+<option label="Rue de Gand" key="Rue de Gand" checked="false"/> 
+<option label="Rue de la Gaite" key="Rue de la Gaite" checked="false"/> 
+<option label="Rue de Toul" key="Rue de Toul" checked="false"/> 
+<option label="Rue des Arts" key="Rue des Arts" checked="false"/> 
+<option label="Rue Nationale" key="Rue Nationale" checked="false"/> 
+<option label="Rue Royale" key="Rue Royale" checked="false"/> 
+<option label="Saint Maur" key="Saint Maur" checked="false"/> 
+<option label="Square des Meres" key="Square des Meres" checked="false"/> 
+<option label="Square du Portugal" key="Square du Portugal" checked="false"/> 
+<option label="St Maurice Pellevoisin" key="St Maurice Pellevoisin" checked="false"/> 
+<option label="St Sebastien" key="St Sebastien" checked="false"/> 
+<option label="Stade Ballet" key="Stade Ballet" checked="false"/> 
+<option label="Tanneurs" key="Tanneurs" checked="false"/> 
+<option label="Theatre Sebastopol" key="Theatre Sebastopol" checked="false"/> 
+<option label="Trevise" key="Trevise" checked="false"/> 
+<option label="Universite Catholique" key="Universite Catholique" checked="false"/> 
+<option label="Verdun" key="Verdun" checked="false"/> 
+<option label="Voltaire" key="Voltaire" checked="false"/> 
+<option label="Zenith" key="Zenith" checked="false"/> 
+    </select>
+<button label="V 1.0.14 Cliquez-ici aller sur le site de V'lille..." link="http://www.vlille.fr" />
+</screen>

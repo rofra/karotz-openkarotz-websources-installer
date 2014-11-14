@@ -1,0 +1,3 @@
+<screen>
+<text label="Liste des Radios sur la cle Usb" name="usbplaylist" default="none" validation="" required="true" errorMessage="" />
+</screen>

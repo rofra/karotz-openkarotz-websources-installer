@@ -1,0 +1,3 @@
+<screen>
+	<text label="Duree (en minutes)" name="temps" default="1" validation="" required="true" errorMessage="" />
+</screen>

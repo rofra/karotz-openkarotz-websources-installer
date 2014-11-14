@@ -1,0 +1,17 @@
+<descriptor>
+	<name>PushingBox</name>
+	<apikey>a0f434ff-e598-4769-b2bb-6ab1796dc049</apikey>
+	<version>1.2</version>
+	<accesses>
+		<access>ears</access>
+		<access>led</access>
+		<access>tts</access>
+	</accesses>
+	<editor>PushingBox</editor>
+	<deployment>external</deployment>
+	<multiConf>false</multiConf>
+	<parameters>
+ 		<parameter key="showInstallUuid" value="true"/>
+ 	</parameters>
+ 	<callback>http://api.pushingbox.com/callback_karotz.php</callback>
+</descriptor>

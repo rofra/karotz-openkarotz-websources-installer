@@ -1,0 +1,16 @@
+<screen>
+    <text label="Url" name="rssUrl" default="" validation="" required="true" errorMessage="" />
+    <select label="Langage" name="lang" type="one" required="true">
+    <option label="fr" key="fr" checked="true"/>
+    <option label="en" key="en" checked="false"/>
+    <option label="de" key="de" checked="false"/>
+    <option label="es" key="es" checked="false"/>
+    </select>
+
+    <text label="Nombre de nouveaux messages lus" name="number" default="5" validation="[0-9]+" required="true" errorMessage="Nombre uniquement." />
+
+    <select label="Contenu" name="content" type="one" required="true">
+        <option label="Titre" key="1" checked="true"/>
+        <option label="Titre + Description" key="2" checked="false"/>
+    </select>
+</screen>

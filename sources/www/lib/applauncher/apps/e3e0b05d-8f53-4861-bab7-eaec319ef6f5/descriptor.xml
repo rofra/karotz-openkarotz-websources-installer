@@ -1,0 +1,18 @@
+<descriptor>
+    <name>métro</name>
+    <apikey>apikey</apikey>
+    <version>0.0.3</version>
+   <accesses>
+       <access>tts</access>
+       <access>multimedia</access>
+       <access>led</access>
+       <access>http</access>
+       <access>button</access>
+    </accesses>
+    <deployment>hosted</deployment>
+    <interruptible>true</interruptible>
+    <awake>true</awake>
+    <callback></callback>
+    <multiConf>true</multiConf>
+    <parameters></parameters>
+</descriptor>

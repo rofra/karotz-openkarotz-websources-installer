@@ -1,0 +1,11 @@
+<descriptor>
+    <version>1.1.5</version>
+    <accesses>
+        <access>webcam</access>
+        <access>remoteauth</access>
+    </accesses>
+    <deployment>external</deployment>
+    <multiConf>false</multiConf>
+    <callback>http://livecam.karotz.com/livecam.php?apikey=2c7f51a4-7127-4bad-87e5-2a0766a4caea</callback>
+</descriptor>
+

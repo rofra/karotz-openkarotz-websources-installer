@@ -1,0 +1,23 @@
+<screen 
+	nanoTrigger="true"
+	permanentTrigger="true"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true" >
+	<text label="Adresse Messagerie" name="orange" default="@orange.fr" required="true" validation="" errorMessage="Indiquez votre adresse de Messagerie" />
+	<text label="Mot de passe" name="password" default="" required="true" validation="" errorMessage="Indiquez votre mot de passe" />
+    <select label="Type des Messages &#224; v&#233;rifier dans la boite de R&#233;ception" name="type" type="one" required="false">
+        <option label="Tous les Messages" key="ALL" checked="true"/>
+    </select>
+    <select label="Nombre MAXIMUM de Sujets en lecture" name="maxi" type="one" required="false">
+        <option label="Tous" key="0" checked="false"/>
+        <option label="Les 5 derniers" key="5" checked="true"/>
+        <option label="10" key="10" checked="false"/>
+        <option label="15" key="15" checked="false"/>
+        <option label="20" key="20" checked="false"/>
+        <option label="25" key="25" checked="false"/>
+        <option label="50" key="50" checked="false"/>
+        <option label="75" key="75" checked="false"/>
+        <option label="100" key="100" checked="false"/>
+    </select>
+</screen>

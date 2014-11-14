@@ -1,0 +1,16 @@
+<descriptor>
+    <version>2.09</version>
+    <accesses>
+        <access>tts</access>
+        <access>button</access>
+        <access>asr</access>
+        <access>file</access>
+        <access>http</access>
+        <access>led</access>
+    </accesses>
+    <editor>Simon Gillet</editor>
+    <asrName>Quatre quarts</asrName>
+    <deployment>hosted</deployment>
+    <awake>boolean</awake>
+    <multiConf>false</multiConf> 
+</descriptor>

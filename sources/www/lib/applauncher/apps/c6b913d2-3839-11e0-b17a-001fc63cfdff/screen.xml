@@ -1,0 +1,8 @@
+<screen>
+    <text label="Nombre de nouveaux messages lus" name="number" default="5" validation="[0-9]+" required="true" errorMessage="Nombre uniquement." />
+
+    <select label="Contenu" name="content" type="one" required="true">
+        <option label="Titre" key="1" checked="true"/>
+        <option label="Titre + Description" key="2" checked="false"/>
+    </select>
+</screen>

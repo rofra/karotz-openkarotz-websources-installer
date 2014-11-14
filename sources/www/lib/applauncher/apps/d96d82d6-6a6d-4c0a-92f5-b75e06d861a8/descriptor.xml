@@ -1,0 +1,13 @@
+ <descriptor>
+	<name>ROCK</name>
+	<asrName>ROCK</asrName>
+	<version>0.1</version>
+	<accesses>
+		<access>button</access>
+		<access>led</access>
+		<access>multimedia</access>
+	</accesses>
+	<editor>melka</editor>
+	<deployment>hosted</deployment>
+	<multiConf>false</multiConf>
+</descriptor>

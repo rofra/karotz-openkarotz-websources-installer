@@ -1,0 +1,17 @@
+<descriptor>
+    <name>Donne-Moi</name>
+    <version>1.0.1</version>
+    <accesses>
+       <access>tts</access>
+       <access>led</access>
+       <access>button</access>
+       <access>http</access>
+    </accesses>
+    <editor>PlanèteDomo</editor>
+    <asrName>Donne moi</asrName>
+    <deployment>hosted</deployment>
+    <interruptible>false</interruptible>
+    <awake>false</awake>
+    <callback/>
+    <multiConf>true</multiConf>
+</descriptor>

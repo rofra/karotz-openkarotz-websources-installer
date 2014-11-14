@@ -1,0 +1,29 @@
+<screen 
+	nanoTrigger="true"
+	permanentTrigger="true"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true" >
+    <select label="Nostalgie Radios" name="radio" type="one" required="false">
+        <option label="_Au hasard_" key="0" checked="false"/>
+        <option label="Nostalgie" key="1" checked="true"/>
+        <option label="Nostalgie Best of 60's" key="2" checked="false"/>
+        <option label="Nostalgie Best of 70's" key="3" checked="false"/>
+        <option label="Nostalgie Best of 80's" key="4" checked="false"/>
+        <option label="Nostalgie Chansons Fran&#231;aises" key="5" checked="false"/>
+        <option label="Nostalgie Soul" key="6" checked="false"/>
+        <option label="Nostalgie Slow" key="7" checked="false"/>
+        <option label="Nostalgie Rock" key="8" checked="false"/>
+        <option label="Nostalgie Disco" key="9" checked="false"/>
+        <option label="Nostalgie Top 100" key="10" checked="false"/>
+        <option label="Nostalgie Abba" key="11" checked="false"/>
+        <option label="Nostalgie Queen" key="12" checked="false"/>
+        <option label="Nostalgie Po&#232;tes" key="13" checked="false"/>
+        <option label="Nostalgie Funk" key="14" checked="false"/>
+        <option label="Nostalgie American Legend" key="15" checked="false"/>
+        <option label="Nostalgie British Legend" key="16" checked="false"/>
+        <option label="Nostalgie Soleil" key="17" checked="false"/>
+        <option label="Nostalgie Guitar Legends" key="18" checked="false"/>
+        <option label="Nostalgie Musique Classique" key="19" checked="false"/>
+    </select>
+</screen>

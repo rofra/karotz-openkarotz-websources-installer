@@ -1,0 +1,17 @@
+<screen 
+	nanoTrigger="true"
+	permanentTrigger="false"
+	scheduledTrigger="true"
+	scheduledDateTrigger="false"
+	voiceTrigger="true">
+	<select label="DUREE D'ECOUTE" name="duree" type="one" required="true">
+        <option label="infinie" key="i" checked="true"/>
+		<option label="1 minute" key="1" checked="false"/>
+        <option label="5 minutes" key="5" checked="false"/>
+		<option label="15 minutes" key="15" checked="false"/>
+		<option label="30 minutes" key="30" checked="false"/>
+		<option label="45 minutes" key="45" checked="false"/>
+		<option label="1 heure" key="60" checked="false"/>
+		<option label="2 heures" key="120" checked="false"/>
+	</select>	
+</screen>

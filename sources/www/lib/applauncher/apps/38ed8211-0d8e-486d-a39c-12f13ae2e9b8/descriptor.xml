@@ -1,0 +1,13 @@
+<descriptor>
+  <name>Radio MMO</name>
+  <version>1.0.4</version>
+  <accesses>
+    <access>http</access>
+    <access>tts</access>
+    <access>button</access>
+    <access>led</access>
+    <access>multimedia</access>
+  </accesses>
+  <multiConf>false</multiConf>
+  <asrName>Radio M M O</asrName>
+</descriptor>

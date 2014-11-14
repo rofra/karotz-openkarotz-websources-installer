@@ -1,0 +1,13 @@
+<screen>
+  <select label="departement" name="departement" type="one" required="true" >
+    <option key="0" label="Ile de France" checked="true"/> 
+    <option key="75" label="75" checked="false"/>
+    <option key="77" label="77" checked="false"/>
+    <option key="78" label="78" checked="false"/>
+    <option key="91" label="91" checked="false"/>
+    <option key="92" label="92" checked="false"/>
+    <option key="93" label="93" checked="false"/>
+    <option key="94" label="94" checked="false"/>
+    <option key="95" label="95" checked="false"/>
+  </select>
+</screen>

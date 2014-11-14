@@ -1,0 +1,3 @@
+<screen  nanoTrigger="false" permanentTrigger="false" scheduledTrigger="false" scheduledDateTrigger="false" voiceTrigger="false">
+    <button label="informations" link="http://karotz-bot.appspot.com/alias/{install.uuid}"/>
+</screen>

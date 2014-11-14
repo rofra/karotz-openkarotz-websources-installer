@@ -1,0 +1,34 @@
+<screen 
+	nanoTrigger="true"
+	permanentTrigger="true"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true" >
+    <select label="Ch&#233;rie FM Radios" name="radio" type="one" required="false">
+        <option label="_Au hasard_" key="0" checked="false"/>
+        <option label="Ch&#233;rie FM" key="1" checked="true"/>
+        <option label="Ch&#233;rie Zen" key="2" checked="false"/>
+        <option label="Ch&#233;rie Golds" key="3" checked="false"/>
+        <option label="Ch&#233;rie Love Songs" key="4" checked="false"/>
+        <option label="Ch&#233;rie Frenchy" key="5" checked="false"/>
+        <option label="Ch&#233;rie S&#233;ducteurs" key="6" checked="false"/>
+        <option label="Ch&#233;rie Cin&#233;ma" key="7" checked="false"/>
+        <option label="Ch&#233;rie Sade" key="8" checked="false"/>
+        <option label="Ch&#233;rie Dolce Vita" key="9" checked="false"/>
+        <option label="Ch&#233;rie Duos" key="10" checked="false"/>
+        <option label="Ch&#233;rie at Work" key="11" checked="false"/>
+        <option label="Ch&#233;rie James Blunt" key="12" checked="false"/>
+        <option label="Ch&#233;rie Spa" key="13" checked="false"/>
+        <option label="Ch&#233;rie After Work" key="14" checked="false"/>
+        <option label="Ch&#233;rie Pop" key="15" checked="false"/>
+        <option label="Ch&#233;rie &#201;t&#233;" key="16" checked="false"/>
+        <option label="Ch&#233;rie 90's" key="17" checked="false"/>
+        <option label="Ch&#233;rie Latino" key="18" checked="false"/>
+        <option label="Ch&#233;rie 80's" key="19" checked="false"/>
+        <option label="Ch&#233;rie Fashion" key="20" checked="false"/>
+        <option label="Ch&#233;rie Jazzy" key="21" checked="false"/>
+        <option label="Ch&#233;rie Fitness" key="22" checked="false"/>
+        <option label="Ch&#233;rie Coffee House" key="23" checked="false"/>
+        <option label="Ch&#233;rie in Store" key="24" checked="false"/>
+    </select>
+</screen>

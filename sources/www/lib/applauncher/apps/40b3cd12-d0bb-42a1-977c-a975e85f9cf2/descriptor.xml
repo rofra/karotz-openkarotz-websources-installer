@@ -1,0 +1,8 @@
+<descriptor>
+    <version>1.0.2</version>
+    <accesses>
+        <access>multimedia</access>
+        <access>button</access>
+    </accesses>
+    <multiConf>false</multiConf>
+</descriptor>

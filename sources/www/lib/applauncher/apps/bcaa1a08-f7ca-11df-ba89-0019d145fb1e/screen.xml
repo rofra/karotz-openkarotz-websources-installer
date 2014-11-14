@@ -1,0 +1,10 @@
+<screen>
+  <text label="url" name="url" default="" validation="" required="true" errorMessage="" />
+    <select label="Durée" name="duration" type="one" required="true">
+        <option label="5 min" key="5" checked="true"/>
+        <option label="15 min" key="15" checked="false"/>
+        <option label="30 min" key="30" checked="false"/>
+        <option label="1 h" key="60" checked="false"/>
+        <option label="infini" key="-1" checked="false"/>
+    </select>
+</screen>

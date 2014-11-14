@@ -1,0 +1,160 @@
+<!-- triggers (use as attribute of screen tag)
+You can choose which trigger will be available, by default all trigger will be available:
+Configure with boolean like nanoTrigger="true" or nanoTrigger="false"
+ 
+ nanoTrigger : rfid tag trigger (Manual activation)
+ permanentTrigger : Permanent activation
+ scheduledTrigger : Scheduled activation
+ voiceTrigger : Asr activation
+ scheduledDateTrigger : not implemented now -->
+ 
+<screen nanoTrigger="true"
+ permanentTrigger="true"
+ scheduledTrigger="true"
+ scheduledDateTrigger="false"
+ voiceTrigger="true">
+     
+     <select label="Informations trafic" name="trafic" type="one" required="true">
+         <option label="Oui" key="true" checked="true"/>
+         <option label="Non" key="false" checked="false"/>
+     </select>
+     
+     <text label="Num&#233;ro d'arr&#234;t" name="station" default="" validation="^[0-9]*$" required="false" errorMessage="Le num&#233;ro doit &#234;tre compos&#233; de chiffres uniquement" />
+     <external label="Trouver le num&#233;ro de mon arr&#234;t : cliquer ici" link="http://www.tisseo.fr/prochains-passages"/>
+     
+     <select label="Ligne" name="line" type="one" required="false">
+        <option label="" key="" checked="true"/>
+        <option label="AERO - Navette aéroport" key="AERO" checked="false"/>
+        <option label="T1 - Aéroconstellation / Arènes" key="T1" checked="false"/>
+        <option label="1 - Grand Rond / Compans-Caffarelli" key="1" checked="false"/>
+        <option label="2 - Cours Dillon / Université Paul Sabatier" key="2" checked="false"/>
+        <option label="2S - Cours Dillon / Université Paul Sabatier" key="2S" checked="false"/>
+        <option label="3 - St Cyprien-République / Cancéropôle" key="3" checked="false"/>
+        <option label="8 - Basso Cambo / Lycée Polyvalent" key="8" checked="false"/>
+        <option label="10 - Cours Dillon / Gonin" key="10" checked="false"/>
+        <option label="10S - Cours Dillon / Gonin" key="10S" checked="false"/>
+        <option label="12 - Cours Dillon / Basso Cambo" key="12" checked="false"/>
+        <option label="12S - Cours Dillon / Basso Cambo" key="12S" checked="false"/>
+        <option label="14 - Marengo-SNCF / Basso Cambo" key="14" checked="false"/>
+        <option label="15 - Jeanne d'Arc / Etats Unis Fondeyre" key="15" checked="false"/>
+        <option label="16 - Sept Deniers ou Stade E. Wallon / Cité de l'Hers" key="16" checked="false"/>
+        <option label="16S - Sept Deniers / Marengo SNCF / Cité de l'Hers" key="16S" checked="false"/>
+        <option label="17 - Andromède-Lycée / Mondonville Eglise" key="17" checked="false"/>
+        <option label="19 - Borderouge / Place de l'indépendance" key="19" checked="false"/>
+        <option label="20 - Balma-Gramont / Bicentenaire ou Montrabé Stade" key="20" checked="false"/>
+        <option label="21 - Basso Cambo / Colomiers Airbus" key="21" checked="false"/>
+        <option label="22 - Marengo-SNCF / Gonin" key="22" checked="false"/>
+        <option label="22S - Marengo-SNCF / Gonin" key="22S" checked="false"/>
+        <option label="23 - Jeanne d'Arc / Rangueil" key="23" checked="false"/>
+        <option label="25 - Blagnac E. Zola / Aéroport Toulouse Blagnac" key="25" checked="false"/>
+        <option label="26 - Borderouge / Launaguet Palanque" key="26" checked="false"/>
+        <option label="27 -  Lycée Toulouse Lautrec / Rangueil  " key="27" checked="false"/>
+        <option label="29 - Grand Rond / La Vache " key="29" checked="false"/>
+        <option label="30 - Aéroport Toulouse Blagnac / Fenouillet Ctre Cial" key="30" checked="false"/>
+        <option label="32 - Colomiers Gare SNCF / Brax le Château" key="32" checked="false"/>
+        <option label="33 - Argoulets / Bruguières Mairie" key="33" checked="false"/>
+        <option label="34 - Arènes / Université Paul Sabatier" key="34" checked="false"/>
+        <option label="35 - Balma-Gramont / Drémil Stade" key="35" checked="false"/>
+        <option label="36 - Roseraie / Borderouge " key="36" checked="false"/>
+        <option label="37 - Jolimont / La Plaine" key="37" checked="false"/>
+        <option label="38 - Empalot / Amouroux" key="38" checked="false"/>
+        <option label="38S - Cours Dillon / Amouroux" key="38S" checked="false"/>
+        <option label="39 - Argoulets / l'Union Somport" key="39" checked="false"/>
+        <option label="40 - Borderouge / l'Union Malbou" key="40" checked="false"/>
+        <option label="41 - Borderouge / Chaussas" key="41" checked="false"/>
+        <option label="42 - Jeanne d'Arc / St Jean Clinique de l'Union" key="42" checked="false"/>
+        <option label="43 - Argoulets / St Jean François Mitterrand" key="43" checked="false"/>
+        <option label="44 - Jeanne d'Arc / Borderouge" key="44" checked="false"/>
+        <option label="45 - Jeanne d'Arc / Pelletier Purpan" key="45" checked="false"/>
+        <option label="46 - Arènes / Pelletier Purpan" key="46" checked="false"/>
+        <option label="47 - Basso Cambo / Portet Gare SNCF ou Portet H. Boucher" key="47" checked="false"/>
+        <option label="49 - Basso Cambo / Portet Gare SNCF" key="49" checked="false"/>
+        <option label="50 - Basso Cambo / Portet H. Boucher ou Roques Acacias" key="50" checked="false"/>
+        <option label="51 - Balma-Gramont ou Balma La Coste / Université Paul Sabatier" key="51" checked="false"/>
+        <option label="52 - Cours Dillon / Roquettes Eglise" key="52" checked="false"/>
+        <option label="54 - Empalot / Gleyze Vieille" key="54" checked="false"/>
+        <option label="55 - Colomiers Gare SNCF / La Salvetat St Gilles Stade" key="55" checked="false"/>
+        <option label="56 - Université Paul Sabatier / Auzeville Eglise" key="56" checked="false"/>
+        <option label="57 - Basso Cambo / Frouzins J.P. Sabatier" key="57" checked="false"/>
+        <option label="58 - Basso Cambo / Muret Lycée" key="58" checked="false"/>
+        <option label="59 - La Vache / Lespinasse Mairie" key="59" checked="false"/>
+        <option label="60 - La Vache / Castelginest Buffebiau" key="60" checked="false"/>
+        <option label="61 - Trois Cocus / Fonbeauzard Mairie, Montberon ou St Loup" key="61" checked="false"/>
+        <option label="62 - Ramonville Métro / Castanet Tolosan" key="62" checked="false"/>
+        <option label="63 - Compans Caffarelli / Tournefeuille Lycée" key="63" checked="false"/>
+        <option label="64 - Arènes / Colomiers Lycée International" key="64" checked="false"/>
+        <option label="65 - Arènes / Plaisance Monestié (par CD632)" key="65" checked="false"/>
+        <option label="66 - St Cyprien-République / Aéroport Toulouse Blagnac" key="66" checked="false"/>
+        <option label="67 - Arènes / Plaisance Monestié (par Marquisat)" key="67" checked="false"/>
+        <option label="68 - Université Paul Sabatier / Lespinet Struxiano" key="68" checked="false"/>
+        <option label="69 - La Vache / Gratentour Gravette ou Bruguières" key="69" checked="false"/>
+        <option label="70 - Jeanne d'Arc / Aéroconstellation" key="70" checked="false"/>
+        <option label="71 - Andromède-Lycée / Aussonne Agassines" key="71" checked="false"/>
+        <option label="72 - Balma-Gramont / Balma Lasbordes" key="72" checked="false"/>
+        <option label="73 - Borderouge / St Jean Lestang" key="73" checked="false"/>
+        <option label="74 - Balma-Gramont / Rouffiac Tolosan" key="74" checked="false"/>
+        <option label="75 - Argoulets / Castelmaurou Mairie" key="75" checked="false"/>
+        <option label="76 - Argoulets / Lapeyrouse" key="76" checked="false"/>
+        <option label="77 - Balma-Gramont / Fonsegrives Collège" key="77" checked="false"/>
+        <option label="78 - Cours Dillon / St Orens Eglise ou St Orens Lycée" key="78" checked="false"/>
+        <option label="79 - Ramonville Métro / Labège Couder ou St Orens Lycée" key="79" checked="false"/>
+        <option label="79S - Ramonville Métro / St Orens Lycée" key="79S" checked="false"/>
+        <option label="80 - Cours Dillon / Escalquens La Caprice" key="80" checked="false"/>
+        <option label="81 - Université Paul Sabatier / Castanet Tolosan" key="81" checked="false"/>
+        <option label="81S - Université Paul Sabatier / Castanet Tolosan" key="81S" checked="false"/>
+        <option label="82 - Université Paul Sabatier / Ramonville Midiville" key="82" checked="false"/>
+        <option label="83 - Balma-Gramont / St Orens Lycée" key="83" checked="false"/>
+        <option label="88 - Ramonville Métro / Hopital Larrey" key="88" checked="false"/>
+        <option label="88S - Université Paul Sabatier / CHR Rangueil" key="88S" checked="false"/>
+        <option label="108 - Université Paul Sabatier / St Orens Lycée" key="108" checked="false"/>
+        <option label="109 - Labège Innopole Gare SNCF / Castanet-Tolosan" key="109" checked="false"/>
+        <option label="110 - Barrière de Paris / Glacière Sesquières" key="110" checked="false"/>
+        <option label="111 - Ramonville Métro / Parc Technologique du Canal" key="111" checked="false"/>
+        <option label="112 - Ramonville Métro / Montjoie" key="112" checked="false"/>
+        <option label="114 - Borderouge / Quartier Virebent" key="114" checked="false"/>
+        <option label="115 - St Agne Gare SNCF / Pech David" key="115" checked="false"/>
+    </select>
+     
+     <select label="Prochains passages" name="next" type="one" required="true">
+         <option label="1" key="1" checked="false"/>
+         <option label="2" key="2" checked="false"/>
+         <option label="3" key="3" checked="false"/>
+         <option label="4" key="4" checked="false"/>
+         <option label="5" key="5" checked="true"/>
+     </select>
+ 
+<!-- fields
+ 
+You can add some fields for configuration :
+ 
+Meteo example :
+<screen>
+ <text label="city" name="country" default="France" validation="" required="true" errorMessage="" />
+ <text label="Country" name="city" default="Paris" validation="" required="true" errorMessage="" />
+ <select label="Unit" name="unit" type="one" required="true">
+ <option label="°C" key="C" checked="true"/>
+ <option label="°F" key="F" checked="false"/>
+ </select>
+</screen>
+ 
+text (provide a text field):
+ 
+ label : text displayed before the field
+ name : name of the balise. used to get the value
+ default : default value
+ required : if a value is required (true/false)
+ validation : regexp to validate the value (default : empty)
+ errorMessage : message printed if validation failed (default : empty)
+ 
+select (provide a drop down list) :
+ 
+ label : text displayed before the list
+ name : name of the balise. used to get the value
+ required : if a value is required (true/false)
+ type : type of the list (default : “one”) (to be completed)
+ select option :
+ label : text displayed
+ key : key of the element. it is the value returned
+ checked : true/false.
+-->
+</screen>

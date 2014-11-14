@@ -1,0 +1,4 @@
+<screen>
+	<text label="URL" name="url" default="" validation="^http://wap.ratp.fr/siv/.*" required="true" errorMessage="Le paramètre doit être de la forme 'http://wap.ratp.fr/siv/schedule?service=next&amp;reseau=tram&amp;lineid=BT1&amp;directionsens=A&amp;stationid=T1_23_42'" />
+	<external label="Chercher l'URL (adresse) correspondant à mon arrêt..." link="http://wap.ratp.fr/siv/schedule"/>
+</screen>

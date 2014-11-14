@@ -1,0 +1,16 @@
+<?xml version="1.0" ?><descriptor>
+    <name>Tai-Chi</name>
+    <apikey>46d55bc4-f7d1-11df-8c26-0019d145fb1e</apikey>
+    <version>0.13</version>
+   <accesses>
+       <access>ears</access>
+       <access>led</access>
+       <access>multimedia</access>
+       <access>button</access>
+    </accesses>
+    <deployment>hosted</deployment>
+    <interruptible>true</interruptible>
+    <awake>true</awake>
+    <callback/>
+    <multiConf>false</multiConf>
+</descriptor>

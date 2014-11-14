@@ -1,0 +1,82 @@
+<screen>
+  <text label="En charge (v0.2.4)" name="nomPersonnes" default="Olivier et Celine" validation="" required="false" errorMessage="" />
+  <select label="Mode annonce" name="sModeAnnonce" type="one" required="true">
+           <option label="ParType" key="par type de collecte" checked="false"/>
+           <option label="2ProchainsJours" key="2 prochains jours" checked="true"/>
+           <option label="3ProchainsJours" key="3 prochains jours" checked="false"/>
+           <option label="4ProchainsJours" key="4 prochains jours" checked="false"/>
+           <option label="5ProchainsJours" key="5 prochains jours" checked="false"/>
+  </select>  
+  <select label="Type collecte 1" name="sTypeCollecte1" type="one" required="true">
+           <option label="Ordures" key="ordures" checked="true"/>
+           <option label="Papiers" key="papiers" checked="false"/>
+           <option label="Verres" key="verres" checked="false"/>
+           <option label="Vegetaux" key="vegetaux" checked="false"/>
+	   <option label="Encombrants" key="encombrants" checked="false"/>
+           <option label="Aucune" key="aucune" checked="false"/>
+  </select>
+  <select label="Jours collecte 1" name="sJoursCollecte1" type="multi" required="true">
+           <option label="Lundi" key="lundi" checked="true"/>
+           <option label="Mardi" key="mardi" checked="false"/>
+           <option label="Mercredi" key="mercredi" checked="false"/>
+           <option label="Jeudi" key="jeudi" checked="true"/>
+           <option label="Vendredi" key="vendredi" checked="false"/>
+           <option label="Samedi" key="samedi" checked="true"/>
+           <option label="Dimanche" key="dimanche" checked="false"/>
+  </select>
+  <select label="Moment collecte 1" name="sMatinOuSoirCollecte1" type="one" required="true">
+           <option label="Matin" key="matin" checked="false"/>
+           <option label="Soir" key="soir" checked="true"/>
+           <option label="Variable" key="" checked="false"/>
+  </select>
+  <select label="Type collecte 2" name="sTypeCollecte2" type="one" required="true">
+           <option label="Ordures" key="ordures" checked="false"/>
+           <option label="Papiers" key="papiers" checked="true"/>
+           <option label="Verres" key="verres" checked="false"/>
+           <option label="Vegetaux" key="vegetaux" checked="false"/>
+	   <option label="Encombrants" key="encombrants" checked="false"/>
+           <option label="Aucune" key="aucune" checked="false"/>
+  </select>
+  <select label="Jours collecte 2" name="sJoursCollecte2" type="multi" required="true">
+           <option label="Lundi" key="lundi" checked="false"/>
+           <option label="Mardi" key="mardi" checked="false"/>
+           <option label="Mercredi" key="mercredi" checked="true"/>
+           <option label="Jeudi" key="jeudi" checked="false"/>
+           <option label="Vendredi" key="vendredi" checked="false"/>
+           <option label="Samedi" key="samedi" checked="false"/>
+           <option label="Dimanche" key="dimanche" checked="false"/>
+  </select>
+  <select label="Moment collecte 2" name="sMatinOuSoirCollecte2" type="one" required="true">
+           <option label="Matin" key="matin" checked="false"/>
+           <option label="Soir" key="soir" checked="true"/>
+           <option label="Variable" key="" checked="false"/>
+  </select>  
+  <select label="Type collecte 3" name="sTypeCollecte3" type="one" required="true">
+           <option label="ordures" key="ordures" checked="false"/>
+           <option label="Papiers" key="papiers" checked="false"/>
+           <option label="Verres" key="verres" checked="true"/>
+           <option label="Vegetaux" key="vegetaux" checked="false"/>
+	   <option label="Encombrants" key="encombrants" checked="false"/>
+           <option label="Aucune" key="aucune" checked="false"/>
+  </select>
+  <text label="Dates collecte 3" name="sDatesCollecte3" default="14jours:07/02/2012" validation="" required="true" errorMessage="" />
+  <select label="Moment collecte 3" name="sMatinOuSoirCollecte3" type="one" required="true">
+           <option label="Matin" key="matin" checked="false"/>
+           <option label="Soir" key="soir" checked="true"/>
+           <option label="Variable" key="" checked="false"/>
+  </select>
+  <select label="Type collecte 4" name="sTypeCollecte4" type="one" required="true">
+           <option label="Ordures" key="ordures" checked="false"/>
+           <option label="Papiers" key="papier" checked="false"/>
+           <option label="Verres" key="verre" checked="false"/>
+           <option label="Vegetaux" key="vegetaux" checked="true"/>
+	   <option label="Encombrants" key="encombrants" checked="false"/>
+           <option label="Aucune" key="aucune" checked="false"/>
+  </select>
+  <text label="Dates collecte 4" name="sDatesCollecte4" default="26/04/2012;03/05/2012;10/05/2012;17/05/2012" validation="" required="true" errorMessage="" />
+  <select label="Moment collecte 4" name="sMatinOuSoircollecte4" type="one" required="true">
+          <option label="Matin" key="matin" checked="true"/>
+           <option label="Soir" key="soir" checked="false"/>
+           <option label="Variable" key="" checked="false"/>
+  </select>
+</screen>

@@ -1,0 +1,17 @@
+<screen nanoTrigger="true"
+	permanentTrigger="false"
+	scheduledTrigger="true"
+	scheduledDateTrigger="false"
+	voiceTrigger="true" >
+
+	<select label="Ecouter" name="rmc" type="one" required="true">
+		<option label="la radio" key="d" checked="true"/>
+		<option label="un podcast" key="p" checked="false"/>
+	</select>
+
+	<text label="ID du podcast de l'émission" name="podcast" default="35" validation="" required="false" errorMessage="" />
+
+	<button label="Trouver cet ID" link="http://www.rmc.fr/podcast/"/>
+
+	<button label="Cliquez-ici si pour voir mes autres applications..." link="http://karotzapps.tk" />
+</screen>

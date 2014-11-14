@@ -1,0 +1,11 @@
+<screen nanoTrigger="true"
+	permanentTrigger="true"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true" >
+
+	<text label="Nombre d'expressions que vous souhaitez lire" name="limit" default="5" validation="" required="true" errorMessage="" />
+
+	<button label="Cliquez-ici si pour voir mes autres applications..." link="http://karotzapps.tk" />
+
+</screen>

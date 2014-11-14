@@ -1,0 +1,15 @@
+<descriptor>
+    <version>1.0.7</version>
+    <accesses>
+        <access>http</access>
+        <access>button</access>
+		<access>multimedia</access>
+		<access>led</access>
+		<access>serial</access>
+		<access>ears</access>
+    </accesses>
+	<editor>Karmen</editor>
+	<multiConf>false</multiConf>
+	<asrname>Revue de Presque</asrname>
+	<deployment>hosted</deployment>
+</descriptor>

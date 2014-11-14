@@ -1,0 +1,22 @@
+<screen 
+	nanoTrigger="true"
+	permanentTrigger="true"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true" >
+	<text label="Nom" name="bname" default="" validation="" required="true" errorMessage="" />
+	<text label="Date jj/mm[/aaaa]" name="bdate" default="" validation="" required="true" errorMessage="" />
+	<select label="Sexe" name="sexe" type="one" required="true">
+        <option label="Fille" key="F" checked="false"/>
+        <option label="Garçon" key="M" checked="false"/>
+    </select>
+	<select label="Dire l'age ?" name="sayAge" type="one" required="true">
+        <option label="Oui" key="Y" checked="true"/>
+        <option label="Non" key="N" checked="false"/>
+    </select>
+	<select label="Happy-birthday ?" name="happyBirthday" type="one" required="true">
+        <option label="Oui" key="Y" checked="true"/>
+        <option label="Non" key="N" checked="false"/>
+    </select>
+</screen>
+

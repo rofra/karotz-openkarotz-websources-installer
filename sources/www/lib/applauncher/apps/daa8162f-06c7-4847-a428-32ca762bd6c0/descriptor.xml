@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<descriptor>
+    <version>1.0.3</version>
+   <accesses>
+       <access>led</access>
+       <access>tts</access>
+       <access>multimedia</access>
+    </accesses>
+    <deployment>external</deployment>
+    <interruptible>false</interruptible>
+    <awake>false</awake>
+    <callback>http://karotz-bot.appspot.com/callback</callback>
+    <multiConf>false</multiConf>
+</descriptor>

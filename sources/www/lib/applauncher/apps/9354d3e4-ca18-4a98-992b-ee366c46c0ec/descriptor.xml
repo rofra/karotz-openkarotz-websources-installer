@@ -1,0 +1,14 @@
+<descriptor>
+	<name>zanimaux</name>
+	<version>0.1.3</version>
+	<accesses>
+		<access>button</access>
+		<access>rfid</access>
+		<access>led</access>
+		<access>http</access>
+		<access>tts</access>
+		<access>serial</access>
+		<access>multimedia</access>
+	</accesses>
+	<multiConf>true</multiConf>
+</descriptor>

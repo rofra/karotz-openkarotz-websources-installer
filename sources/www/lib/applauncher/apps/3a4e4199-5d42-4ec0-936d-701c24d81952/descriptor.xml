@@ -1,0 +1,13 @@
+ <descriptor>
+	<name>REVEIL A LA CARTE</name>
+	<asrName>Réveil à la carte</asrName>
+	<version>1.1</version>
+	<accesses>
+		<access>button</access>
+		<access>led</access>
+		<access>multimedia</access>
+	</accesses>
+	<editor>melka - http://wizz.cc</editor>
+	<deployment>hosted</deployment>
+	<multiConf>false</multiConf>
+</descriptor>

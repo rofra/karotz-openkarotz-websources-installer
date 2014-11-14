@@ -1,0 +1,17 @@
+<descriptor>
+    <version>1.0.0</version>
+    <accesses>
+        <access>tts</access>
+        <access>button</access>
+		<access>http</access>
+        <access>led</access>
+    </accesses>
+    
+     <editor>Y. PROUST</editor>
+     <asrName>vélouze</asrName>
+     <deployment>hosted</deployment>
+     <multiConf>true</multiConf>
+
+     <interruptible>true</interruptible>
+     <awake>true</awake>
+</descriptor>

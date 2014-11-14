@@ -1,0 +1,9 @@
+<screen>
+	<select label="Dur&#233;e de lecture" name="duree" type="one" required="true">
+		<option label="5 min" key="1" checked="true"/>
+		<option label="15 min" key="2" checked="false"/>
+		<option label="30 min" key="3" checked="false"/>
+		<option label="1 h" key="4" checked="false"/>
+		<option label="infinie" key="5" checked="false"/>
+	</select>
+</screen>

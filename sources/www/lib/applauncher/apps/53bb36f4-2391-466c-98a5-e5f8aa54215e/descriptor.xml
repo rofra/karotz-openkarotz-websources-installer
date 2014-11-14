@@ -1,0 +1,14 @@
+<descriptor>
+    <version>1.0</version>
+   <accesses>
+       <access>led</access>
+       <access>http</access>
+       <access>multimedia</access>
+       <access>button</access>
+    </accesses>
+    <deployment>hosted</deployment>
+    <interruptible>false</interruptible>
+    <awake>false</awake>
+    <callback></callback>
+    <multiConf>false</multiConf>
+</descriptor>

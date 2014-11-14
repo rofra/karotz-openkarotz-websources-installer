@@ -1,0 +1,16 @@
+<descriptor>
+   <version>1.02</version>
+   <accesses>
+       <access>tts</access>
+	   <access>led</access>
+	   <access>multimedia</access>
+	   <access>http</access>
+	   <access>button</access>
+	   <access>rfid</access>
+    </accesses>
+    <deployment>external</deployment>
+	<multiConf>true</multiConf>
+	<editor>Marcus Gerards</editor>
+	<awake>true</awake>
+	<callback>http://karotz.xeocon.de/replay/callback_fr.php</callback>
+</descriptor>

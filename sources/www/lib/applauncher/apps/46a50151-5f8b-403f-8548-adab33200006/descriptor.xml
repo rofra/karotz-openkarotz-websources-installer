@@ -1,0 +1,13 @@
+<descriptor>
+  <version>1.0.6</version>
+  <accesses>
+    <access>tts</access>
+    <access>led</access>
+    <access>button</access>
+    <access>http</access>
+  </accesses>
+  <editor>Alexandre Dubois</editor>
+  <deployment>hosted</deployment>
+  <asrName>v&#233;cub</asrName>
+  <multiConf>true</multiConf>
+</descriptor>

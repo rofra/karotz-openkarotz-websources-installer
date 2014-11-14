@@ -1,0 +1,20 @@
+<descriptor>
+    <version>1.0.0</version>
+   <accesses>
+       <access>ears</access>
+       <access>tts</access>
+       <access>led</access>
+       <access>multimedia</access>
+       <access>webcam</access>
+       <access>remoteauth</access>
+    </accesses>
+    <parameters>
+		<parameter key="qrcode" value="true"/>
+		<parameter key="showInstallUuid" value="true"/>
+  	</parameters>
+    <deployment>external</deployment>
+    <interruptible>false</interruptible>
+    <awake>false</awake>
+    <callback/>
+    <multiConf>false</multiConf>
+</descriptor>

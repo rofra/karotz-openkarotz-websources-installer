@@ -1,0 +1,19 @@
+<descriptor>
+	<version>1.0.2</version>
+	<accesses>
+		<access>led</access>
+		<access>multimedia</access>
+		<access>http</access>
+		<access>webcam</access>	
+	</accesses>
+	<editor>Vince</editor>
+    <asrName>webapi</asrName>
+	<parameters> 
+		<parameter key="showInstallUuid" value="false"/> 
+	</parameters> 
+	<deployment>external</deployment>
+	<interruptible>true</interruptible>
+	<multiConf>false</multiConf> 	
+	<awake>true</awake>
+	<callback>http://karotz.vinceonline.fr/livecam/index.php</callback>
+</descriptor>

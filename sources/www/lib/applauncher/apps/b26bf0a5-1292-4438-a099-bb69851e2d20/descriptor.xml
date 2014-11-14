@@ -1,0 +1,16 @@
+<descriptor>
+    <name>edf tempo</name>
+    <apikey>apikey</apikey>
+    <version>0.0.3</version>
+   <accesses>
+       <access>tts</access>
+       <access>led</access>
+       <access>http</access>
+       <access>button</access>
+    </accesses>
+    <deployment>hosted</deployment>
+    <interruptible>true</interruptible>
+    <awake>true</awake>
+    <callback></callback>
+    <multiConf>false</multiConf>
+</descriptor>

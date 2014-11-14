@@ -1,0 +1,19 @@
+<screen  
+	nanoTrigger="true" 
+        permanentTrigger="true" 
+        scheduledTrigger="true" 
+        scheduledDateTrigger="true" 
+        voiceTrigger="true">
+
+	<text label="IP domogik" name="ip" default="" validation="" required="true" errorMessage="" />
+	<text label="Port REST" name="port" default="40405" validation="" required="true" errorMessage="" />
+	<text label="Adresse device" name="address" default="" validation="" required="true" errorMessage="" />	
+	<text label="Technologie" name="techno" default="" validation="" required="true" errorMessage="" />	
+
+	<select label="Action" name="acttyp" type="one" required="true">
+		<option label="Switch" key="switch" checked="true"/>
+		<option label="ON" key="on" checked="false"/>
+		<option label="OFF" key="off" checked="false"/>
+		<option label="Temperature" key="temperature" checked="false"/>
+	</select>
+</screen>

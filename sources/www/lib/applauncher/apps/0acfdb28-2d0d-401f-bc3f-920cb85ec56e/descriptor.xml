@@ -1,0 +1,13 @@
+<descriptor>
+<multiConf>false</multiConf>
+    <version>0.0.21</version>
+    <accesses>
+        <access>tts</access>
+        <access>button</access>
+		<access>led</access>		
+		<access>asr</access>
+		<access>multimedia</access>
+    </accesses>
+	<editor>Vince</editor>
+	<deployment>hosted</deployment>
+</descriptor>

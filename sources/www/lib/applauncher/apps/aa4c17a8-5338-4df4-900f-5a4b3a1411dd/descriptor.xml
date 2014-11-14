@@ -1,0 +1,13 @@
+ <descriptor>
+	<name>Lady Gaga</name>
+	<version>1.1</version>
+	<asrName>a b c d lady gaga</asrName>
+	<accesses>
+		<access>button</access>
+		<access>led</access>
+		<access>multimedia</access>
+	</accesses>
+	<editor>http://wizz.cc</editor>
+	<deployment>hosted</deployment>
+	<multiConf>false</multiConf>
+</descriptor>

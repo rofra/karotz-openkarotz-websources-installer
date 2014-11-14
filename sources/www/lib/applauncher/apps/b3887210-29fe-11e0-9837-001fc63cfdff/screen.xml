@@ -1,0 +1,18 @@
+<screen>
+<select label="Signe" name="signe" type="one" required="true">
+<option label="Bélier" key="belier" checked="true"/>
+<option label="Taureau" key="taureau" checked="false"/>
+<option label="Gémeaux" key="gemeaux" checked="false"/>
+<option label="Cancer" key="cancer" checked="false"/>
+<option label="Lion" key="lion" checked="false"/>
+<option label="Vierge" key="vierge" checked="false"/>
+<option label="Balance" key="balance" checked="false"/>
+<option label="Scorpion" key="scorpion" checked="false"/>
+<option label="Sagittaire" key="sagittaire" checked="false"/>
+<option label="Capricorne" key="capricorne" checked="false"/>
+<option label="Verseau" key="verseau" checked="false"/>
+<option label="Poissons" key="poissons" checked="false"/>
+</select>
+
+
+</screen>

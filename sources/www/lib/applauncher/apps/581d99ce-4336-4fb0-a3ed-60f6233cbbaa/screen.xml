@@ -1,0 +1,8 @@
+<screen nanoTrigger="true" voiceTrigger="true" permanentTrigger="false" scheduledTrigger="false" scheduledDateTrigger="false">
+	<text label="Petit-déjeuner" name="petit_dejeuner" default="06:30" validation="\d\d:\d\d" required="true" errorMessage="" />
+	<text label="Déjeuner" name="dejeuner" default="12:30" validation="\d\d:\d\d" required="true" errorMessage="" />
+	<text label="Diner" name="diner" default="19:00" validation="\d\d:\d\d" required="true" errorMessage="" />
+	<text label="Souper" name="souper" default="00:00" validation="\d\d:\d\d" required="true" errorMessage="" />
+	<text label="Défaut" name="defaut" default="00:00" validation="\d\d:\d\d" required="true" errorMessage="" />
+	<text label="Perso" name="perso" default="00:00" validation="\d\d:\d\d" required="true" errorMessage="" />
+</screen>

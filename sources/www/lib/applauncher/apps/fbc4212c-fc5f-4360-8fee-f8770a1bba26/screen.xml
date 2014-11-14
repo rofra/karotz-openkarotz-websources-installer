@@ -1,0 +1,7 @@
+<screen 
+	nanoTrigger="true"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true" >
+	<text label="Sound URL" name="url" default="http://karotz.xeocon.de/WilhelmScream_64kb.mp3" validation="" required="true" errorMessage="" />
+</screen>

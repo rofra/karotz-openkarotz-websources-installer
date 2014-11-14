@@ -1,0 +1,13 @@
+1) Si Karotz perd le coup n, alors au coup n+1 il prend ce qui aurait battu son propre choix au coup n.
+   Si Karotz gagne, Karotz garde le même élément.
+   En cas de match nul, Karotz garde le même élément.
+
+2) Si Karotz perd le coup n, alors au coup n+1 il prend l'élément que personne n'a pris au coup n.
+   Si Karotz gagne le coup n, alors au coup n+1 il prend ce qui aurait battu son adversaire au coup n. 
+   En cas de match nul, Karotz prend l'élément avec lequel il aurait perdu au coup n.
+ 
+3) Si Karotz perds le coup n, alors au coup n+1 il prends ce qu'avait pris mon adversaire.
+   Si Karotz gagne le coup n, alors il prend l'élément avel lequel il aurait perdu contre lui même au coup n.
+   En cas de match nul, Karotz tire au hasard
+
+4) Hasard

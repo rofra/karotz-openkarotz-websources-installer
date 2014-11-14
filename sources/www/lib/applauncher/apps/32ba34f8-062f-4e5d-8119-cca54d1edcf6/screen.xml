@@ -1,0 +1,87 @@
+<screen>
+
+  <select label="Ligne" name="ligne" type="one" required="true">
+    <option label="T1 Gare de St Denis" key="T1 A" checked="false"/>
+    <option label="T1 Gare de Noisy" key="T1 R" checked="false"/>
+    <option label="T2 La Defense" key="T2 A" checked="false"/>
+    <option label="T2 Porte de Versailles" key="T2 R" checked="false"/>
+    <option label="T3 Porte Ivry" key="T3 A" checked="false"/>
+    <option label="T3 Pont Garigliano" key="T3 R" checked="false"/>
+  </select>
+
+  <select label="station" name="station" type="one" required="true">
+	
+<option key="abbesses" label="--- T1 ---" checked="false" />
+<option key="abbesses" label="Abbesses" checked="false"/>
+<option key="auguste delaune" label="Auguste Delaune" checked="false" />
+<option key="basilique de st denis" label="Basilique de St Denis" checked="false" />
+<option key="bobigny pablo picasso" label="Bobigny - Pablo Picasso" checked="false" />
+<option key="cimetiere de st denis" label="Cimetiere de St Denis" checked="false" />
+<option key="cosmonautes" label="Cosmonautes" checked="false" />
+<option key="danton" label="Danton" checked="false" />
+<option key="drancy avenir" label="Drancy Avenir" checked="false" />
+<option key="escadrille normandie niemen" label="Escadrille Normandie-Niemen" checked="false" />
+<option key="gare de noisy le sec" label="Gare de Noisy-Le-Sec" checked="false" />
+<option key="gaston roulaud" label="Gaston Roulaud" checked="false" />
+<option key="hopital avicenne" label="Hopital Avicenne" checked="false" />
+<option key="hopital delafontaine" label="Hopital Delafontaine" checked="false" />
+<option key="hotel de ville de bobigny" label="Hotel de Ville de Bobigny" checked="false" />
+<option key="hotel de ville la courneuve" label="Hotel de Ville la Courneuve" checked="false" />
+<option key="jean rostand" label="Jean Rostand" checked="false" />
+<option key="la courneuve 6 routes" label="La Courneuve 6 Routes" checked="false" />
+<option key="la courneuve 8 mai 1945" label="La Courneuve 8 Mai 1945" checked="false" />
+<option key="la ferme" label="La Ferme" checked="false" />
+<option key="liberation" label="Liberation" checked="false" />
+<option key="marche de st denis" label="Marche de St Denis" checked="false" />
+<option key="maurice lachatre" label="Maurice Lachatre" checked="false" />
+<option key="petit noisy" label="Petit Noisy" checked="false" />
+<option key="pont de bondy" label="Pont de Bondy" checked="false" />
+<option key="saint denis" label="Saint-Denis" checked="false" />
+<option key="stade geo andre" label="Stade Geo Andre" checked="false" />
+<option key="theatre g philipe" label="Theatre G. Philipe" checked="false" />
+
+
+
+<option key="belvedere" label="--- T2 ---" checked="false" />
+<option key="belvedere" label="Belvedere" checked="false" />
+<option key="brimborion" label="Brimborion" checked="false" />
+<option key="henri farman" label="Henri Farman" checked="false" />
+<option key="issy val de seine" label="Issy-Val de Seine" checked="false" />
+<option key="jacques henri lartigue" label="Jacques-Henri Lartigue" checked="false" />
+<option key="la defense" label="La Defense" checked="false" />
+<option key="les coteaux" label="Les Coteaux" checked="false" />
+<option key="les milons" label="Les Milons" checked="false" />
+<option key="les moulineaux" label="Les Moulineaux" checked="false" />
+<option key="meudon sur seine" label="Meudon-Sur-Seine" checked="false" />
+<option key="musee de sevres" label="Musee de Sevres" checked="false" />
+<option key="parc de saint cloud" label="Parc de Saint-Cloud" checked="false" />
+<option key="porte d issy" label="Porte d'Issy" checked="false" />
+<option key="porte de versailles" label="Porte de Versailles" checked="false" />
+<option key="puteaux" label="Puteaux" checked="false" />
+<option key="suresnes longchamp" label="Suresnes-Longchamp" checked="false" />
+<option key="suzanne lenglen" label="Suzanne Lenglen" checked="false" />
+
+
+
+<option key="balard" label="--- T3 ---" checked="false" />
+<option key="balard" label="Balard" checked="false" />
+<option key="brancion" label="Brancion" checked="false" />
+<option key="cite universitaire" label="Cite Universitaire" checked="false" />
+<option key="desnouettes" label="Desnouettes" checked="false" />
+<option key="didot" label="Didot" checked="false" />
+<option key="georges brassens" label="Georges Brassens" checked="false" />
+<option key="jean moulin" label="Jean Moulin" checked="false" />
+<option key="montsouris" label="Montsouris" checked="false" />
+<option key="pont du garigliano" label="Pont du Garigliano" checked="false" />
+<option key="porte d italie" label="Porte d'Italie" checked="false" />
+<option key="porte d ivry" label="Porte d'Ivry" checked="false" />
+<option key="porte d orleans" label="Porte d'Orleans" checked="false" />
+<option key="porte de choisy" label="Porte de Choisy" checked="false" />
+<option key="porte de vanves" label="Porte de Vanves" checked="false" />
+<option key="porte de versailles" label="Porte de Versailles" checked="false" />
+<option key="poterne des peupliers" label="Poterne des Peupliers" checked="false" />
+<option key="stade charlety" label="Stade Charlety" checked="false" />
+
+
+  </select>
+</screen>

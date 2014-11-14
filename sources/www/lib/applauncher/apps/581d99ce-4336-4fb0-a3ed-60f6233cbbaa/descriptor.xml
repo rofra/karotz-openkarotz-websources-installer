@@ -1,0 +1,13 @@
+<descriptor>
+    <version>2.0.1</version>
+    <accesses>
+        <access>tts</access>
+        <access>button</access>
+        <access>asr</access>
+    </accesses>
+    <editor>Simon Gillet</editor>
+    <asrName>Pain</asrName>
+    <deployment>hosted</deployment>
+    <awake>boolean</awake>
+    <multiConf>false</multiConf> 
+</descriptor>

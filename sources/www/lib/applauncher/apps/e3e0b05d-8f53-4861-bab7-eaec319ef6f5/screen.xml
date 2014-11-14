@@ -1,0 +1,446 @@
+<screen>
+
+  <select label="Ligne" name="ligne" type="one" required="true">
+    <option label="M1 La Défense" key="1 A" checked="false"/>
+    <option label="M1 Château de Vincennes" key="1 R" checked="false"/>
+    <option label="M2 Porte Dauphine" key="2 A" checked="false"/>
+    <option label="M2 Nation" key="2 R" checked="false"/>
+    <option label="M3 Pont de Levallois Bécon" key="3 A" checked="false"/>
+    <option label="M3 Gallieni" key="3 R" checked="false"/>
+    <!-- <option label="M3bis Gambetta" key="3b A" checked="false"/> -->
+    <!-- <option label="M3bis Porte des Lilas" key="3b R" checked="false"/> -->
+    <option label="M4 Porte d'Orléans" key="4 A" checked="false"/>
+    <option label="M4 Porte de Clignancourt" key="4 R" checked="false"/>
+    <option label="M5 Place d'Italie" key="5 A" checked="false"/>
+    <option label="M5 Bobigny Pablo Picasso" key="5 R" checked="false"/>
+    <option label="M6 Charles de Gaulle Etoile" key="6 A" checked="false"/>
+    <option label="M6 Nation" key="6 R" checked="false"/>
+    <option label="M7 Mairie d'Ivry - Villejuif Louis Aragon" key="7 A" checked="false"/>
+    <option label="M7 La Courneuve 8 mai 1945" key="7 R" checked="false"/>
+    <!-- <option label="M7b Louis Blanc" key="7b A" checked="false"/> -->
+    <!-- <option label="M7b Pre-Saint-Gervais" key="7b R" checked="false"/>  -->
+    <option label="M8 Créteil-Préfecture" key="8 A" checked="false"/>
+    <option label="M8 Balard" key="8 R" checked="false"/>
+    <option label="M9 Mairie de Montreuil" key="9 A" checked="false"/>
+    <option label="M9 Pont de Sèvres" key="9 R" checked="false"/>
+    <option label="M10 Gare d'Austerlitz" key="10 A" checked="false"/>
+    <option label="M10 Boulogne Pont de Saint-Cloud" key="10 R" checked="false"/>
+    <option label="M11 Châtelet" key="11 A" checked="false"/>
+    <option label="M11 Mairie des Lilas" key="11 R" checked="false"/>
+    <option label="M12 Porte de la Chapelle" key="12 A" checked="false"/>
+    <option label="M12 Mairie d'Issy" key="12 R" checked="false"/>
+    <option label="M13 Asnières-Gennevilliers Les Courtilles - Saint-Denis-Université" key="13 A" checked="false"/>
+    <option label="M13 Châtillon-Montrouge" key="13 R" checked="false"/>
+    <option label="M14 Saint-Lazare" key="14 A" checked="false"/>
+    <option label="M14 Olympiades" key="14 R" checked="false"/>
+  </select>
+  <select label="station" name="station" type="one" required="true">
+	<option key="" label="--- M1 ------" checked="false"/>
+	<option key="argentine" label="Argentine" checked="false"/>
+	<option key="bastille" label="Bastille" checked="false"/>
+	<option key="berault" label="Bérault" checked="false"/>
+	<option key="champs elysees clemenceau" label="Champs-Elysées Clémenceau" checked="false"/>
+	<option key="charles de gaulle etoile" label="Charles de Gaulle Etoile" checked="false"/>
+	<option key="chateau de vincennes" label="Château de Vincennes" checked="false"/>
+	<option key="chatelet" label="Châtelet" checked="false"/>
+	<option key="concorde" label="Concorde" checked="false"/>
+	<option key="esplanade de la defense" label="Esplanade de La Défense" checked="false"/>
+	<option key="franklin d roosevelt" label="Franklin D. Roosevelt" checked="false"/>
+	<option key="gare de lyon" label="Gare de Lyon" checked="false"/>
+	<option key="george v" label="George V" checked="false"/>
+	<option key="hotel de ville" label="Hôtel de Ville" checked="false"/>
+	<option key="la defense" label="La Défense" checked="false"/>
+	<option key="les sablons" label="Les Sablons" checked="false"/>
+	<option key="louvre rivoli" label="Louvre - Rivoli" checked="false"/>
+	<option key="nation" label="Nation" checked="false"/>
+	<option key="palais royal musee du louvre" label="Palais Royal Musée du Louvre" checked="false"/>
+	<option key="pont de neuilly" label="Pont de Neuilly" checked="false"/>
+	<option key="porte maillot" label="Porte Maillot" checked="false"/>
+	<option key="porte de vincennes" label="Porte de Vincennes" checked="false"/>
+	<option key="reuilly diderot" label="Reuilly-Diderot" checked="false"/>
+	<option key="saint mande" label="Saint-Mandé" checked="false"/>
+	<option key="saint paul" label="Saint-Paul" checked="false"/>
+	<option key="tuileries" label="Tuileries" checked="false"/>
+
+
+	<option key="" label="" checked="false"/>
+	<option key="" label="--- M2 ------" checked="false"/>
+	<option key="alexandre dumas" label="Alexandre Dumas" checked="false"/>
+	<option key="anvers" label="Anvers" checked="false"/>
+	<option key="avron" label="Avron" checked="false"/>
+	<option key="barbes rochechouart" label="Barbès Rochechouart" checked="false"/>
+	<option key="belleville" label="Belleville" checked="false"/>
+	<option key="blanche" label="Blanche" checked="false"/>
+	<option key="charles de gaulle etoile" label="Charles de Gaulle Etoile" checked="false"/>
+	<option key="colonel fabien" label="Colonel Fabien" checked="false"/>
+	<option key="courcelles" label="Courcelles" checked="false"/>
+	<option key="couronnes" label="Couronnes" checked="false"/>
+	<option key="jaures" label="Jaurès" checked="false"/>
+	<option key="la chapelle" label="La Chapelle" checked="false"/>
+	<option key="monceau" label="Monceau" checked="false"/>
+	<option key="menilmontant" label="Ménilmontant" checked="false"/>
+	<option key="nation" label="Nation" checked="false"/>
+	<option key="philippe auguste" label="Philippe Auguste" checked="false"/>
+	<option key="pigalle" label="Pigalle" checked="false"/>
+	<option key="place de clichy" label="Place de Clichy" checked="false"/>
+	<option key="porte dauphine" label="Porte Dauphine" checked="false"/>
+	<option key="pere lachaise" label="Père Lachaise" checked="false"/>
+	<option key="rome" label="Rome" checked="false"/>
+	<option key="stalingrad" label="Stalingrad" checked="false"/>
+	<option key="ternes" label="Ternes" checked="false"/>
+	<option key="victor hugo" label="Victor Hugo" checked="false"/>
+	<option key="villiers" label="Villiers" checked="false"/>
+
+	<option key="" label="" checked="false"/>
+	<option key="" label="--- M3 ------" checked="false"/>
+	<option key="anatole france" label="Anatole France" checked="false"/>
+	<option key="arts et metiers" label="Arts et Métiers" checked="false"/>
+	<option key="bourse" label="Bourse" checked="false"/>
+	<option key="europe" label="Europe" checked="false"/>
+	<option key="gallieni" label="Gallieni" checked="false"/>
+	<option key="gambetta" label="Gambetta" checked="false"/>
+	<option key="havre caumartin" label="Havre-Caumartin" checked="false"/>
+	<option key="louise michel" label="Louise Michel" checked="false"/>
+	<option key="malesherbes" label="Malesherbes" checked="false"/>
+	<option key="opera" label="Opéra" checked="false"/>
+	<option key="parmentier" label="Parmentier" checked="false"/>
+	<option key="pereire" label="Pereire" checked="false"/>
+	<option key="pont de levallois becon" label="Pont de Levallois Bécon" checked="false"/>
+	<option key="porte de bagnolet" label="Porte de Bagnolet" checked="false"/>
+	<option key="porte de champerret" label="Porte de Champerret" checked="false"/>
+	<option key="pere lachaise" label="Père Lachaise" checked="false"/>
+	<option key="quatre septembre" label="Quatre-Septembre" checked="false"/>
+	<option key="rue saint maur" label="Rue Saint-Maur" checked="false"/>
+	<option key="reaumur sebastopol" label="Réaumur-Sébastopol" checked="false"/>
+	<option key="republique" label="République" checked="false"/>
+	<option key="saint lazare" label="Saint-Lazare" checked="false"/>
+	<option key="sentier" label="Sentier" checked="false"/>
+	<option key="temple" label="Temple" checked="false"/>
+	<option key="villiers" label="Villiers" checked="false"/>
+	<option key="wagram" label="Wagram" checked="false"/>
+
+	<option key="" label="" checked="false"/>
+	<option key="" label="--- M4 ------" checked="false"/>
+	<option key="alesia" label="Alésia" checked="false"/>
+	<option key="barbes rochechouart" label="Barbès Rochechouart" checked="false"/>
+	<option key="chateau rouge" label="Château Rouge" checked="false"/>
+	<option key="chateau d eau" label="Château d&#039;Eau" checked="false"/>
+	<option key="chatelet" label="Châtelet" checked="false"/>
+	<option key="cite" label="Cité" checked="false"/>
+	<option key="denfert rochereau" label="Denfert-Rochereau" checked="false"/>
+	<option key="etienne marcel" label="Etienne Marcel" checked="false"/>
+	<option key="gare de l est" label="Gare de l&#039;Est" checked="false"/>
+	<option key="gare du nord" label="Gare du Nord" checked="false"/>
+	<option key="les halles" label="Les Halles" checked="false"/>
+	<option key="marcadet poissonniers" label="Marcadet Poissonniers" checked="false"/>
+	<option key="montparnasse bienvenue" label="Montparnasse Bienvenüe" checked="false"/>
+	<option key="mouton duvernet" label="Mouton-Duvernet" checked="false"/>
+	<option key="odeon" label="Odéon" checked="false"/>
+	<option key="porte d orleans" label="Porte d&#039;Orléans" checked="false"/>
+	<option key="porte de clignancourt" label="Porte de Clignancourt" checked="false"/>
+	<option key="raspail" label="Raspail" checked="false"/>
+	<option key="reaumur sebastopol" label="Réaumur-Sébastopol" checked="false"/>
+	<option key="saint germain des pres" label="Saint-Germain-des-Prés" checked="false"/>
+	<option key="saint michel" label="Saint-Michel" checked="false"/>
+	<option key="saint placide" label="Saint-Placide" checked="false"/>
+	<option key="saint sulpice" label="Saint-Sulpice" checked="false"/>
+	<option key="simplon" label="Simplon" checked="false"/>
+	<option key="strasbourg saint denis" label="Strasbourg-Saint-Denis" checked="false"/>
+	<option key="vavin" label="Vavin" checked="false"/>
+
+	<option key="" label="" checked="false"/>
+	<option key="" label="--- M5 ------" checked="false"/>
+	<option key="bastille" label="Bastille" checked="false"/>
+	<option key="bobigny pablo picasso" label="Bobigny Pablo Picasso" checked="false"/>
+	<option key="bobigny pantin raymond queneau" label="Bobigny-Pantin Raymond Queneau" checked="false"/>
+	<option key="breguet sabin" label="Bréguet-Sabin" checked="false"/>
+	<option key="campo formio" label="Campo-Formio" checked="false"/>
+	<option key="eglise de pantin" label="Eglise de Pantin" checked="false"/>
+	<option key="gare d austerlitz" label="Gare d&#039;Austerlitz" checked="false"/>
+	<option key="gare de l est" label="Gare de l&#039;Est" checked="false"/>
+	<option key="gare du nord" label="Gare du Nord" checked="false"/>
+	<option key="hoche" label="Hoche" checked="false"/>
+	<option key="jacques bonsergent" label="Jacques Bonsergent" checked="false"/>
+	<option key="jaures" label="Jaurès" checked="false"/>
+	<option key="laumiere" label="Laumière" checked="false"/>
+	<option key="oberkampf" label="Oberkampf" checked="false"/>
+	<option key="ourcq" label="Ourcq" checked="false"/>
+	<option key="place d italie" label="Place d&#039;Italie" checked="false"/>
+	<option key="porte de pantin" label="Porte de Pantin" checked="false"/>
+	<option key="quai de la rapee" label="Quai de la Rapée" checked="false"/>
+	<option key="richard lenoir" label="Richard-Lenoir" checked="false"/>
+	<option key="republique" label="République" checked="false"/>
+	<option key="saint marcel" label="Saint-Marcel" checked="false"/>
+	<option key="stalingrad" label="Stalingrad" checked="false"/>
+
+	<option key="" label="" checked="false"/>
+	<option key="" label="--- M6 ------" checked="false"/>
+	<option key="bel air" label="Bel-Air" checked="false"/>
+	<option key="bercy" label="Bercy" checked="false"/>
+	<option key="bir hakeim" label="Bir-Hakeim" checked="false"/>
+	<option key="boissiere" label="Boissière" checked="false"/>
+	<option key="cambronne" label="Cambronne" checked="false"/>
+	<option key="charles de gaulle etoile" label="Charles de Gaulle Etoile" checked="false"/>
+	<option key="chevaleret" label="Chevaleret" checked="false"/>
+	<option key="corvisart" label="Corvisart" checked="false"/>
+	<option key="daumesnil" label="Daumesnil" checked="false"/>
+	<option key="denfert rochereau" label="Denfert-Rochereau" checked="false"/>
+	<option key="dugommier" label="Dugommier" checked="false"/>
+	<option key="dupleix" label="Dupleix" checked="false"/>
+	<option key="edgar quinet" label="Edgar Quinet" checked="false"/>
+	<option key="glaciere" label="Glacière" checked="false"/>
+	<option key="kleber" label="Kléber" checked="false"/>
+	<option key="la motte picquet grenelle" label="La Motte-Picquet Grenelle" checked="false"/>
+	<option key="montparnasse bienvenue" label="Montparnasse Bienvenüe" checked="false"/>
+	<option key="nation" label="Nation" checked="false"/>
+	<option key="nationale" label="Nationale" checked="false"/>
+	<option key="passy" label="Passy" checked="false"/>
+	<option key="pasteur" label="Pasteur" checked="false"/>
+	<option key="picpus" label="Picpus" checked="false"/>
+	<option key="place d italie" label="Place d&#039;Italie" checked="false"/>
+	<option key="quai de la gare" label="Quai de la Gare" checked="false"/>
+	<option key="raspail" label="Raspail" checked="false"/>
+	<option key="saint jacques" label="Saint-Jacques" checked="false"/>
+	<option key="sevres lecourbe" label="Sèvres-Lecourbe" checked="false"/>
+	<option key="trocadero" label="Trocadéro" checked="false"/>
+
+	<option key="" label="" checked="false"/>
+	<option key="" label="--- M7 ------" checked="false"/>
+	<option key="aubervilliers pantin quatre chemins" label="Aubervilliers Pantin Quatre Chemins" checked="false"/>
+	<option key="cadet" label="Cadet" checked="false"/>
+	<option key="censier daubenton" label="Censier Daubenton" checked="false"/>
+	<option key="chaussee d antin la fayette" label="Chaussée d&#039;Antin La Fayette" checked="false"/>
+	<option key="chateau landon" label="Château-Landon" checked="false"/>
+	<option key="chatelet" label="Châtelet" checked="false"/>
+	<option key="corentin cariou" label="Corentin Cariou" checked="false"/>
+	<option key="crimee" label="Crimée" checked="false"/>
+	<option key="fort d aubervilliers" label="Fort d&#039;Aubervilliers" checked="false"/>
+	<option key="gare de l est" label="Gare de l&#039;Est" checked="false"/>
+	<option key="jussieu" label="Jussieu" checked="false"/>
+	<option key="la courneuve 8 mai 1945" label="La Courneuve 8 mai 1945" checked="false"/>
+	<option key="le kremlin bicetre" label="Le Kremlin-Bicêtre" checked="false"/>
+	<option key="le peletier" label="Le Peletier" checked="false"/>
+	<option key="les gobelins" label="Les Gobelins" checked="false"/>
+	<option key="louis blanc" label="Louis Blanc" checked="false"/>
+	<option key="mairie d ivry" label="Mairie d&#039;Ivry" checked="false"/>
+	<option key="maison blanche" label="Maison Blanche" checked="false"/>
+	<option key="opera" label="Opéra" checked="false"/>
+	<option key="palais royal musee du louvre" label="Palais Royal Musée du Louvre" checked="false"/>
+	<option key="pierre et marie curie" label="Pierre et Marie Curie" checked="false"/>
+	<option key="place monge" label="Place Monge" checked="false"/>
+	<option key="place d italie" label="Place d&#039;Italie" checked="false"/>
+	<option key="poissonniere" label="Poissonnière" checked="false"/>
+	<option key="pont marie" label="Pont Marie" checked="false"/>
+	<option key="pont neuf" label="Pont Neuf" checked="false"/>
+	<option key="porte d italie" label="Porte d&#039;Italie" checked="false"/>
+	<option key="porte d ivry" label="Porte d&#039;Ivry" checked="false"/>
+	<option key="porte de choisy" label="Porte de Choisy" checked="false"/>
+	<option key="porte de la villette" label="Porte de la Villette" checked="false"/>
+	<option key="pyramides" label="Pyramides" checked="false"/>	
+	<option key="riquet" label="Riquet" checked="false"/>
+	<option key="stalingrad" label="Stalingrad" checked="false"/>
+	<option key="sully morland" label="Sully-Morland" checked="false"/>
+	<option key="tolbiac" label="Tolbiac" checked="false"/>
+	<option key="villejuif louis aragon" label="Villejuif Louis Aragon" checked="false"/>
+	<option key="villejuif leo lagrange" label="Villejuif Léo Lagrange" checked="false"/>
+	<option key="villejuif paul vaillant couturier" label="Villejuif Paul Vaillant-Couturier" checked="false"/>
+
+	<option key="" label="" checked="false"/>
+	<option key="" label="--- M8 ------" checked="false"/>
+	<option key="balard" label="Balard" checked="false"/>
+	<option key="bastille" label="Bastille" checked="false"/>
+	<option key="bonne nouvelle" label="Bonne Nouvelle" checked="false"/>
+	<option key="boucicaut" label="Boucicaut" checked="false"/>
+	<option key="charenton ecoles" label="Charenton-Ecoles" checked="false"/>
+	<option key="chemin vert" label="Chemin Vert" checked="false"/>
+	<option key="commerce" label="Commerce" checked="false"/>
+	<option key="concorde" label="Concorde" checked="false"/>
+	<option key="creteil l echat" label="Créteil-L&#039;Echat" checked="false"/>
+	<option key="creteil prefecture" label="Créteil-Préfecture" checked="false"/>
+	<option key="creteil universite" label="Créteil-Université" checked="false"/>
+	<option key="daumesnil" label="Daumesnil" checked="false"/>
+	<option key="ecole militaire" label="Ecole Militaire" checked="false"/>
+	<option key="ecole veterinaire de maisons alfort" label="Ecole Vétérinaire de Maisons-Alfort" checked="false"/>
+	<option key="faidherbe chaligny" label="Faidherbe-Chaligny" checked="false"/>
+	<option key="filles du calvaire" label="Filles du Calvaire" checked="false"/>
+	<option key="felix faure" label="Félix Faure" checked="false"/>
+	<option key="grands boulevards" label="Grands Boulevards" checked="false"/>
+	<option key="invalides" label="Invalides" checked="false"/>
+	<option key="la motte picquet grenelle" label="La Motte-Picquet Grenelle" checked="false"/>
+	<option key="la tour maubourg" label="La Tour-Maubourg" checked="false"/>
+	<option key="ledru rollin" label="Ledru-Rollin" checked="false"/>
+	<option key="liberte" label="Liberté" checked="false"/>
+	<option key="lourmel" label="Lourmel" checked="false"/>
+	<option key="madeleine" label="Madeleine" checked="false"/>
+	<option key="maisons alfort les juilliottes" label="Maisons-Alfort Les Juilliottes" checked="false"/>
+	<option key="maisons alfort stade" label="Maisons-Alfort Stade" checked="false"/>
+	<option key="michel bizot" label="Michel Bizot" checked="false"/>
+	<option key="montgallet" label="Montgallet" checked="false"/>
+	<option key="opera" label="Opéra" checked="false"/>
+	<option key="porte doree" label="Porte Dorée" checked="false"/>
+	<option key="porte de charenton" label="Porte de Charenton" checked="false"/>
+	<option key="reuilly diderot" label="Reuilly-Diderot" checked="false"/>
+	<option key="richelieu drouot" label="Richelieu-Drouot" checked="false"/>
+	<option key="republique" label="République" checked="false"/>
+	<option key="saint sebastien froissart" label="Saint-Sébastien Froissart" checked="false"/>
+	<option key="strasbourg saint denis" label="Strasbourg-Saint-Denis" checked="false"/>
+
+	
+	<option key="" label="" checked="false"/>
+	<option key="" label="--- M9 ------" checked="false"/>
+	<option key="alma marceau" label="Alma-Marceau" checked="false"/>
+	<option key="billancourt" label="Billancourt" checked="false"/>
+	<option key="bonne nouvelle" label="Bonne Nouvelle" checked="false"/>
+	<option key="buzenval" label="Buzenval" checked="false"/>
+	<option key="charonne" label="Charonne" checked="false"/>
+	<option key="chaussee d antin la fayette" label="Chaussée d&#039;Antin La Fayette" checked="false"/>
+	<option key="croix de chavaux" label="Croix de Chavaux" checked="false"/>
+	<option key="exelmans" label="Exelmans" checked="false"/>
+	<option key="franklin d roosevelt" label="Franklin D. Roosevelt" checked="false"/>
+	<option key="grands boulevards" label="Grands Boulevards" checked="false"/>
+	<option key="havre caumartin" label="Havre-Caumartin" checked="false"/>
+	<option key="iena" label="Iéna" checked="false"/>
+	<option key="jasmin" label="Jasmin" checked="false"/>
+	<option key="la muette" label="La Muette" checked="false"/>
+	<option key="mairie de montreuil" label="Mairie de Montreuil" checked="false"/>
+	<option key="maraichers" label="Maraîchers" checked="false"/>
+	<option key="marcel sembat" label="Marcel Sembat" checked="false"/>
+	<option key="michel ange auteuil" label="Michel-Ange Auteuil" checked="false"/>
+	<option key="michel ange molitor" label="Michel-Ange Molitor" checked="false"/>
+	<option key="miromesnil" label="Miromesnil" checked="false"/>
+	<option key="nation" label="Nation" checked="false"/>
+	<option key="oberkampf" label="Oberkampf" checked="false"/>
+	<option key="pont de sevres" label="Pont de Sèvres" checked="false"/>
+	<option key="porte de montreuil" label="Porte de Montreuil" checked="false"/>
+	<option key="porte de saint cloud" label="Porte de Saint-Cloud" checked="false"/>
+	<option key="ranelagh" label="Ranelagh" checked="false"/>
+	<option key="richelieu drouot" label="Richelieu-Drouot" checked="false"/>
+	<option key="robespierre" label="Robespierre" checked="false"/>
+	<option key="rue de la pompe" label="Rue de la Pompe" checked="false"/>
+	<option key="rue des boulets" label="Rue des Boulets" checked="false"/>
+	<option key="republique" label="République" checked="false"/>
+	<option key="saint ambroise" label="Saint-Ambroise" checked="false"/>
+	<option key="saint augustin" label="Saint-Augustin" checked="false"/>
+	<option key="saint philippe du roule" label="Saint-Philippe-du-Roule" checked="false"/>
+	<option key="trocadero" label="Trocadéro" checked="false"/>
+	<option key="voltaire" label="Voltaire" checked="false"/>
+
+	<option key="" label="" checked="false"/>
+	<option key="" label="--- M10 ------" checked="false"/>
+	<option key="avenue emile zola" label="Avenue Emile Zola" checked="false"/>
+	<option key="boulogne jean jaures" label="Boulogne Jean Jaurès" checked="false"/>
+	<option key="boulogne pont de saint cloud" label="Boulogne Pont de Saint-Cloud" checked="false"/>
+	<option key="cardinal lemoine" label="Cardinal Lemoine" checked="false"/>
+	<option key="chardon lagache" label="Chardon-Lagache" checked="false"/>
+	<option key="charles michels" label="Charles Michels" checked="false"/>
+	<option key="cluny la sorbonne" label="Cluny La Sorbonne" checked="false"/>
+	<option key="duroc" label="Duroc" checked="false"/>
+	<option key="eglise d auteuil" label="Eglise d&#039;Auteuil" checked="false"/>
+	<option key="gare d austerlitz" label="Gare d&#039;Austerlitz" checked="false"/>
+	<option key="javel andre citroen" label="Javel André Citroën" checked="false"/>
+	<option key="jussieu" label="Jussieu" checked="false"/>
+	<option key="la motte picquet grenelle" label="La Motte-Picquet Grenelle" checked="false"/>
+	<option key="mabillon" label="Mabillon" checked="false"/>
+	<option key="maubert mutualite" label="Maubert Mutualité" checked="false"/>
+	<option key="michel ange auteuil" label="Michel-Ange Auteuil" checked="false"/>	
+	<option key="michel ange molitor" label="Michel-Ange Molitor" checked="false"/>
+	<option key="mirabeau" label="Mirabeau" checked="false"/>
+	<option key="odeon" label="Odéon" checked="false"/>
+	<option key="porte d auteuil" label="Porte d&#039;Auteuil" checked="false"/>
+	<option key="sevres babylone" label="Sèvres-Babylone" checked="false"/>
+	<option key="segur" label="Ségur" checked="false"/>
+	<option key="vaneau" label="Vaneau" checked="false"/>
+
+	<option key="" label="" checked="false"/>
+	<option key="" label="--- M11 ------" checked="false"/>
+	<option key="arts et metiers" label="Arts et Métiers" checked="false"/>
+	<option key="belleville" label="Belleville" checked="false"/>
+	<option key="chatelet" label="Châtelet" checked="false"/>
+	<option key="goncourt" label="Goncourt" checked="false"/>
+	<option key="hotel de ville" label="Hôtel de Ville" checked="false"/>
+	<option key="jourdain" label="Jourdain" checked="false"/>
+	<option key="mairie des lilas" label="Mairie des Lilas" checked="false"/>
+	<option key="pyrenees" label="Pyrénées" checked="false"/>
+	<option key="rambuteau" label="Rambuteau" checked="false"/>
+	<option key="republique" label="République" checked="false"/>
+	<option key="telegraphe" label="Télégraphe" checked="false"/>
+
+	<option key="" label="" checked="false"/>
+	<option key="" label="--- M12 ------" checked="false"/>
+	<option key="abbesses" label="Abbesses" checked="false"/>
+	<option key="assemblee nationale" label="Assemblée Nationale" checked="false"/>
+	<option key="concorde" label="Concorde" checked="false"/>
+	<option key="convention" label="Convention" checked="false"/>
+	<option key="corentin celton" label="Corentin Celton" checked="false"/>
+	<option key="falguiere" label="Falguière" checked="false"/>
+	<option key="jules joffrin" label="Jules Joffrin" checked="false"/>
+	<option key="lamarck caulaincourt" label="Lamarck Caulaincourt" checked="false"/>
+	<option key="madeleine" label="Madeleine" checked="false"/>
+	<option key="mairie d issy" label="Mairie d&#039;Issy" checked="false"/>
+	<option key="marcadet poissonniers" label="Marcadet Poissonniers" checked="false"/>
+	<option key="marx dormoy" label="Marx Dormoy" checked="false"/>
+	<option key="montparnasse bienvenue" label="Montparnasse Bienvenüe" checked="false"/>
+	<option key="notre dame de lorette" label="Notre-Dame-de-Lorette" checked="false"/>
+	<option key="notre dame des champs" label="Notre-Dame-des-Champs" checked="false"/>
+	<option key="pasteur" label="Pasteur" checked="false"/>
+	<option key="pigalle" label="Pigalle" checked="false"/>
+	<option key="porte de versailles" label="Porte de Versailles" checked="false"/>
+	<option key="porte de la chapelle" label="Porte de la Chapelle" checked="false"/>
+	<option key="rennes" label="Rennes" checked="false"/>
+	<option key="rue du bac" label="Rue du Bac" checked="false"/>
+	<option key="saint georges" label="Saint-Georges" checked="false"/>
+	<option key="saint lazare" label="Saint-Lazare" checked="false"/>
+	<option key="solferino" label="Solférino" checked="false"/>
+	<option key="sevres babylone" label="Sèvres-Babylone" checked="false"/>
+	<option key="trinite d estienne d orves" label="Trinité d'Estienne d'Orves" checked="false"/>
+	<option key="vaugirard" label="Vaugirard" checked="false"/>
+	<option key="volontaires" label="Volontaires" checked="false"/>
+
+	<option key="" label="" checked="false"/>
+	<option key="" label="--- M13 ------" checked="false"/>
+	<option key="asnieres gennevilliers les courtilles" label="Asnières-Gennevilliers - Les Courtilles" checked="false"/>
+	<option key="basilique de saint denis" label="Basilique de Saint-Denis" checked="false"/>
+	<option key="brochant" label="Brochant" checked="false"/>
+	<option key="carrefour pleyel" label="Carrefour Pleyel" checked="false"/>
+	<option key="champs elysees clemenceau" label="Champs-Elysées Clémenceau" checked="false"/>
+	<option key="chatillon montrouge" label="Châtillon-Montrouge" checked="false"/>
+	<option key="duroc" label="Duroc" checked="false"/>
+	<option key="gabriel peri" label="Gabriel Péri" checked="false"/>
+	<option key="garibaldi" label="Garibaldi" checked="false"/>
+	<option key="gaite" label="Gaîté" checked="false"/>
+	<option key="guy moquet" label="Guy Môquet" checked="false"/>
+	<option key="invalides" label="Invalides" checked="false"/>
+	<option key="la fourche" label="La Fourche" checked="false"/>
+	<option key="les agnettes" label="Les Agnettes" checked="false"/>
+	<option key="liege" label="Liège" checked="false"/>
+	<option key="mairie de clichy" label="Mairie de Clichy" checked="false"/>
+	<option key="mairie de saint ouen" label="Mairie de Saint-Ouen" checked="false"/>
+	<option key="malakoff plateau de vanves" label="Malakoff Plateau de Vanves" checked="false"/>
+	<option key="malakoff rue etienne dolet" label="Malakoff Rue Etienne Dolet" checked="false"/>
+	<option key="miromesnil" label="Miromesnil" checked="false"/>
+	<option key="montparnasse bienvenue" label="Montparnasse Bienvenüe" checked="false"/>
+	<option key="pernety" label="Pernety" checked="false"/>
+	<option key="place de clichy" label="Place de Clichy" checked="false"/>
+	<option key="plaisance" label="Plaisance" checked="false"/>
+	<option key="porte de clichy" label="Porte de Clichy" checked="false"/>
+	<option key="porte de saint ouen" label="Porte de Saint-Ouen" checked="false"/>
+	<option key="porte de vanves" label="Porte de Vanves" checked="false"/>
+	<option key="saint denis porte de paris" label="Saint-Denis-Porte de Paris" checked="false"/>
+	<option key="saint denis universite" label="Saint-Denis-Université" checked="false"/>
+	<option key="saint francois xavier" label="Saint-Francois-Xavier" checked="false"/>
+	<option key="saint lazare" label="Saint-Lazare" checked="false"/>
+	<option key="varenne" label="Varenne" checked="false"/>
+
+	<option key="" label="" checked="false"/>
+	<option key="" label="--- M14 ------" checked="false"/>
+	<option key="bercy" label="Bercy" checked="false"/>
+	<option key="bibliotheque francois mitterrand" label="Bibliothèque François Mitterrand" checked="false"/>
+	<option key="chatelet" label="Châtelet" checked="false"/>
+	<option key="cour saint emilion" label="Cour Saint-Emilion" checked="false"/>
+	<option key="gare de lyon" label="Gare de Lyon" checked="false"/>
+	<option key="madeleine" label="Madeleine" checked="false"/>
+	<option key="olympiades" label="Olympiades" checked="false"/>
+	<option key="pyramides" label="Pyramides" checked="false"/>
+	<option key="saint lazare" label="Saint-Lazare" checked="false"/>
+  </select>
+</screen>

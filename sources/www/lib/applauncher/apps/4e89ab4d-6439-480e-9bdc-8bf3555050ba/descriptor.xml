@@ -1,0 +1,14 @@
+<descriptor>
+	<name>VDM</name>
+	<editor>35niavlys</editor>
+	<version>1.0.2</version>
+	<accesses>
+        	<access>button</access>
+        	<access>http</access>
+        	<access>ears</access>
+        	<access>led</access>
+        	<access>tts</access>
+    	</accesses>
+	<asrName>V D M</asrName>
+	<multiConf>false</multiConf>
+</descriptor>

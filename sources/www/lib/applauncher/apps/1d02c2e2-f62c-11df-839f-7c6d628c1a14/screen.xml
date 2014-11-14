@@ -1,0 +1,8 @@
+<screen>
+	<text label="E-mail(s)" name="mail" default="" validation="" required="false" errorMessage="" />
+	<text label="Message" name="message" default="" validation="" required="true" errorMessage="Ce champs est obligatoire." />
+    <select label="Recevoir une photo par email(s)" name="photo" type="one" required="true">
+    <option label="Oui" key="yes" checked="true"/>
+    <option label="Non" key="no" checked="false"/>
+  </select>
+</screen>

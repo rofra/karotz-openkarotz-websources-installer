@@ -1,0 +1,17 @@
+<?xml version="1.0" ?><descriptor>
+    <name>Music Player</name>
+    <apikey>93be962e-39cd-11e0-ad97-001fc63cfdff</apikey>
+    <version>0.9.7</version>
+   <accesses>
+       <access>tts</access>
+       <access>led</access>
+       <access>asr</access>
+       <access>multimedia</access>
+       <access>button</access>
+    </accesses>
+    <deployment>hosted</deployment>
+    <interruptible>true</interruptible>
+    <awake>true</awake>
+    <callback/>
+    <multiConf>false</multiConf>
+</descriptor>

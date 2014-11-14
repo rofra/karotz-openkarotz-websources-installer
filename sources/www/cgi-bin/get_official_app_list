@@ -1,0 +1,15 @@
+#!/bin/bash
+
+source /usr/www/cgi-bin/setup.inc
+source /usr/www/cgi-bin/leds.inc
+source /usr/www/cgi-bin/utils.inc
+
+FULLSCRIPTPATH="$(cd "${0%/*}" 2>/dev/null; echo "$PWD"/"${0##*/}")"
+SCRIPTDIR=$(dirname ${FULLSCRIPTPATH})
+
+#APPLIST=$(${SCRIPTDIR}/../lib/applauncher/extractappname)
+
+APPLIST=$(cat ${SCRIPTDIR}/../lib/applauncher/config/*.index|sed 's/}{/}, {/g')
+RESPONSE="{\"apps\":[${APPLIST}],\"return\":0}";
+
+SendResponse "$RESPONSE"

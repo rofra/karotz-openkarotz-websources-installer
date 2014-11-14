@@ -1,0 +1,19 @@
+<descriptor>
+    <version>0.1.0</version>
+    <accesses>
+        <access>tts</access>
+        <access>button</access>
+	<access>http</access>
+	<access>led</access>
+	<access>ears</access>
+    </accesses>
+    <editor>Cedric BOLLINI</editor>
+    <asrName>"Domogik"</asrName>
+    <deployment>hosted</deployment>
+    <interruptible>false</interruptible>
+    <awake>false</awake>
+    <multiConf>true</multiConf>
+    <parameters>
+	<parameter key="showInstallUuid" value="true"/>
+    </parameters> 
+</descriptor>

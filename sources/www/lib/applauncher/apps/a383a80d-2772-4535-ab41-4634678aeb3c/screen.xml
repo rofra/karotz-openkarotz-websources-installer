@@ -1,0 +1,17 @@
+<screen nanoTrigger="true"
+permanentTrigger="true"
+scheduledTrigger="true"
+scheduledDateTrigger="true"
+voiceTrigger="true">
+	<select label="Nombre de questions" name="lvlmax" type="one" required="true">
+        <option label="5" key="5" checked="false"/>
+        <option label="10" key="10" checked="true"/>
+        <option label="15" key="15" checked="false"/>
+        <option label="20" key="20" checked="false"/>
+        <option label="25" key="25" checked="false"/>
+    </select>
+	<select label="Niveau des questions" name="difficulte" type="one" required="true">
+        <option label="Facile" key="1" checked="false"/>
+        <option label="Difficile" key="2" checked="true"/>
+    </select>
+</screen>

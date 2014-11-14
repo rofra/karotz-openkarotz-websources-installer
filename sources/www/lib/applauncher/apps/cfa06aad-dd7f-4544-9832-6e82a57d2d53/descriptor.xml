@@ -1,0 +1,16 @@
+<descriptor>
+	<name>forme et couleur</name>
+	<version>0.0.1b</version>
+	<accesses>
+		<access>http</access>
+		<access>tts</access>
+		<access>serial</access>
+		<access>ears</access>
+		<access>button</access>
+		<access>led</access>
+		<access>asr</access>
+		<access>multimedia</access>
+	</accesses>
+	<multiConf>false</multiConf>
+	<asrName>forme</asrName>
+</descriptor>

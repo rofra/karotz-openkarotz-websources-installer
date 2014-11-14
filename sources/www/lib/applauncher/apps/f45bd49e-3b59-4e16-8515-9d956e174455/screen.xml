@@ -1,0 +1,34 @@
+<screen 
+	nanoTrigger="true"
+	permanentTrigger="true"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true" >
+    <select label="Pistes" name="mp3" type="one" required="false">
+        <option label="_Au hasard_" key="0" checked="false"/>
+        <option label="Le jardin sous la pluie" key="1" checked="true"/>
+        <option label="Agréable chaleur" key="2" checked="false"/>
+        <option label="Au coeur de la vallée" key="3" checked="false"/>
+		<option label="Le monde végétal" key="4" checked="false"/>
+		<option label="Ménage de printemps" key="5" checked="false"/>
+		<option label="Le bonheur" key="6" checked="false"/>
+		<option label="A l'infini" key="7" checked="false"/>
+		<option label="A perte de vue" key="8" checked="false"/>
+		<option label="Agréable douceur" key="9" checked="false"/>
+		<option label="Atmosphère bleutée" key="10" checked="false"/>
+		<option label="H20" key="11" checked="false"/>
+		<option label="Balade printanière" key="12" checked="false"/>
+		<option label="Bien dans son être" key="13" checked="false"/>
+		<option label="Bulles d'air" key="14" checked="false"/>
+		<option label="Détente ludique" key="15" checked="false"/>
+		<option label="Ondes positives" key="16" checked="false"/>
+		<option label="Simple comme l'air" key="17" checked="false"/>
+		<option label="Yi tang" key="18" checked="false"/>
+		<option label="Zen et fluide" key="19" checked="false"/>
+		<option label="L'elf sur la falaise" key="20" checked="false"/>
+	</select>
+    <select label="Ne lire qu&#180;une seule piste" name="fquit" type="one" required="false">
+        <option label="Oui" key="1" checked="false"/>
+        <option label="Non" key="0" checked="true"/>
+    </select>
+</screen>

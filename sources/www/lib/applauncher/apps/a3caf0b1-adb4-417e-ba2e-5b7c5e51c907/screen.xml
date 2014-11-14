@@ -1,0 +1,20 @@
+<screen 
+	nanoTrigger="true"
+	permanentTrigger="false"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="false" >
+	<text label="Rappel Perso" name="rappel" default="" required="false" validation="" />
+    <select label="Choisir son Rappel" name="mp3" type="one" required="false">
+	    <option label="" key="0" checked="false"/>
+        <option label="Rappel A Table par Beecool" key="1" checked="true"/>
+        <option label="Rappel Cartables par Mat&#233;o" key="2" checked="false"/>
+        <option label="Rappel Devoirs par Papy" key="3" checked="false"/>
+		<option label="Rappel Rangement des Chambres par Papy" key="4" checked="false"/>
+		<option label="Rappel Se Brosser les Dents par Beecool" key="5" checked="false"/>
+		<option label="Rappel Se coucher par Mamie" key="6" checked="false"/>
+		<option label="Rappel Se coucher par Mamie Nounours" key="7" checked="false"/>
+		<option label="Rappel Se coucher par Beecool" key="8" checked="false"/>
+		<option label="Surprise Bonne nuit les petits" key="9" checked="false"/>
+	</select>
+</screen>

@@ -1,0 +1,14 @@
+<descriptor>
+	<name>qui est-ce</name>
+	<version>0.0.41a</version>
+	<accesses>
+		<access>http</access>
+		<access>tts</access>
+		<access>ears</access>
+		<access>button</access>
+		<access>led</access>
+		<access>asr</access>
+		<access>multimedia</access>
+	</accesses>
+	<asrName>qui est-ce</asrName>
+</descriptor>

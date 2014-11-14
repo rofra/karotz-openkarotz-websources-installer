@@ -1,0 +1,89 @@
+<screen nanoTrigger="true"
+	permanentTrigger="false"
+	scheduledTrigger="true"
+	scheduledDateTrigger="false"
+	voiceTrigger="true" >
+
+	<select label="Ecouter" name="pr" type="one" required="true">
+		<option label="Première partie de la soirée" key="1" checked="true"/>
+		<option label="Deuxième partie de la soirée" key="2" checked="false"/>
+		<option label="Première et deuxième partie de la soirée" key="3" checked="false"/>
+	</select>
+
+	<select label="TF1" name="c1" type="one" required="true">
+		<option label="on" key="1" checked="true"/>
+		<option label="off" key="0" checked="false"/>
+	</select>
+	<select label="France 2" name="c2" type="one" required="true">
+		<option label="on" key="1" checked="true"/>
+		<option label="off" key="0" checked="false"/>
+	</select>
+	<select label="France 3" name="c3" type="one" required="true">
+		<option label="on" key="1" checked="true"/>
+		<option label="off" key="0" checked="false"/>
+	</select>
+	<select label="Canal +" name="c4" type="one" required="true">
+		<option label="on" key="1" checked="true"/>
+		<option label="off" key="0" checked="false"/>
+	</select>
+	<select label="ARTE" name="c5" type="one" required="true">
+		<option label="on" key="1" checked="true"/>
+		<option label="off" key="0" checked="false"/>
+	</select>
+	<select label="M6" name="c6" type="one" required="true">
+		<option label="on" key="1" checked="true"/>
+		<option label="off" key="0" checked="false"/>
+	</select>
+	<select label="France 5" name="c8" type="one" required="true">
+		<option label="on" key="1" checked="true"/>
+		<option label="off" key="0" checked="false"/>
+	</select>
+	<select label="Direct 8" name="c9" type="one" required="true">
+		<option label="on" key="1" checked="true"/>
+		<option label="off" key="0" checked="false"/>
+	</select>
+	<select label="W9" name="c10" type="one" required="true">
+		<option label="on" key="1" checked="true"/>
+		<option label="off" key="0" checked="false"/>
+	</select>
+	<select label="TMC" name="c11" type="one" required="true">
+		<option label="on" key="1" checked="true"/>
+		<option label="off" key="0" checked="false"/>
+	</select>
+	<select label="NT1" name="c12" type="one" required="true">
+		<option label="on" key="1" checked="true"/>
+		<option label="off" key="0" checked="false"/>
+	</select>
+	<select label="NRJ 12" name="c13" type="one" required="true">
+		<option label="on" key="1" checked="true"/>
+		<option label="off" key="0" checked="false"/>
+	</select>
+	<select label="LCP" name="c14" type="one" required="true">
+		<option label="on" key="1" checked="true"/>
+		<option label="off" key="0" checked="false"/>
+	</select>
+	<select label="France 4" name="c7" type="one" required="true">
+		<option label="on" key="1" checked="true"/>
+		<option label="off" key="0" checked="false"/>
+	</select>
+	<select label="BFM TV" name="c15" type="one" required="true">
+		<option label="on" key="1" checked="true"/>
+		<option label="off" key="0" checked="false"/>
+	</select>
+	<select label="i>Télé" name="c16" type="one" required="true">
+		<option label="on" key="1" checked="true"/>
+		<option label="off" key="0" checked="false"/>
+	</select>
+	<select label="Direct Star" name="c17" type="one" required="true">
+		<option label="on" key="1" checked="true"/>
+		<option label="off" key="0" checked="false"/>
+	</select>
+	<select label="Gulli" name="c18" type="one" required="true">
+		<option label="on" key="1" checked="true"/>
+		<option label="off" key="0" checked="false"/>
+	</select>
+	<select label="France Ô" name="c19" type="one" required="true">
+		<option label="on" key="1" checked="true"/>
+		<option label="off" key="0" checked="false"/>
+	</select>
+</screen>

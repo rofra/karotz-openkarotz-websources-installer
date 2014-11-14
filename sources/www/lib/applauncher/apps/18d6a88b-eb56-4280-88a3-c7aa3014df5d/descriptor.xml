@@ -1,0 +1,12 @@
+<descriptor>
+    <version>1.0.14</version>
+    <accesses>
+        <access>tts</access>
+		<access>asr</access>
+		<access>led</access>
+		<access>http</access>
+    </accesses>
+	<editor>Karmen</editor>
+	<deployment>hosted</deployment>
+	  <multiConf>false</multiConf>
+</descriptor>

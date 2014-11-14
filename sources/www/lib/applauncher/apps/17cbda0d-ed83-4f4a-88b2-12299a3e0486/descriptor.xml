@@ -1,0 +1,11 @@
+<descriptor>
+    <version>1.3</version>
+	<name>M2 VINYL</name>
+    <accesses>
+        <access>multimedia</access>
+        <access>button</access>
+    </accesses>
+	<editor>melka</editor>
+	<multiConf>false</multiConf>
+	<deployment>hosted</deployment>
+</descriptor>

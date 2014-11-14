@@ -1,0 +1,21 @@
+<?xml version="1.0" ?><descriptor>
+    <name>Twitter</name>
+    <apikey>11fe864e-344b-11e0-bcf7-7c6d628c1a14</apikey>
+    <version>1.5.0</version>
+   <accesses>
+       <access>tts</access>
+       <access>led</access>
+       <access>http</access>
+       <access>button</access>
+       <access>multimedia</access>
+       <access>twitter</access>
+       <access>asr</access>
+       <access>webcam</access>
+       <access>soundcloud</access>
+    </accesses>
+    <deployment>hosted</deployment>
+    <interruptible>false</interruptible>
+    <awake>false</awake>
+    <callback/>
+    <multiConf>false</multiConf>
+</descriptor>

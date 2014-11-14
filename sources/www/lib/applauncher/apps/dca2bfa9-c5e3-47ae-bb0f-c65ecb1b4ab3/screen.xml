@@ -1,0 +1,8 @@
+<screen>
+	<text label="Token Foursquare" name="token_foursquare" default="" validation="" required="true" errorMessage="" />
+	<button label="Obtenir le token foursquare" link="http://4sq.com/HOtQ0S" />
+	<text label="Latitude du Karotz" name="latitude" default="50.866301" validation="\d{1,2}.\d\d\d\d\d\d" required="true" errorMessage="" />
+	<text label="Longitude du Karotz" name="longitude" default="4.349781" validation="\d{1,2}.\d\d\d\d\d\d" required="true" errorMessage="" />
+	<text label="Lire max X news" name="max_read" default="5" validation="\d{1,2}" required="true" errorMessage="" />
+	<button label="Site pour obtenir votre latitude et longitude" link="http://itouchmap.com/latlong.html" />
+</screen>

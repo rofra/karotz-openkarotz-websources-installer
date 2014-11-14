@@ -213,6 +213,68 @@ function CheckAppsInstallation( u, t )
 	});
 }
 
+function KillLastOfficialApp() 
+{
+        $("#json_result").val("");                                    
+        $.get( "/cgi-bin/killlast_official_app", function(data)      
+        {   
+            $("#json_result").val(data);                                  
+	});
+}
+
+function RefreshOfficialAppsList()
+{
+        $('#cbx_officialapps').empty();                                                                     
+        $('#cbx_officialapps').prop("disabled", true );                                                     
+        $('#cbx_officialapps').append('<option value="-1">Loading application(s) list ...</option>');
+        $.blockUI({ message: '<H2><img src="/images/ajax-loader.gif" />&nbsp;Reading tag(s) list'});                                          
+                                                                                                                                              
+
+        $.ajax({
+           dataType: "json",
+           url: "/cgi-bin/get_official_app_list",
+           success: function(data) {
+           
+                        if ( parseInt(data.return) == 0)                                                                                      
+                        {                                                                                                                     
+                                if ( data.apps.length == 0 )                                                                                  
+                                {                                                                                                             
+                                        $('#cbx_officialapps').empty();                                                                       
+                                        $('#cbx_officialapps').prop("disabled", true );                                                       
+                                        $('#cbx_officialapps').append('<option value="-1">No applications ...</option>');                     
+                                }                                                                                                             
+                                else                                                                                                          
+                                {                                                                                                             
+                                        $('#cbx_officialapps').prop("disabled", false )                                                       
+                                                                                                                                              
+                                        $('#cbx_officialapps')[0].options.length = 0;                                                         
+                                        for (var i = 0; i < data.apps.length; i++)                                                            
+                                        {                                                                                                     
+                                                $('#cbx_officialapps').append('<option value="'+ data.apps[i].appcode + '_' + data.apps[i].configname +'">'+ CapitaliseFirstLetter(data.apps[i].name + ' - ' + data.apps[i].configname + '') + '</option>');
+                                        }                                                                                                     
+var options = jQuery('#cbx_officialapps option');
+var arr = options.map(function(_, o) { return { t: $(o).text(), v: o.value }; }).get();
+arr.sort(function(o1, o2) { return o1.t > o2.t ? 1 : o1.t < o2.t ? -1 : 0; });
+options.each(function(i, o) {
+  o.value = arr[i].v;
+  $(o).text(arr[i].t);
+});
+
+                                }                                                                                                             
+                        }                                                                                                                     
+                        else                                                                                                                  
+                        {                                                                                                                     
+                                        $('#cbx_officialapps').empty();                                                                       
+                                        $('#cbx_officialapps').prop("disabled", true );                                                       
+                                        $('#cbx_officialapps').append('<option value="-1">No Official applications ...</option>')             
+                        }                                                                                                                     
+                        $.unblockUI(); 
+
+           }
+       });
+       $.unblockUI();                                                                                                                
+       $('#cbx_apps').focus()
+}
 
 function RefreshAppsList()
 {
@@ -366,6 +428,7 @@ function RefreshTagList()
 }
 	
 
+
 function SendCommandApps( cmd, message )
 {
 	$.ajaxSetup({ timeout: 60000 });
@@ -382,6 +445,20 @@ function SendCommandApps( cmd, message )
     $.unblockUI();
 	});
 }
+
+
+function SendCommandOfficialApps( app, config, message )                                                                                              
+{                                                                                                                                             
+        $.blockUI({ message: '<H2><img src="/images/ajax-loader.gif"/>&nbsp;' + message + '</H2>' })
+        $.ajaxSetup({ timeout: 60000 });                                                                                                      
+            $.unblockUI();
+            $("#json_result").val("");                                                                                                            
+
+            $.get("/cgi-bin/launch_official_app?app="+app+"&config="+config, function(data) {                                                                       
+            $("#json_result").val(data); 
+        });
+}    
+
 
 // Remove noblock param
 // function SendCommand( cmd, message, noblock )

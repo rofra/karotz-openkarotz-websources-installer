@@ -1,0 +1,6 @@
+<screen
+	scheduledTrigger="true"
+	scheduledDateTrigger="true">
+    <text label="Adresse ip public" name="ip" default="00.11.22.33" validation="" required="true" errorMessage="" />
+    <text label="Adresse MAC" name="mac" default="00-11-22-33-44-55" validation="" required="true" errorMessage="" />
+</screen>

@@ -1,0 +1,13 @@
+<descriptor>
+    <version>3.0.0</version>
+    <accesses>
+        <access>tts</access>
+        <access>button</access>
+        <access>rfid</access>
+        <access>led</access> 
+        <access>ears</access>
+        <access>asr</access>          
+    </accesses>
+    <deployment>hosted</deployment>
+    <editor>Lapinos</editor>
+</descriptor>

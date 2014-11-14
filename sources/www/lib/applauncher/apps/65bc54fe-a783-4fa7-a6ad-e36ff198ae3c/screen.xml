@@ -1,0 +1,7 @@
+<screen>
+	<select label="Mode repeat" name="repeat" type="one" required="true">
+		<option label="Oui" key="oui" checked="true"/>
+		<option label="Non" key="non" checked="false"/>
+	</select>
+	<text label="Playlist" name="playlist" default="liste1.m3u" validation="" required="true" errorMessage="" />
+</screen>

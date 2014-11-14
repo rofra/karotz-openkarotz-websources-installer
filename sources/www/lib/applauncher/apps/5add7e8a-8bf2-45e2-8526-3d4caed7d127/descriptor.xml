@@ -1,0 +1,12 @@
+ <descriptor>
+	<name>Hitz radio</name>
+	<version>1.2</version>
+	<accesses>
+		<access>button</access>
+		<access>led</access>
+		<access>multimedia</access>
+	</accesses>
+	<editor>TeLLana77</editor>
+	<deployment>hosted</deployment>
+	<multiConf>false</multiConf>
+</descriptor>

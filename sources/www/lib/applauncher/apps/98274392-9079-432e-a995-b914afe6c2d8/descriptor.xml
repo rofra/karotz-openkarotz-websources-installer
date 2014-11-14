@@ -1,0 +1,13 @@
+<descriptor>
+  <name>Kohina</name>
+  <version>1.1.0</version>
+  <accesses>
+    <access>http</access>
+    <access>tts</access>
+    <access>ears</access>
+    <access>button</access>
+    <access>led</access>    
+    <access>multimedia</access>
+  </accesses>
+  <multiConf>false</multiConf>
+</descriptor>

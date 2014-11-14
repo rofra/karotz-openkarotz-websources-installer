@@ -1,0 +1,9 @@
+<screen nanoTrigger="true"
+	permanentTrigger="true"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true" >
+
+	<text label="Lire les VDM disponibles depuis combien d'heures" name="heure" default="24" validation="" required="true" errorMessage="" />
+
+</screen>

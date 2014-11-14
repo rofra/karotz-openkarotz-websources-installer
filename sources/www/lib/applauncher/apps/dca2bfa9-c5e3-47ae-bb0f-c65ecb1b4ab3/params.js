@@ -1,0 +1,9 @@
+var instanceName = "undefined_not_known";
+var launchType=new Object();
+launchType.name = "SCHEDULER";
+var params=new Array(); 
+params[instanceName]=new Object();
+params[instanceName].token_foursquare="0LYR32STN1RWFRWLAKZSJMBI3WFDV25OGBBWQXP43HBP2QSO";
+params[instanceName].latitude="50.562224";
+params[instanceName].longitude="4.691334";
+params[instanceName].max_read="5";

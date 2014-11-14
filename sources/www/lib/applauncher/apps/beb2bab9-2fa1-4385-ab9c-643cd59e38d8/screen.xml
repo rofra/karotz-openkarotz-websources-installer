@@ -1,0 +1,6 @@
+<screen
+	scheduledTrigger="false"
+	scheduledDateTrigger="false">
+    <text label="Adresse ip privée" name="ip" default="192.168.0.xx" validation="" required="true" errorMessage="Cela va être dur de se connecter sans ça" />
+    <text label="Port utilisé" name="port" default="8080" validation="" required="true" errorMessage="Cela va être dur de se connecter sans ça" />
+</screen>

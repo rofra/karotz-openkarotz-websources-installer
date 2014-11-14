@@ -1,0 +1,12 @@
+ <descriptor>
+	<name>Radio Mercure</name>
+	<version>0.6</version>
+	<accesses>
+		<access>button</access>
+		<access>led</access>
+		<access>multimedia</access>
+	</accesses>
+	<editor>SAMUELVERMEULEN.NET</editor>
+	<deployment>hosted</deployment>
+	<multiConf>false</multiConf>
+</descriptor>

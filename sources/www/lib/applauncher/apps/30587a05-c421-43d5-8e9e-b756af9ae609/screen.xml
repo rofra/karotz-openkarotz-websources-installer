@@ -1,0 +1,14 @@
+<screen>
+	<select label="Voix" name="voice" type="one" required="true">
+		<option label="Electra" key="800" checked="false"/>
+		<option label="Bicool" key="0" checked="true"/>
+		<option label="Mamie" key="400" checked="false"/>
+		<option label="Papy" key="100" checked="false"/>
+		<option label="Helium" key="200" checked="false"/>
+		<option label="Sidoo" key="700" checked="false"/>
+		<option label="Ramboo" key="600" checked="false"/>
+		<option label="Julie" key="300" checked="false"/>
+		<option label="Matteo" key="500" checked="false"/>
+		<option label="Au hasard" key="8" checked="false"/>
+	</select>
+</screen>

@@ -1,0 +1,24 @@
+<screen>
+	<select label="Coix de la comptine" name="comptine" type="one" required="true">
+		<option label="Au hasard" key="0" checked="true"/>
+		<option label="1 - A la claire fontaine" key="1" checked="false"/>
+		<option label="2 - A la volette" key="2" checked="false"/>
+		<option label="3 - Ah, les crocodiles" key="3" checked="false"/>
+		<option label="4 - Ainsi font, font, font" key="4" checked="false"/>
+		<option label="5 - Alouette, gentille alouette" key="5" checked="false"/>
+		<option label="6 - Au clair de la lune" key="6" checked="false"/>
+		<option label="7 - Au feu les pompiers!" key="7" checked="false"/>
+		<option label="8 - Aupr&#232;s de ma blonde" key="8" checked="false"/>
+		<option label="9 - Bateau sur l'eau" key="9" checked="false"/>
+		<option label="10 - Comp&#232;re Guilleri" key="10" checked="false"/>
+		<option label="11 - Coucou, hibou" key="10" checked="false"/>
+	</select>
+	<select label="Lire une comptine et sortir" name="quit" type="one" required="true">
+			<option label="Oui" key="Y" checked="true"/>
+			<option label="Non" key="N" checked="true"/>
+		</select>
+	<select label="Mouvement des oreilles" name="ears" type="one" required="true">
+		<option label="Oui" key="Y" checked="true"/>
+		<option label="Non" key="N" checked="false"/>
+	</select>
+</screen>

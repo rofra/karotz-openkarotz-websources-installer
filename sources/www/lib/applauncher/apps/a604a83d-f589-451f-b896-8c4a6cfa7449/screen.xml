@@ -1,0 +1,47 @@
+<screen 
+	nanoTrigger="true"
+	permanentTrigger="true"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true" >
+    <select label="Deezer Radio" name="radio" type="one" required="true">
+        <option label="Blues" key="65" checked="false"/>
+        <option label="Chanson Fran&#231;aise" key="12" checked="true"/>
+        <option label="Classique Instrumental" key="117" checked="false"/>
+        <option label="Classique Vocal" key="116" checked="false"/>
+        <option label="Dancefloor" key="18" checked="false"/>
+        <option label="Disco" key="25" checked="false"/>
+        <option label="Electro" key="6" checked="false"/>
+        <option label="Fiesta des Suds" key="149" checked="false"/>
+        <option label="Funk" key="21" checked="false"/>
+        <option label="Hard" key="17" checked="false"/>
+        <option label="Hits" key="71" checked="false"/>
+        <option label="Jazz vocal" key="15" checked="false"/>
+        <option label="Metal" key="22" checked="false"/>
+        <option label="Nouvelle sc&#232;ne" key="7" checked="false"/>
+        <option label="Paris en chansons" key="1131" checked="false"/>
+        <option label="Pop" key="16" checked="false"/>
+        <option label="Pop Folk" key="39" checked="false"/>
+        <option label="Pop Ind&#233;" key="13" checked="false"/>
+        <option label="Punk" key="31" checked="false"/>
+        <option label="R&#38;B" key="33" checked="false"/>
+        <option label="Rap" key="20" checked="false"/>
+        <option label="Reggae, Ska &#38; Dub" key="108" checked="false"/>
+        <option label="Rencontres Trans Musicales 2011" key="153" checked="false"/>
+        <option label="Rock" key="10" checked="false"/>
+        <option label="Rock Ind&#233;" key="7" checked="false"/>
+        <option label="Inrocks" key="234" checked="false"/>
+        <option label="La Route du rock hiver 2012" key="783" checked="false"/>
+        <option label="Soul" key="19" checked="false"/>
+        <option label="T&#233;l&#233;rama Dub Festival" key="224" checked="false"/>
+        <option label="Techno Parade 2011" key="106" checked="false"/>
+        <option label="Urban Style" key="64" checked="false"/>
+        <option label="Vari&#233;t&#233; fran&#231;aise" key="11" checked="false"/>
+        <option label="World Musiques du monde" key="88" checked="false"/>
+	</select>
+    <select label="Enoncer les titres" name="lang" type="one" required="false">
+        <option label="Non" key="" checked="true"/>
+        <option label="en Fran&#231;ais" key="FR" checked="false"/>
+        <option label="en Anglais" key="EN" checked="false"/>
+    </select>
+</screen>

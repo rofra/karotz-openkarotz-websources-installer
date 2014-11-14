@@ -1,0 +1,17 @@
+<descriptor>
+    <version>1.0.17</version>
+
+    <accesses>
+        <access>tts</access>
+        <access>button</access>
+		<access>rfid</access>
+		<access>ears</access>
+		<access>asr</access>
+		<access>multimedia</access>
+		<access>led</access>
+    </accesses>
+	<editor>Karmen</editor>
+	<multiConf>false</multiConf>
+	<asrname>Carotte</asrname>
+	<deployment>hosted</deployment>
+</descriptor>

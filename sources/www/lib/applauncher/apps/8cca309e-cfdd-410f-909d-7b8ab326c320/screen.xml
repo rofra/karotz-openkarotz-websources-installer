@@ -1,0 +1,11 @@
+<screen nanoTrigger="true"
+permanentTrigger="false"
+scheduledTrigger="false"
+scheduledDateTrigger="false"
+voiceTrigger="true">"
+	<select label="Niveau" name="niveau" type="one" required="true">
+		<option label="1 - Facile" key="1" checked="true"/>
+		<option label="2 - Moyen" key="2" checked="false"/>
+		<option label="3 - Difficile" key="3" checked="false"/>
+	</select>
+</screen>

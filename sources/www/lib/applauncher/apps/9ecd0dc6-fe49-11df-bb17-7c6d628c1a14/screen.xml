@@ -1,0 +1,12 @@
+<screen>
+    <select label="Langue" name="lang" type="one" required="true">
+        <option label="Français" key="fr" checked="true"/>
+        <option label="Brezhoneg" key="br" checked="false"/>
+        <option label="English" key="uk" checked="false"/>
+        <option label="English US" key="us" checked="false"/>
+        <option label="Deutsch" key="de" checked="false"/>
+        <option label="Español" key="es" checked="false"/>
+        <option label="Italiano" key="it" checked="false"/>
+        <option label="Japanese" key="ja-JP" checked="false"/>
+    </select>
+</screen>

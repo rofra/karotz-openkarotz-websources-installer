@@ -1,0 +1,3 @@
+<screen>
+	<text label="Numéro de la station" name="stationid" default="" validation="[0-9]*" required="true" errorMessage="Ce paramètre doit être un nombre" />
+</screen>

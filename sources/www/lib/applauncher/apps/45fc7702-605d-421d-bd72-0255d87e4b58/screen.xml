@@ -1,0 +1,34 @@
+<screen 
+	nanoTrigger="true"
+	permanentTrigger="true"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true" >
+    <select label="Les Contes d&#180;Andersen" name="conte" type="one" required="false">
+        <option label="_Au hasard_" key="0" checked="false"/>
+        <option label="L&#180;Escargot et le Rosier" key="1" checked="true"/>
+        <option label="La Berg&#232;re et le Ramoneur" key="2" checked="false"/>
+        <option label="La Petite Fille aux Allumettes" key="3" checked="false"/>
+        <option label="La P&#226;querette" key="4" checked="false"/>
+        <option label="Le Papillon" key="5" checked="false"/>
+        <option label="Le Vilain Petit Canard" key="6" checked="false"/>
+        <option label="Le Bonhomme de Neige" key="7" checked="false"/>
+        <option label="Le Jardin du Paradis" key="8" checked="false"/>
+        <option label="Le Sapin" key="9" checked="false"/>
+        <option label="Les Cygnes Sauvages" key="10" checked="false"/>
+        <option label="Les Aventures du Chardon" key="11" checked="false"/>
+        <option label="Le Briquet" key="12" checked="false"/>
+        <option label="L&#180;Ange" key="13" checked="false"/>
+        <option label="Bonne Humeur" key="14" checked="false"/>
+        <option label="La Petite Sir&#232;ne" key="15" checked="false"/>
+        <option label="Une Semaine du Petit Elfe Ferme-l&#180;&#156;il" key="16" checked="false"/>
+        <option label="L&#180;Intr&#233;pide Soldat de Plomb" key="17" checked="false"/>
+        <option label="Le Bisa&#239;eul" key="18" checked="false"/>
+        <option label="La Princesse au Petit Pois" key="19" checked="false"/>
+        <option label="Le Bonheur du Jour" key="20" checked="false"/>
+    </select>
+    <select label="Ne lire qu&#180;un seul Conte" name="fquit" type="one" required="false">
+        <option label="Oui" key="1" checked="false"/>
+        <option label="Non" key="0" checked="true"/>
+    </select>
+</screen>

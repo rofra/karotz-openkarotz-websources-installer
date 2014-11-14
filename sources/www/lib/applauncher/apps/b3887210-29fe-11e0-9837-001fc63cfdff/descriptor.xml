@@ -1,0 +1,16 @@
+<?xml version="1.0" ?><descriptor>
+    <name>Horoscope</name>
+    <apikey>b3887210-29fe-11e0-9837-001fc63cfdff</apikey>
+    <version>0.10.0</version>
+   <accesses>
+       <access>tts</access>
+       <access>led</access>
+       <access>http</access>
+       <access>button</access>
+    </accesses>
+    <deployment>hosted</deployment>
+    <interruptible>true</interruptible>
+    <awake>true</awake>
+    <callback>http://mysite.com/</callback>
+    <multiConf>true</multiConf>
+</descriptor>

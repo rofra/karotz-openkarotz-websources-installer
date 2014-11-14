@@ -1,0 +1,9 @@
+<screen 
+	nanoTrigger="false"
+	permanentTrigger="false"
+	scheduledTrigger="false"
+	scheduledDateTrigger="false"
+	voiceTrigger="false" >
+    <button label="Télécharger l'application Java" link="http://nabazfoot.yproust.net/telechargement.php"/>
+</screen>
+

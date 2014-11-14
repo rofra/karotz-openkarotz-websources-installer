@@ -1,0 +1,17 @@
+<screen  nanoTrigger="true" 
+         permanentTrigger="true" 
+         scheduledTrigger="true" 
+         scheduledDateTrigger="true" 
+         voiceTrigger="true">
+         
+    <select label="Fonction de ce profil" name="typeaction" type="one" required="true">
+        <option label="Lecture TTS" key="1" checked="true"/>
+        <option label="Lire la valeur d'un périphérique" key="5" checked="false"/>
+        <option label="Exécuter une action sur un périphérique" key="6" checked="false"/>
+    </select>
+    <text label="API User" name="api_user" default="" validation="" required="false" errorMessage="" comment="" />
+    <text label="API Secret" name="api_secret" default="" validation="" required="false" errorMessage="" comment="" />
+    <text label="Code API Périph." name="periph_id" default="0" validation="" required="false" errorMessage="" comment="" />
+    <text label="Phrase Lecture Valeur" name="txt_sensor" default="Valeur : %val%" validation="" required="false" errorMessage="" comment="" />
+    <text label="ID Action à exécuter" name="val_periph" default="0" validation="" required="false" errorMessage="" comment="" />
+</screen>

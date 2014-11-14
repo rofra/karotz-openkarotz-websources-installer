@@ -1,0 +1,39 @@
+<script>
+	$("#accofficialapps").accordion({ active: false, collapsible: true,heightStyle: "content"});
+	
+        $("#btn_launch_officialapps").on('click', function () {
+                var selectval = $("#cbx_officialapps :selected").val();
+                var reg=new RegExp("[_]+", "g");                                                                                                      
+                var tableau=selectval.split(reg);
+              
+                var appcode = tableau[0];
+                var appconfig = tableau[1];
+
+		SendCommandOfficialApps (appcode, appconfig, "Launching : " +  CapitaliseFirstLetter($("#cbx_officialapps :selected").text())  + "..." );
+        }); 
+
+	$( "#btn_refresh_officialapps").on('click', function ()
+	{
+                RefreshOfficialAppsList()
+ 	});
+
+        $( "#btn_refresh_killlastapp").on('click', function ()
+        {                                                             
+                KillLastOfficialApp()
+        });  
+
+</script>
+
+<div id="accofficialapps">
+    <h3>Launcher</h3>
+    <div id="officialapps">
+         <div id="toolbar" class="ui-widget-header ui-corner-all">
+         <select id="cbx_officialapps"></select>&nbsp;
+         <button id="btn_launch_officialapps" title="Launch selected Application">Launch</button>
+         <button id="btn_refresh_officialapps" title="Refresh Application">Refresh</button>
+         <button id="btn_refresh_killlastapp" title="Stop last app launched">Stop last app launched</button>
+         </div>
+         <P>        
+    </div>
+    
+</div>

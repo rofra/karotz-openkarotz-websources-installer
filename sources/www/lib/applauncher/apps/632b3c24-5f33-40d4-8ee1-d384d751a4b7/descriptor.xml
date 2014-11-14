@@ -1,0 +1,17 @@
+<descriptor>
+    <version>0.2</version>
+	<name>6 MINUTE ENGLISH</name>
+	<asrName>6 MINUTE</asrName>
+   <accesses>
+    <access>http</access>
+	<access>asr</access>
+    <access>tts</access>
+    <access>ears</access>
+    <access>button</access>
+    <access>led</access>
+    <access>multimedia</access>
+</accesses>
+<editor>melka</editor>
+<multiConf>false</multiConf>
+    <deployment>hosted</deployment>
+</descriptor>

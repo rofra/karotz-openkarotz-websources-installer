@@ -1,0 +1,12 @@
+<descriptor>
+    <version>1.0.0</version>
+    <accesses>
+        <access>button</access>
+        <access>ears</access>
+        <access>led</access>
+        <access>rfid</access>
+        <access>tts</access>
+    </accesses>
+    <multiConf>true</multiConf>
+    <asrName>Alea</asrName>
+</descriptor>

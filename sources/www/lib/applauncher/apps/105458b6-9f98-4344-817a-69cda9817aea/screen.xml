@@ -1,0 +1,19 @@
+<screen>
+	<select label="Chaines a lire" name="chaines" type="multi" required="true">
+		<option label="TF1" key="TF1" checked="true"/>
+		<option label="France 2" key="France2" checked="false"/>
+		<option label="France 3" key="France3" checked="false"/>
+		<option label="France 4" key="France4" checked="false"/>
+		<option label="France 5" key="France5" checked="false"/>
+		<option label="M6" key="M6" checked="false"/>
+		<option label="Arte" key="Arte" checked="false"/>
+		<option label="Direct 8" key="Direct8" checked="false"/>
+		<option label="W9" key="W9" checked="false"/>
+		<option label="TMC" key="TMC" checked="false"/>
+		<option label="NT1" key="NT1" checked="false"/>
+		<option label="NRJ12" key="NRJ12" checked="false"/>
+		<option label="Direct Star" key="DirectStar" checked="false"/>
+		<option label="France O" key="FranceO" checked="false"/>
+	</select>	
+</screen>
+

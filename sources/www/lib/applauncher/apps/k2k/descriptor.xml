@@ -1,0 +1,16 @@
+<descriptor>
+    <name>Appeler</name>
+    <apikey>k2k</apikey>
+    <version>1.0.1</version>
+   <accesses>
+       <access>led</access>
+       <access>multimedia</access>
+       <access>k2k</access>
+       <access>button</access>
+    </accesses>
+    <deployment>hosted</deployment>
+    <interruptible>false</interruptible>
+    <awake>true</awake>
+    <callback>http://www.karotz.com/</callback>
+    <multiConf>true</multiConf>
+</descriptor>

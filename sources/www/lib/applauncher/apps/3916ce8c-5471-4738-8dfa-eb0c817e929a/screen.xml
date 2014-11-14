@@ -1,0 +1,38 @@
+<screen>
+    
+  <button link="http://www.karotz.com/my/information/social_network" label="Connecter l'application à votre compte Facebook" />
+   
+  <select label="Messages" name="dMsg" type="one" required="true">
+    <option label="Oui" key="1" checked="true"/>
+    <option label="Non" key="0" checked="false"/>
+  </select>
+  
+  <select label="Notifications" name="notif" type="one" required="true">
+    <option label="Oui" key="1" checked="true"/>
+    <option label="Non" key="0" checked="false"/>
+  </select>
+  
+  <select label="Fil d'actualité" name="stream" type="one" required="true">
+    <option label="Oui" key="1" checked="true"/>
+    <option label="Non" key="0" checked="false"/>
+  </select>
+  
+  <select label="Ordre" name="order" type="one" required="true">
+    <option label="Chronologique (anciens en premier)" key="chrono" checked="true"/>
+    <option label="Chronologique inversé (nouveaux en premier)" key="antechrono" checked="false"/>
+  </select>
+  
+  <select label="Langue" name="langType" type="one" required="true">
+    <option label="Automatique" key="auto" checked="true"/>
+    <option label="Français" key="fr" checked="false"/>
+    <option label="Anglais" key="en" checked="false"/>  
+    <option label="Allemand" key="de" checked="false"/>
+    <option label="Espagnol" key="es" checked="false"/>
+  </select>
+  
+  <select label="Marquer les messages comme lus en quittant" name="mAsRead" type="one" required="true">
+    <option label="Oui" key="yes" checked="false"/>
+    <option label="Non" key="no" checked="true"/>
+  </select>
+  
+</screen>

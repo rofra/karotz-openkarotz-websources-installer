@@ -1,0 +1,8 @@
+<screen 
+	nanoTrigger="true"
+	permanentTrigger="true"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true" >
+<text label="numero de station" name="station" default="30" validation="" required="true" errorMessage="" />
+</screen>

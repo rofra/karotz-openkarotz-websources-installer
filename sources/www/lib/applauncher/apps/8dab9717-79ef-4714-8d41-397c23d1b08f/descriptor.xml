@@ -1,0 +1,14 @@
+<descriptor>
+    <version>0.1</version>
+	<name>HISTOIRES CRIMINELLES</name>
+   <accesses>
+    <access>http</access>
+	<access>asr</access>
+    <access>button</access>
+    <access>led</access>
+    <access>multimedia</access>
+</accesses>
+<editor>melka</editor>
+<multiConf>false</multiConf>
+    <deployment>hosted</deployment>
+</descriptor>

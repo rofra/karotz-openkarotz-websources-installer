@@ -1,0 +1,9 @@
+<screen nanoTrigger="true"
+	permanentTrigger="true"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true" >
+
+	<text label="Nombre de PEBKAC que vous souhaitez lire" name="limit" default="5" validation="" required="true" errorMessage="" />
+
+</screen>

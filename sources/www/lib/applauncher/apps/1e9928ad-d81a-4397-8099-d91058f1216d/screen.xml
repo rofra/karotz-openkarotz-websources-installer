@@ -1,0 +1,10 @@
+<screen nanoTrigger="true"
+	permanentTrigger="false"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true" >
+
+
+	<text label="Nombre de flux que vous souhaitez lire" name="limit" default="5" validation="" required="true" errorMessage="" />
+
+</screen>

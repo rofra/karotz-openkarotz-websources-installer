@@ -1,0 +1,13 @@
+ <descriptor>
+	<name>Myl&#232;ne Farmer</name>
+	<version>1.0</version>
+	<asrName>libertine</asrName>
+	<accesses>
+		<access>button</access>
+		<access>led</access>
+		<access>multimedia</access>
+	</accesses>
+	<editor>http://wizz.cc</editor>
+	<deployment>hosted</deployment>
+	<multiConf>false</multiConf>
+</descriptor>

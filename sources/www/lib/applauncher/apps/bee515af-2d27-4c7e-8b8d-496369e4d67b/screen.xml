@@ -1,0 +1,124 @@
+<screen 
+	nanoTrigger="true"
+	permanentTrigger="true"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true" >
+    <select label="Les Fables de Jean de La Fontaine" name="conte" type="one" required="false">
+        <option label="_Au hasard_" key="0" checked="false"/>
+        <option label="Conseil tenu par les rats" key="1" checked="true"/>
+        <option label="L&#180;Aigle, la Laie et la Chatte" key="2" checked="false"/>
+        <option label="L&#180;Alouette et ses petits avec le Ma&#238;tre d&#180;un champ" key="3" checked="false"/>
+        <option label="L&#180;Amour et la Folie" key="4" checked="false"/>
+        <option label="L&#180;&#194;ne charg&#233; d&#180;&#233;ponges et l&#180;&#194;ne charg&#233; de sel" key="5" checked="false"/>
+        <option label="L&#180;&#194;ne et le Petit Chien" key="6" checked="false"/>
+        <option label="L&#180;&#194;ne portant des reliques" key="7" checked="false"/>
+        <option label="L&#180;&#194;ne v&#234;tu de la peau du Lion" key="8" checked="false"/>
+        <option label="L&#180;Astrologue qui se laisse tomber dans un Puits" key="9" checked="false"/>
+        <option label="L&#180;Avare qui a perdu son tr&#233;sor" key="10" checked="false"/>
+        <option label="L&#180;Enfant et le Ma&#238;tre d&#180;&#233;cole" key="11" checked="false"/>
+        <option label="L&#180;Hirondelle et les Petits Oiseaux" key="12" checked="false"/>
+        <option label="L&#180;Homme entre deux &#226;ges et ses deux Ma&#238;tresses" key="13" checked="false"/>
+        <option label="L&#180;Homme et la Puce" key="14" checked="false"/>
+        <option label="L&#180;Hu&#238;tre et les Plaideurs" key="15" checked="false"/>
+        <option label="L&#180;Ivrogne et sa Femme" key="16" checked="false"/>
+        <option label="L&#180;Oeil du Ma&#238;tre" key="17" checked="false"/>
+        <option label="L&#180;Oiseau bless&#233; d&#180;une fl&#232;che" key="18" checked="false"/>
+        <option label="L&#180;Ours et les Deux Compagnons" key="19" checked="false"/>
+        <option label="La Belette entr&#233;e dans un Grenier" key="20" checked="false"/>
+        <option label="La Besace" key="21" checked="false"/>
+        <option label="La Chatte m&#233;tamorphos&#233;e" key="22" checked="false"/>
+        <option label="La Chauve-souris et les Deux Belettes" key="23" checked="false"/>
+        <option label="La Cigale et la Fourmi" key="24" checked="false"/>
+        <option label="La Colombe et la Fourmi" key="25" checked="false"/>
+        <option label="La Femme noy&#233;e" key="26" checked="false"/>
+        <option label="La Fille" key="27" checked="false"/>
+        <option label="La Fortune et le Jeune Enfant" key="28" checked="false"/>
+        <option label="La Grenouille et le Rat" key="29" checked="false"/>
+        <option label="La Grenouille qui se veut faire aussi grosse que le Boeuf" key="30" checked="false"/>
+        <option label="La Jeune Veuve" key="31" checked="false"/>
+        <option label="La Laiti&#232;re et le Pot au lait" key="32" checked="false"/>
+        <option label="La Lice et sa Compagne" key="33" checked="false"/>
+        <option label="La Ligue des Rats" key="34" checked="false"/>
+        <option label="La Montagne qui accouche" key="35" checked="false"/>
+        <option label="La Mort et le B&#251;cheron" key="36" checked="false"/>
+        <option label="La Mort et le Mourant" key="37" checked="false"/>
+        <option label="La Tortue et les Deux Canards" key="38" checked="false"/>
+        <option label="La Vieille et les Deux Servantes" key="39" checked="false"/>
+        <option label="Le B&#251;cheron et Mercure" key="40" checked="false"/>
+        <option label="Le Cerf et la Vigne" key="41" checked="false"/>
+        <option label="Le Chameau et les B&#226;tons Flottants" key="42" checked="false"/>
+        <option label="Le Charretier embourb&#233;" key="43" checked="false"/>
+        <option label="Le Chat et le Renard" key="44" checked="false"/>
+        <option label="Le Chat et un vieux Rat" key="45" checked="false"/>
+        <option label="Le Chat, la Belette et le Petit Lapin" key="46" checked="false"/>
+        <option label="Le Ch&#234;ne et le Roseau" key="47" checked="false"/>
+        <option label="Le Cheval et le Loup" key="48" checked="false"/>
+        <option label="Le Cheval s&#180;&#233;tant voulu venger du Cerf" key="49" checked="false"/>
+        <option label="Le Chien qui l&#226;che sa proie pour l&#180;ombre" key="50" checked="false"/>
+        <option label="Le Coche et la Mouche" key="51" checked="false"/>
+        <option label="Le Cochet, le Chat et le Souriceau" key="52" checked="false"/>
+        <option label="Le Coq et la Perle" key="53" checked="false"/>
+        <option label="Le Corbeau et le Renard" key="54" checked="false"/>
+        <option label="Le Corbeau voulant imiter l&#180;Aigle" key="55" checked="false"/>
+        <option label="Le Cygne et le Cuisinier" key="56" checked="false"/>
+        <option label="Le Geai par&#233; des plumes du Paon" key="57" checked="false"/>
+        <option label="Le Gland et la Citrouille" key="58" checked="false"/>
+        <option label="Le H&#233;ron" key="59" checked="false"/>
+        <option label="Le Jardinier et son Seigneur" key="60" checked="false"/>
+        <option label="Le Laboureur et ses Enfants" key="61" checked="false"/>
+        <option label="Le Li&#232;vre et la Perdrix" key="62" checked="false"/>
+        <option label="Le Li&#232;vre et la Tortue" key="63" checked="false"/>
+        <option label="Le Lion abattu par l&#180;Homme" key="64" checked="false"/>
+        <option label="Le Lion et l&#180;&#194;ne chassant" key="65" checked="false"/>
+        <option label="Le Lion et le Moucheron" key="66" checked="false"/>
+        <option label="Le Lion et le Rat" key="67" checked="false"/>
+        <option label="Le Loup devenu Berger" key="68" checked="false"/>
+        <option label="Le Loup et l&#180;Agneau" key="69" checked="false"/>
+        <option label="Le Loup et la Cigogne" key="70" checked="false"/>
+        <option label="Le Loup et le Chien" key="71" checked="false"/>
+        <option label="Le Loup et le Chien maigre" key="72" checked="false"/>
+        <option label="Le Loup et les Bergers" key="73" checked="false"/>
+        <option label="Le Loup plaidant contre le Renard par-devant le Singe" key="74" checked="false"/>
+        <option label="Le Loup, la Ch&#232;vre et le Chevreau" key="75" checked="false"/>
+        <option label="Le Loup, la M&#232;re et l&#180;Enfant" key="76" checked="false"/>
+        <option label="Le Meunier, son Fils et l&#180;&#226;ne" key="77" checked="false"/>
+        <option label="Le Paon se plaignant &#224; Junon" key="78" checked="false"/>
+        <option label="Le P&#226;tre et le Lion" key="79" checked="false"/>
+        <option label="Le Petit Poisson et le P&#234;cheur" key="80" checked="false"/>
+        <option label="Le Pot de terre et le Pot de fer" key="81" checked="false"/>
+        <option label="Le Rat de ville et le Rat des champs" key="82" checked="false"/>
+        <option label="Le Rat et l&#180;Hu&#238;tre" key="83" checked="false"/>
+        <option label="Le Renard ayant la queue coup&#233;e" key="84" checked="false"/>
+        <option label="Le Renard et la Cigogne" key="85" checked="false"/>
+        <option label="Le Renard et le Bouc" key="86" checked="false"/>
+        <option label="Le Renard et le Buste" key="87" checked="false"/>
+        <option label="Le Renard et les Raisins" key="88" checked="false"/>
+        <option label="Le Savetier et le Financier" key="89" checked="false"/>
+        <option label="Le Serpent et la Lime" key="90" checked="false"/>
+        <option label="Le Singe et le Dauphin" key="91" checked="false"/>
+        <option label="Le Singe et le L&#233;opard" key="92" checked="false"/>
+        <option label="Le Songe d&#180;un Habitant du Mogol" key="93" checked="false"/>
+        <option label="Le Vieillard et les Trois Jeunes Hommes" key="94" checked="false"/>
+        <option label="Le Villageois et le Serpent" key="95" checked="false"/>
+        <option label="Les Animaux malades de la peste" key="96" checked="false"/>
+        <option label="Les Deux Amis" key="97" checked="false"/>
+        <option label="Les Deux Coqs" key="98" checked="false"/>
+        <option label="Les Deux Mulets" key="99" checked="false"/>
+        <option label="Les Deux Pigeons" key="100" checked="false"/>
+        <option label="Les Deux Rats, le Renard et l&#180;Oeuf" key="101" checked="false"/>
+        <option label="Les Femmes et le Secret" key="102" checked="false"/>
+        <option label="Les Grenouilles qui demandent un Roi" key="103" checked="false"/>
+        <option label="Les Loups et les Brebis" key="104" checked="false"/>
+        <option label="Les M&#233;decins" key="105" checked="false"/>
+        <option label="Les Oreilles du Li&#232;vre" key="106" checked="false"/>
+        <option label="Les Poissons et le Cormoran" key="107" checked="false"/>
+        <option label="Les Voleurs et l&#180;&#194;ne" key="108" checked="false"/>
+        <option label="Parole de Socrate" key="109" checked="false"/>
+        <option label="Phoebus et Bor&#233;e" key="110" checked="false"/>
+    </select>
+    <select label="Ne lire qu&#180;une seule Fable" name="fquit" type="one" required="false">
+        <option label="Oui" key="1" checked="false"/>
+        <option label="Non" key="0" checked="true"/>
+    </select>
+</screen>

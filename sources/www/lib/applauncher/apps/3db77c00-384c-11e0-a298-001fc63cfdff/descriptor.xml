@@ -1,0 +1,17 @@
+<?xml version="1.0" ?><descriptor>
+    <name>Staragora</name>
+    <apikey>3db77c00-384c-11e0-a298-001fc63cfdff</apikey>
+    <version>0.9.7</version>
+   <accesses>
+       <access>tts</access>
+       <access>led</access>
+       <access>http</access>
+       <access>button</access>
+    </accesses>
+    <deployment>hosted</deployment>
+    <interruptible>true</interruptible>
+    <awake>true</awake>
+    <callback/>
+    <multiConf>false</multiConf>
+    <parameters/>
+</descriptor>

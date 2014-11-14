@@ -1,0 +1,13 @@
+<descriptor>
+	<name>sciences</name>
+	<version>0.0.65</version>
+	<accesses>
+        <access>http</access>
+		<access>tts</access>
+		<access>ears</access>
+		<access>button</access>
+		<access>led</access>
+		<access>multimedia</access>
+	</accesses>
+	<multiConf>true</multiConf>
+</descriptor>

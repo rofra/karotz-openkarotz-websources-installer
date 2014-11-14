@@ -1,0 +1,10 @@
+<screen 
+	nanoTrigger="true"
+	permanentTrigger="false"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true">
+	
+<text label="Hostname" name="hostname" default="" validation="" required="true" errorMessage="" />
+<text label="Adresse MAC (sans les : )" name="mac" default="" validation="" required="true" errorMessage="" />
+</screen>

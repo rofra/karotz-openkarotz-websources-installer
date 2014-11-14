@@ -1,0 +1,15 @@
+<descriptor>
+	<name>minuteur fun</name>
+	<version>0.0.2e</version>
+	<accesses>
+		<access>http</access>
+		<access>tts</access>
+		<access>ears</access>
+		<access>button</access>
+		<access>led</access>
+		<access>asr</access>
+		<access>multimedia</access>
+	</accesses>
+	<multiConf>true</multiConf>
+	<asrName>minuteur fun</asrName>
+</descriptor>

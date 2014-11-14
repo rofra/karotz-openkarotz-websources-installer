@@ -1,0 +1,8 @@
+<screen>
+  <text label="pays" name="country" default="France" validation="" required="true" errorMessage="" />
+  <text label="ville" name="city" default="Paris" validation="" required="true" errorMessage="" />
+  <select label="unité" name="unit" type="one" required="true">
+    <option label="°C" key="C" checked="true"/>
+    <option label="°F" key="F" checked="false"/>
+  </select>
+</screen>

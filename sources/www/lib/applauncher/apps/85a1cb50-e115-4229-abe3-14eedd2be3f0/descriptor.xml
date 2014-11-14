@@ -1,0 +1,16 @@
+ <descriptor>
+	<name>Orange</name>
+	<asrName>orange</asrName>
+	<version>1.0.1a</version>
+	<accesses>
+		<access>button</access>
+		<access>ears</access>
+		<access>http</access>
+		<access>led</access>
+		<access>multimedia</access>
+		<access>tts</access>
+	</accesses>
+	<editor>http://wizz.cc</editor>
+	<deployment>hosted</deployment>
+	<multiConf>true</multiConf>
+</descriptor>

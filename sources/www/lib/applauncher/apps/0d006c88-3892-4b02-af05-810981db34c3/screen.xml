@@ -1,0 +1,24 @@
+<screen>
+	<select label="Choix de la comptine" name="comptine" type="one" required="true">
+		<option label="Au hasard" key="0" checked="true"/>
+		<option label="1 - Pirouette cacahou&#232;te" key="1" checked="false"/>
+		<option label="2 - Prom'nons-nous dans les bois" key="2" checked="false"/>
+		<option label="3 - Rock and roll des gallinac&#233;s" key="3" checked="false"/>
+		<option label="4 - Rond jaune rectangle blanc" key="4" checked="false"/>
+		<option label="5 - Savez-vous planter les choux" key="5" checked="false"/>
+		<option label="6 - Sur le pont d'Avignon" key="6" checked="false"/>
+		<option label="7 - Tapent petites mains" key="7" checked="false"/>
+		<option label="8 - Un deux trois" key="8" checked="false"/>
+		<option label="9 - Une souris verte" key="9" checked="false"/>
+		<option label="10 - V'la le bon vent" key="10" checked="false"/>
+		<option label="11 - Vive le vent" key="10" checked="false"/>
+	</select>
+	<select label="Lire une comptine et sortir" name="quit" type="one" required="true">
+			<option label="Oui" key="Y" checked="true"/>
+			<option label="Non" key="N" checked="true"/>
+		</select>
+	<select label="Mouvement des oreilles" name="ears" type="one" required="true">
+		<option label="Oui" key="Y" checked="true"/>
+		<option label="Non" key="N" checked="false"/>
+	</select>
+</screen>

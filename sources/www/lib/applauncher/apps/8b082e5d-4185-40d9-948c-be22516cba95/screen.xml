@@ -1,0 +1,12 @@
+<screen>
+<text label="Message 1" name="msg1" default="Bonjour Clemence, je suis Karotz !" validation="" required="true" errorMessage=""></text>
+<text label="Message 2" name="msg2" default="Coucou Clemence, je te fais un bisous !" validation="" required="true" errorMessage=""></text>
+<text label="Message 3" name="msg3" default="Tu aimes le chocolat ?" validation="" required="true" errorMessage=""></text>
+<text label="Message 4" name="msg4" default="Va faire un bisous a Papa" validation="" required="true" errorMessage=""></text>
+<text label="Message 5" name="msg5" default="Va faire un calin à maman" validation="" required="true" errorMessage=""></text>
+<text label="Message 6" name="msg6" default="Tourne tourne petit moulin" validation="" required="true" errorMessage=""></text>
+<text label="Message 7" name="msg7" default="Bonjour Clémence, touche ton nez" validation="" required="true" errorMessage=""></text>
+<text label="Message 8" name="msg8" default="Bonjour Clemence, montre moi tes oreilles" validation="" required="true" errorMessage=""></text>
+<text label="Message 9" name="msg9" default="Bonjour Clemence, montre moi ta bouche" validation="" required="true" errorMessage=""></text>
+<text label="Message 10" name="msg10" default="Bonjour Clemence, tape des mains" validation="" required="true" errorMessage=""></text>
+</screen>

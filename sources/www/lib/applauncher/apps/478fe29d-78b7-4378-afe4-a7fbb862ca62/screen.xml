@@ -1,0 +1,24 @@
+<screen>
+  <select label="Ligne" name="line" type="one" required="true">
+    <option label="Tout" key="all" checked="true"/>
+    <option label="RER A" key="RER A" checked="false"/>
+    <option label="RER B" key="RER B" checked="false"/>
+    <option label="RER C" key="RER C" checked="false"/>
+    <option label="RER D" key="RER D" checked="false"/>
+    <option label="RER E" key="RER E" checked="false"/>
+    <option label="Métro 1" key="Métro 1" checked="false"/>
+    <option label="Métro 2" key="Métro 2" checked="false"/>
+    <option label="Métro 3" key="Métro 3" checked="false"/>
+    <option label="Métro 4" key="Métro 4" checked="false"/>
+    <option label="Métro 5" key="Métro 5" checked="false"/>
+    <option label="Métro 6" key="Métro 6" checked="false"/>
+    <option label="Métro 7" key="Métro 7" checked="false"/>
+    <option label="Métro 8" key="Métro 8" checked="false"/>
+    <option label="Métro 9" key="Métro 9" checked="false"/>
+    <option label="Métro 10" key="Métro 10" checked="false"/>
+    <option label="Métro 11" key="Métro 11" checked="false"/>
+    <option label="Métro 12" key="Métro 12" checked="false"/>
+    <option label="Métro 13" key="Métro 13" checked="false"/>
+    <option label="Métro 14" key="Métro 14" checked="false"/>
+  </select>
+</screen>

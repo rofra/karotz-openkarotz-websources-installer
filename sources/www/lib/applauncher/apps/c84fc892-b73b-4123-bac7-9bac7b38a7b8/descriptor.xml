@@ -1,0 +1,15 @@
+ <descriptor>
+	<name>Flash FM</name>
+	<version>1.0.15</version>
+	<apikey>c84fc892-b73b-4123-bac7-9bac7b38a7b8</apikey>
+	<accesses>
+		<access>button</access>
+		<access>led</access>
+		<access>tts</access>
+		<access>multimedia</access>
+		<access>http</access>		
+	</accesses>
+	<editor>gpower.fr</editor>
+	<deployment>hosted</deployment>
+	<multiConf>false</multiConf>
+</descriptor>

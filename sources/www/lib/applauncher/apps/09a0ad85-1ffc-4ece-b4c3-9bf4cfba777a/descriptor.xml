@@ -1,0 +1,17 @@
+ <descriptor>
+	<name>Clock Nabaztag</name>
+	<version>0.0.7</version>
+	<accesses>
+		<access>button</access>
+		<access>led</access>
+		<access>multimedia</access>
+	</accesses>
+      <deployment>hosted</deployment>
+      <interruptible>true</interruptible>
+      <awake>true</awake>
+      <callback></callback>
+      <multiConf>false</multiConf>
+      <parameters>
+         <parameter key="autorun" value="hourly"/>
+     </parameters>
+</descriptor>

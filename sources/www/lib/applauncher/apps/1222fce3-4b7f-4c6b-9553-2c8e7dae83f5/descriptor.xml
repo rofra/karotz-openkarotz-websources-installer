@@ -1,0 +1,13 @@
+ <descriptor>
+	<name>Menergy</name>
+	<version>1.1</version>
+	<accesses>
+		<access>tts</access>
+		<access>button</access>
+		<access>led</access>
+		<access>multimedia</access>
+	</accesses>
+	<editor>Mikey</editor>
+	<deployment>hosted</deployment>
+	<multiConf>false</multiConf>
+</descriptor>

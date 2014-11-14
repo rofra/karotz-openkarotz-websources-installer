@@ -1,0 +1,14 @@
+<descriptor>
+	<name>Chifoumi</name>
+	<apikey>dc8b5c98-aa03-48bf-b43c-c41fc6ae4fd1</apikey>
+	<editor>35niavlys</editor>
+	<version>1.0.3</version>
+	<accesses>
+        	<access>asr</access>
+        	<access>button</access>
+        	<access>ears</access>
+        	<access>led</access>
+        	<access>tts</access>
+    	</accesses>
+	<multiConf>false</multiConf>
+</descriptor>

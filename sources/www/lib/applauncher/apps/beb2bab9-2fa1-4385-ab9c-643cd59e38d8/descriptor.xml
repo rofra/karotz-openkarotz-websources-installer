@@ -1,0 +1,15 @@
+<descriptor>
+    <version>1.0</version>
+    <accesses>
+        <access>tts</access>
+        <access>button</access>
+	<access>http</access>
+	<access>led</access>
+	<access>ears</access>
+	<access>asr</access>
+    </accesses>
+
+    <editor>PEC</editor>
+    <asrName>X B M C</asrName>
+    <multiConf>false</multiConf>
+</descriptor>

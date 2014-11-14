@@ -1,0 +1,34 @@
+<screen>
+	<select label="Jour" name="jour" type="one" required="true">
+		<option label="1 jour" key="1" checked="false"/>
+		<option label="2 jours" key="2" checked="false"/>
+		<option label="3 jours" key="3" checked="true"/>
+	</select>
+	<select label="Vitesse de lecture" name="rate" type="one" required="true">
+		<option label="- -" key="x-slow" checked="false"/>
+		<option label="-" key="slow" checked="false"/>
+		<option label="=" key="medium" checked="true"/>
+		<option label="+" key="fast" checked="false"/>
+		<option label="+ +" key="x-fast" checked="false"/>
+	</select>
+	<select label="Ton" name="pitch" type="one" required="true">
+		<option label="-" key="x-low" checked="false"/>
+		<option label="=" key="medium" checked="true"/>
+		<option label="+" key="x-high" checked="false"/>
+	</select>
+	<select label="Pays" name="pays" type="one" required="true">
+		<option label="France" key="France" checked="true"/>
+		<option label="Belgique" key="Belgique" checked="false"/>
+		<option label="Suisse" key="Suisse" checked="false"/>
+	</select>
+	<text label="Votre code postal (France) ou votre ville (tous pays)avec des tirets à la place des espaces" name="ville" default="Montlouis-sur-loire" validation="" required="true" errorMessage="" />
+	<text label="Nom de votre ville lue par le lapin en phonetique (voir notice)" name="villealire" default="" validation="" required="false" errorMessage="" />
+	<select label="Saint du jour" name="saint" type="one" required="true">
+		<option label="oui" key="oui" checked="true"/>
+		<option label="non" key="non" checked="false"/>
+	</select>
+	<select label="Citation du jour" name="citation" type="one" required="true">
+		<option label="oui" key="oui" checked="true"/>
+		<option label="non" key="non" checked="false"/>
+	</select>
+</screen>

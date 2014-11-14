@@ -1,0 +1,17 @@
+<?xml version="1.0" ?><descriptor>
+    <name>Maison</name>
+    <apikey>1d02c2e2-f62c-11df-839f-7c6d628c1a14</apikey>
+    <version>1.3.3</version>
+   <accesses>
+       <access>led</access>
+       <access>http</access>
+       <access>mail</access>
+       <access>webcam</access>
+    </accesses>
+    <deployment>hosted</deployment>
+    <interruptible>false</interruptible>
+    <awake>false</awake>
+    <callback/>
+    <multiConf>true</multiConf>
+    <parameters/>
+</descriptor>

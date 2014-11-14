@@ -1,0 +1,14 @@
+<screen>
+	<select label="Musique" name="musique" type="one" required="true">
+		<option label="Avec" key="oui" checked="true"/>
+		<option label="Sans" key="non" checked="false"/>
+	</select>
+	<select label="Phrase" name="phrase" type="one" required="true">
+		<option label="Au hasard" key="0" checked="true"/>
+		<option label="Grelottine" key="120" checked="false"/>
+		<option label="Mon petit oiseau" key="197" checked="false"/>
+		<option label="C'est pas faux" key="158" checked="false"/>
+		<option label="Cul chouette" key="243" checked="false"/>
+	</select>
+
+</screen>

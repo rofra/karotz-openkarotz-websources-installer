@@ -1,0 +1,13 @@
+<descriptor>
+	<name>lecteur_playlist</name>
+	<version>0.0.3</version>
+	<accesses>
+		<access>tts</access>
+		<access>file</access>
+		<access>button</access>
+		<access>rfid</access>
+		<access>led</access>
+		<access>multimedia</access>
+	</accesses>
+</descriptor>
+

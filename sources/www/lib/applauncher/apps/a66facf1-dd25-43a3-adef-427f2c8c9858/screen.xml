@@ -1,0 +1,15 @@
+<screen nanoTrigger="true"
+	permanentTrigger="false"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true" >
+
+	<text label="Lire les news disponibles depuis combien d'heures" name="heure" default="24" validation="" required="true" errorMessage="" />
+	<select label="Que souhaites-tu lire" name="mode" type="one" required="true">
+		<option label="Titres" key="0" checked="true"/>
+		<option label="Titres et contenu" key="1" checked="false"/>
+	</select>
+
+	<button label="CrazyMac.fr" link="http://www.crazymac.fr" />
+	<button label="Cliquez-ici pour voir mes autres applications..." link="http://karotz.sylvainmenu.com" />
+</screen>

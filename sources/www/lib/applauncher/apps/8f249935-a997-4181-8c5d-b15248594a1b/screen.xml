@@ -1,0 +1,25 @@
+<screen>
+	<select label="Choix de la comptine" name="comptine" type="one" required="true">
+		<option label="Au hasard" key="0" checked="true"/>
+		<option label="1 - Dans mon immeuble" key="1" checked="false"/>
+		<option label="2 - Dansons la capucine" key="2" checked="false"/>
+		<option label="3 - Des gouts et des couleurs" key="3" checked="false"/>
+		<option label="4 - Dodo l'enfant do" key="4" checked="false"/>
+		<option label="5 - Fr&#232;re Jacques" key="5" checked="false"/>
+		<option label="6 - La maison de mes r&#234;ves" key="6" checked="false"/>
+		<option label="7 - La m&#232;re Michel" key="7" checked="false"/>
+		<option label="8 - La ronde des saisons" key="8" checked="false"/>
+		<option label="9 - Les petits poissons" key="9" checked="false"/>
+		<option label="10 - Lundi matin" key="10" checked="false"/>
+		<option label="11 - Maman les p'tits bateaux" key="10" checked="false"/>
+		<option label="12 - Passe passera" key="10" checked="false"/>
+	</select>
+	<select label="Lire une comptine et sortir" name="quit" type="one" required="true">
+			<option label="Oui" key="Y" checked="true"/>
+			<option label="Non" key="N" checked="true"/>
+		</select>
+	<select label="Mouvement des oreilles" name="ears" type="one" required="true">
+		<option label="Oui" key="Y" checked="true"/>
+		<option label="Non" key="N" checked="false"/>
+	</select>
+</screen>

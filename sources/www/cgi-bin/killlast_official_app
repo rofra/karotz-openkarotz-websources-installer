@@ -1,0 +1,13 @@
+#!/bin/bash
+
+source /usr/www/cgi-bin/setup.inc
+source /usr/www/cgi-bin/leds.inc
+source /usr/www/cgi-bin/utils.inc
+source /usr/www/cgi-bin/officialapps.inc
+
+KillLastOfficialApp
+
+LedsRestore
+
+DATA='{"return":"0"}'
+SendResponse $DATA

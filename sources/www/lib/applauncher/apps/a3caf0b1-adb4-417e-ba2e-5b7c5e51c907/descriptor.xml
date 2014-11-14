@@ -1,0 +1,14 @@
+ <descriptor>
+	<name>KIDS RAPPELS</name>
+	<asrName>KIDS RAPPELS</asrName>
+	<version>0.2</version>
+	<accesses>
+		<access>button</access>
+		<access>led</access>
+		<access>multimedia</access>
+		<access>tts</access>
+	</accesses>
+	<editor>melka - http://wizz.cc</editor>
+	<deployment>hosted</deployment>
+	<multiConf>true</multiConf>
+</descriptor>

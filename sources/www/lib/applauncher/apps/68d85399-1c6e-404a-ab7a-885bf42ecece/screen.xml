@@ -1,0 +1,17 @@
+<screen> 
+	nanoTrigger="true"
+	permanentTrigger="true"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true" >
+	<select label="Random" name="brandom" type="one" required="true">
+        <option label="Oui" key="Y" checked="true"/>
+        <option label="Non" key="N" checked="false"/>
+    </select>
+	<select label="Repeat" name="brepeat" type="one" required="true">
+        <option label="Oui" key="Y" checked="false"/>
+        <option label="Non" key="N" checked="true"/>
+    </select>
+	<text label="Durée max. (s)" name="timeout" default="" validation="^[\d]*$" required="false" errorMessage="vide ou nombre posisitf ou nul" />
+ </screen>
+

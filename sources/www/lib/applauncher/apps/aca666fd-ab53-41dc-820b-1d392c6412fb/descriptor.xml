@@ -1,0 +1,24 @@
+<descriptor>
+	<name>Karotz Kontroller</name>
+	<version>1.2</version>
+	<accesses>
+		<access>asr</access>
+		<access>ears</access>
+		<access>led</access>
+		<access>multimedia</access>
+		<access>remoteauth</access>
+		<access>tts</access>
+		<access>webcam</access>
+	</accesses>
+	<editor>http://wizz.cc</editor>
+	<deployment>external</deployment>
+	<multiConf>false</multiConf>
+	<parameters>
+		<parameter key="qrcode" value="true"/>
+		<parameter key="showInstallUuid" value="true"/>
+        <parameter key="p1" value="1"/>
+    </parameters>
+	<interruptible>false</interruptible>
+	<awake>true</awake>
+	<callback>http://karotz.wizz.cc/index.php</callback>
+</descriptor>

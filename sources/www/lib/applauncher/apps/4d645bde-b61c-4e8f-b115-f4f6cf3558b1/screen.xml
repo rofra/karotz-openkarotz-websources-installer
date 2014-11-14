@@ -1,0 +1,82 @@
+<screen>
+	<select label="Vitesse de lecture des titres" name="rate_t" type="one" required="true">
+		<option label="- - -" key="x-slow" checked="false"/>
+		<option label="- -" key="slow" checked="false"/>
+		<option label="-" key="-0.15" checked="false"/>
+		<option label="=" key="medium" checked="true"/>
+		<option label="+" key="1.15" checked="false"/>
+		<option label="+ +" key="fast" checked="false"/>
+		<option label="+ + +" key="x-fast" checked="false"/>
+	</select>
+	<select label="Ton des titres" name="pitch_t" type="one" required="true">
+		<option label="-" key="x-low" checked="false"/>
+		<option label="=" key="medium" checked="true"/>
+		<option label="+" key="x-high" checked="false"/>
+	</select>
+	<select label="Vitesse de lecture des descriptions" name="rate_d" type="one" required="true">
+		<option label="- - -" key="x-slow" checked="false"/>
+		<option label="- -" key="slow" checked="false"/>
+		<option label="-" key="-0.15" checked="false"/>
+		<option label="=" key="medium" checked="true"/>
+		<option label="+" key="1.15" checked="false"/>
+		<option label="+ +" key="fast" checked="false"/>
+		<option label="+ + +" key="x-fast" checked="false"/>
+	</select>
+	<select label="Ton des descriptions" name="pitch_d" type="one" required="true">
+		<option label="-" key="x-low" checked="false"/>
+		<option label="=" key="medium" checked="true"/>
+		<option label="+" key="x-high" checked="false"/>
+	</select>
+	<select label="Flux RSS" name="flux_a_lire" type="one" required="true">
+		<option label="Flux integral sport.fr" key="25" checked="true"/>
+		<option label="Roland Garros 2012" key="26" checked="false"/>
+		<option label="JO 2012" key="1" checked="false"/>
+		<option label="Euro 2012" key="2" checked="false"/>
+		<option label="Football" key="3" checked="false"/>
+		<option label="Rugby" key="4" checked="false"/>
+		<option label="Tennis" key="5" checked="false"/>
+		<option label="Basket/Hand/Volley" key="6" checked="false"/>
+		<option label="Auto-moto" key="7" checked="false"/>
+		<option label="Cyclisme" key="8" checked="false"/>
+		<option label="Golf" key="9" checked="false"/>
+		<option label="Sports d'hiver" key="10" checked="false"/>
+		<option label="+100 sports" key="11" checked="false"/>
+		<option label="OM" key="12" checked="false"/>
+		<option label="PSG" key="13" checked="false"/>
+		<option label="Lyon" key="14" checked="false"/>
+		<option label="Bordeaux" key="15" checked="false"/>
+		<option label="LOSC" key="16" checked="false"/>
+		<option label="Monaco" key="17" checked="false"/>
+		<option label="ASSE" key="18" checked="false"/>
+		<option label="Sochaux" key="19" checked="false"/>
+		<option label="FC Barcelone" key="20" checked="false"/>
+		<option label="Real Madrid" key="21" checked="false"/>
+		<option label="Manchester United" key="22" checked="false"/>
+		<option label="Arsenal" key="23" checked="false"/>
+		<option label="Liverpool" key="24" checked="false"/>
+	</select>
+	<select label="Vous souhaitez lire..." name="je_veux_lire" type="one" required="true">
+		<option label="les titres (description par clic)" key="true" checked="true"/>
+		<option label="les titres et les descriptions" key="false" checked="false"/>
+	</select>	
+	<select label="Dernier(s) titre(s) lu(s) que vous souhaitez relire" name="item_a_lire" type="one" required="true">
+		<option label="aucun" key="0" checked="false"/>
+		<option label="1" key="1" checked="true"/>
+		<option label="2" key="2" checked="false"/>
+		<option label="3" key="3" checked="false"/>
+		<option label="4" key="4" checked="false"/>
+		<option label="5" key="5" checked="false"/>
+		<option label="tous" key="9999" checked="false"/>
+	</select>
+	<select label="Attente entre 2 titres cf mode d'emploi" name="duree_pour_lire" type="one" required="true">
+		<option label="1 seconde" key="1000" checked="false"/>
+		<option label="2 secondes" key="2000" checked="true"/>
+		<option label="3 secondes" key="3000" checked="false"/>
+		<option label="4 secondes" key="4000" checked="false"/>
+		<option label="5 secondes" key="5000" checked="false"/>
+	</select>
+	<select label="Lecture de la date du titre de la news" name="lire_date" type="one" required="true">
+		<option label="Non" key="0" checked="false"/>
+		<option label="Oui" key="1" checked="true"/>
+	</select>	
+</screen>

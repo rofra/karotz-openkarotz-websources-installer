@@ -1,0 +1,15 @@
+<descriptor>
+    <version>2.0.8</version>
+    <accesses>
+        <access>tts</access>
+        <access>button</access>
+		<access>ears</access>
+		<access>multimedia</access>
+		<access>led</access>
+		<access>serial</access>
+    </accesses>
+	<editor>Karmen</editor>
+	<multiConf>false</multiConf>
+	<asrname>MiniPlay</asrname>
+	<deployment>hosted</deployment>
+</descriptor>

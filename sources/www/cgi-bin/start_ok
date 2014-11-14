@@ -56,11 +56,11 @@ if [ -f /usr/karotz/ttsemulator/launcher.sh ]; then
     /usr/karotz/ttsemulator/launcher.sh start
 fi
 
-sleep 8
+#sleep 8
 
 
 # Restart mpd
-/usr/bin/mpd /etc/mpd/mpd.conf
+#/usr/bin/mpd /etc/mpd/mpd.conf
 
 # Start the ntpd daemon to allow actualisation of time once deconnected from official servers
 killall ntpd

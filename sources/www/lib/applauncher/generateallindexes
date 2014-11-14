@@ -1,0 +1,36 @@
+#!/usr/bin/python
+#
+# App Launcher with configuration management
+# 
+#
+# -*- coding: utf-8 -*-
+import sys, getopt, os
+from lib import LauncherLibKarotz
+from lib import ConfigurationLibKarotz
+import pprint
+import fnmatch
+import os
+
+
+# Instantiate configuration class
+configlib = ConfigurationLibKarotz.ConfigurationLibKarotz()
+cpath = os.path.dirname(os.path.realpath(__file__))
+
+# Find XML Files
+matches = []
+configDir = "%s/config/" % cpath
+for root, dirnames, filenames in os.walk(configDir):
+  for filename in fnmatch.filter(filenames, '*.xml'):
+      matches.append(os.path.join(root, filename))
+      
+# Launch for each file
+for filename in matches:
+    f = os.path.basename(filename)
+    appcode = os.path.splitext(f)[0]
+    
+    
+    xmlFilePath = "%s/config/%s.xml" % (cpath, appcode)
+    indexFilePath = "%s/config/%s.index" % (cpath, appcode)
+    conf = configlib.extractAppNameAndConfigFromConfigFile(xmlFilePath, indexFilePath)
+
+

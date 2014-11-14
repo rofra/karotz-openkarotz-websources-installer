@@ -1,0 +1,1 @@
+var karotz_ip="localhost";

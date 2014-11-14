@@ -1,0 +1,7 @@
+<screen 
+	voiceTrigger="true"
+	nanoTrigger="true"
+	permanentTrigger="true"
+	scheduledTrigger="true"
+	scheduledDateTrigger="false">
+</screen>

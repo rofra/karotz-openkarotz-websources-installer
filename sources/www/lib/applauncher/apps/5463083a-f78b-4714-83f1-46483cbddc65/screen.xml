@@ -1,0 +1,10 @@
+<screen nanoTrigger="false"
+	permanentTrigger="false"
+	scheduledTrigger="false"
+	scheduledDateTrigger="false"
+	voiceTrigger="false" >
+
+	<button label="Cliquez ici pour télécharger l'extension Firefox" link="https://addons.mozilla.org/fr/firefox/addon/karotz-reader/"/>
+
+	<button label="Cliquez ici pour voir mes autres applications..." link="http://karotz.sylvainmenu.com" />
+</screen>

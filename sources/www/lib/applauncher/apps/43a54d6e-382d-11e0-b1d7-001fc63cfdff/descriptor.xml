@@ -1,0 +1,17 @@
+<?xml version="1.0" ?><descriptor>
+    <name>Le Monde</name>
+    <apikey>43a54d6e-382d-11e0-b1d7-001fc63cfdff</apikey>
+    <version>0.9.7</version>
+   <accesses>
+       <access>tts</access>
+       <access>led</access>
+       <access>http</access>
+       <access>button</access>
+    </accesses>
+    <deployment>hosted</deployment>
+    <interruptible>true</interruptible>
+    <awake>true</awake>
+    <callback/>
+    <multiConf>false</multiConf>
+    <parameters/>
+</descriptor>

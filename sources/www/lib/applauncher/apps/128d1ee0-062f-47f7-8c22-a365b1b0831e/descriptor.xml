@@ -1,0 +1,12 @@
+<descriptor>
+    <version>0.9.00</version>
+    <accesses>
+        <access>button</access>
+		<access>ears</access>
+		<access>led</access>
+    </accesses>
+	<editor>OpenKarotz</editor>
+	<multiConf>false</multiConf>
+	<interruptible>true</interruptible>
+	<awake>false</awake>
+</descriptor>

@@ -1,0 +1,14 @@
+<screen 
+	nanoTrigger="true"
+	permanentTrigger="false"
+	scheduledTrigger="true"
+	scheduledDateTrigger="false"
+	voiceTrigger="true">
+		
+	<select label="Site" name="site" type="one" required="true">
+		<option label="qoqa.fr" key="fr" checked="true"/>
+		<option label="qoqa.ch" key="ch" checked="false"/>
+	</select>
+	
+	<button label="Cliquez-ici pour voir mes autres applications..." link="http://karotz.sylvainmenu.com" />
+</screen>

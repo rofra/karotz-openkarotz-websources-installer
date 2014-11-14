@@ -1,0 +1,24 @@
+<descriptor>
+    <name>facebook</name>
+    <asrName>facebook {$.cmd='none'} | facebook photo {$.cmd='takePhoto'} | facebook enregistrement {$.cmd='postSound'} | facebook texte {$.cmd='postMessage'} | facebook texte (et) photo {$.cmd='postMessagePhoto'} | facebook lecture {$.cmd='readFacebook'}</asrName>
+    <apikey>apikey</apikey>
+    <version>0.0.86</version>
+   <accesses>
+       <access>tts</access>
+       <access>ears</access>
+       <access>led</access>
+       <access>http</access>
+       <access>button</access>
+       <access>multimedia</access>
+       <access>webcam</access>
+       <access>soundcloud</access>
+       <access>facebook</access>
+       <access>asr</access>
+    </accesses>
+    <deployment>hosted</deployment>
+    <interruptible>true</interruptible>
+    <awake>true</awake>
+    <callback></callback>
+    <multiConf>false</multiConf>
+    <parameters></parameters>
+</descriptor>

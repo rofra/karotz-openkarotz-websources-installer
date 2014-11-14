@@ -1,0 +1,14 @@
+<descriptor>
+	<name>MY WEBCAM</name>
+	<version>0.5</version>
+	<accesses>
+		<access>http</access>
+		<access>button</access>
+		<access>led</access>
+		<access>webcam</access>
+	</accesses>
+	<editor>_melka</editor>
+	<multiConf>false</multiConf>
+	<deployment>external</deployment>
+	<callback>http://internet-des-objets.info/karotz/webcam/webcam.php</callback>
+</descriptor>

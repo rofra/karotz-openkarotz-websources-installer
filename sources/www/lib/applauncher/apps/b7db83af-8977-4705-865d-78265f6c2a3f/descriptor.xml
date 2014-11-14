@@ -1,0 +1,12 @@
+<descriptor>
+	<name>K-TV</name>
+	<apikey>b7db83af-8977-4705-865d-78265f6c2a3f</apikey>
+	<editor>35niavlys</editor>
+	<version>1.0.0</version>
+	<accesses>
+        	<access>button</access>
+        	<access>http</access>
+        	<access>led</access>
+        	<access>tts</access>
+    	</accesses>
+</descriptor>

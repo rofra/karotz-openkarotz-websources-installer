@@ -1,0 +1,21 @@
+<screen 
+	nanoTrigger="true"
+	permanentTrigger="false"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="false" >
+    <select label="Choisir son rappel" name="mp3" type="one" required="false">
+	    <option label="" key="0" checked="false"/>
+        <option label="Penser &#224; aller chercher les enfants &#224; l&#180;&#233;cole" key="1" checked="true"/>
+        <option label="Fin d&#180;activit&#233;s extra scolaire des enfants" key="2" checked="false"/>
+        <option label="Penser &#224; appeler ses parents" key="3" checked="false"/>
+		<option label="Penser &#224; appeler ses grands-parents" key="4" checked="false"/>
+		<option label="Penser &#224; sortir le chien" key="5" checked="false"/>
+		<option label="Penser aux devoirs et travail des enfants" key="6" checked="false"/>
+		<option label="Penser &#224; prendre sa pilule" key="7" checked="false"/>
+	</select>
+	    <select label="Ne lire qu&#180;un seul rappel" name="fquit" type="one" required="false">
+        <option label="Oui" key="1" checked="true"/>
+        <option label="Non" key="0" checked="false"/>
+    </select>
+</screen>

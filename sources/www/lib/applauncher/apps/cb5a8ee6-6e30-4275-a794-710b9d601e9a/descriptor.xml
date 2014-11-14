@@ -1,0 +1,15 @@
+<descriptor>
+  <name>Webradio réveil</name>
+  <version>1.0.5</version>
+  <editor>Encrypt</editor>
+  <accesses>
+    <access>http</access>
+    <access>tts</access>
+    <access>button</access>
+    <access>led</access>
+    <access>multimedia</access>
+  </accesses>
+  <deployment>hosted</deployment>
+  <multiConf>true</multiConf>
+  <asrName>webradio réveil</asrName>
+</descriptor>

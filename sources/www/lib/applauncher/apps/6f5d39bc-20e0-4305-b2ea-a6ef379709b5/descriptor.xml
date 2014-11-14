@@ -1,0 +1,11 @@
+<descriptor>
+    <version>1.0</version>
+	<name>Apero Reminder</name>
+    <accesses>
+        <access>multimedia</access>
+        <access>button</access>
+    </accesses>
+	<editor>melka</editor>
+	<multiConf>false</multiConf>
+	<deployment>hosted</deployment>
+</descriptor>

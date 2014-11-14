@@ -1,0 +1,8 @@
+<descriptor>
+    <name>Poubelles</name>
+    <version>0.2.4</version>
+    <accesses>
+        <access>tts</access>
+        <access>button</access>
+    </accesses>
+</descriptor>

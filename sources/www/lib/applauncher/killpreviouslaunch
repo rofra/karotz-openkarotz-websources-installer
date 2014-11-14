@@ -1,0 +1,12 @@
+#!/bin/bash
+IFS=$'\n'
+
+COUNTER=0
+for i in `ps aux|grep '/bin/karotzVM'|grep -v 'grep'|sed -e 's/^[ \t]*//' -e 's/[ \t]*$//'|cut -d ' ' -f 1`; do
+    if [ "${COUNTER}" != "0" ]; then
+#        kill -15 $i
+        kill -SIGTERM -P $i
+        kill -SIGTERM $i
+    fi
+    let COUNTER=COUNTER+1
+done

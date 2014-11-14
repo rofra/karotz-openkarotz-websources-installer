@@ -1,0 +1,17 @@
+<?xml version="1.0" ?><descriptor>
+    <name>Zen Radio</name>
+    <apikey>ae68a62e-390d-11e0-87ca-001fc63cfdff</apikey>
+    <version>0.11.1</version>
+   <accesses>
+       <access>led</access>
+       <access>multimedia</access>
+       <access>button</access>
+       <access>tts</access>
+    </accesses>
+    <deployment>hosted</deployment>
+    <interruptible>true</interruptible>
+    <awake>true</awake>
+    <callback/>
+    <multiConf>false</multiConf>
+    <parameters/>
+</descriptor>

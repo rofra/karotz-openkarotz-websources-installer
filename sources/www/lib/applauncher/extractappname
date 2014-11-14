@@ -1,0 +1,27 @@
+#!/usr/bin/python
+#
+# App Launcher with configuration management
+# 
+#
+# -*- coding: utf-8 -*-
+import sys, getopt, os
+from lib import LauncherLibKarotz
+from lib import ConfigurationLibKarotz
+
+
+# MAIN CALL
+appcode = None
+appconfig = None
+
+# Instantiate configuration class
+configlib = ConfigurationLibKarotz.ConfigurationLibKarotz()
+cpath = os.path.dirname(os.path.realpath(__file__))
+
+# Instantiate launcher class
+#configlib.extractAppNameAndConfigFromConfigFiles('%s/config/' % (cpath))
+confList = configlib.extractAppNameAndConfigFromConfigFiles('%s/config/' % (cpath))
+for config in confList:
+    print config
+
+
+

@@ -1,0 +1,18 @@
+<descriptor>
+	<name>GrimmStories</name>
+	<apikey>23279228-fb05-4128-9c37-44d1c4e00c03</apikey>
+	<version>1.0.0</version>
+	<accesses>
+	   <access>led</access>
+   	   <access>rfid</access>
+	   <access>http</access>
+	   <access>button</access>
+       <access>asr</access>
+       <access>multimedia</access>
+	</accesses>
+    <editor>Digaswise</editor>
+    <deployment>hosted</deployment>
+	<multiConf>false</multiConf>
+	<asrName>Grimm Story</asrName>
+	<interruptible>true</interruptible>
+</descriptor>

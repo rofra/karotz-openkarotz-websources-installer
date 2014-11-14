@@ -1,0 +1,13 @@
+<descriptor>
+	<name>Fête du jour</name>
+	<apikey>b882805b-19bb-4ded-83ba-a5c0a4acabe6</apikey>
+	<editor>35niavlys</editor>
+	<version>1.0.3</version>
+	<accesses>
+        <access>http</access>
+        <access>multimedia</access>
+		<access>tts</access>
+		<access>button</access>
+	</accesses>
+	<multiConf>false</multiConf>
+</descriptor>

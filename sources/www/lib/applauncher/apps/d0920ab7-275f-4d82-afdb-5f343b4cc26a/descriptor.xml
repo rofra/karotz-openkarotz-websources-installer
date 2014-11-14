@@ -1,0 +1,23 @@
+<descriptor>
+    <version>1.0.3</version>
+    <accesses>
+        <access>led</access>
+        <access>ears</access>
+        <access>button</access>
+        <access>tts</access> 
+        <access>webcam</access> 
+        <access>asr</access>
+        <access>multimedia</access>
+        <access>rfid</access>
+        <access>http</access> 
+    </accesses>
+    <editor>Elkamy</editor>
+    <asrName>Vera</asrName>
+    <deployment>hosted</deployment>
+    <multiConf>true</multiConf>
+    <interruptible>false</interruptible>
+    <awake>true</awake>
+    <parameters>
+      <parameter key="showInstallUuid" value="true"/>
+    </parameters>
+</descriptor>

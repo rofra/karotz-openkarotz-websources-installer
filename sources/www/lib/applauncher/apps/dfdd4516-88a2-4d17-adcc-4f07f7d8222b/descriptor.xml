@@ -1,0 +1,14 @@
+ <descriptor>
+	<name>Evangile</name>
+	<version>1.0.16</version>
+	<accesses>
+		<access>tts</access>
+		<access>button</access>
+		<access>led</access>
+		<access>http</access>
+		<access>multimedia</access>
+	</accesses>
+	<editor>KarMen</editor>
+	<deployment>hosted</deployment>
+	<multiConf>false</multiConf>
+</descriptor>

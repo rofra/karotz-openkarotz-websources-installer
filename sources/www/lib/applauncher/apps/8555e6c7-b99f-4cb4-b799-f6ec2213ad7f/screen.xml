@@ -1,0 +1,25 @@
+<screen nanoTrigger='true' permanentTrigger='true' scheduledTrigger='true' scheduledDateTrigger='true' voiceTrigger='true'>
+
+	<text label="URL priv&#233;e Google Agenda" name='id_google' default="Entrez ici l&#39;adresse priv&#233;e de votre agenda google." validation='' required='true' errorMessage='' />
+
+	<text label='Annonce' name='annonce' default='Prochain rendez-vous. ' validation='' required='true' errorMessage='' />
+
+	<select label='Vitesse de parole' name='vitesse_parole' type='one' required='true'>
+		<option label='Tr&#232;s lente' key='x-slow' checked='false' />
+		<option label='Lente' key='slow' checked='false' />
+		<option label='Normale' key='medium' checked='true' />
+		<option label='Rapide' key='fast' checked='false' />
+		<option label='Tr&#232;s rapide' key='x-fast' checked='false' />
+	</select>
+
+	<select label='Nombre de jours' name='nbr_jours' type='one' required='true'>
+		<option label='1 jour' key='1' checked='false' />
+		<option label='2 jours' key='2' checked='true' />
+		<option label='3 jours' key='3' checked='false' />
+		<option label='4 jours' key='4' checked='false' />
+		<option label='5 jours' key='5' checked='false' />
+		<option label='6 jours' key='6' checked='false' />
+		<option label='7 jours' key='7' checked='false' />
+	</select>
+
+</screen>

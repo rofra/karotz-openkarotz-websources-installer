@@ -1,0 +1,15 @@
+<descriptor>
+    <name>Say it!</name>
+    <version>1.2.0</version>
+    <accesses>
+       <access>tts</access>
+       <access>led</access>
+       <access>button</access>
+    </accesses>
+    <editor>PlanèteDomo</editor>
+    <deployment>hosted</deployment>
+    <interruptible>false</interruptible>
+    <awake>false</awake>
+    <callback/>
+    <multiConf>true</multiConf>
+</descriptor>

@@ -1,0 +1,14 @@
+<descriptor>
+	<name>IPHONE LIVECAM</name>
+	<version>0.1</version>
+	<accesses>
+		<access>http</access>
+		<access>button</access>
+		<access>led</access>
+		<access>webcam</access>
+	</accesses>
+	<editor>_melka</editor>
+	<multiConf>false</multiConf>
+	<deployment>external</deployment>
+	<callback>http://internet-des-objets.info/karotz/iphone_livecam/livecam.php</callback>
+</descriptor>

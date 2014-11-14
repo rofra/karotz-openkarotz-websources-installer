@@ -1,0 +1,13 @@
+<descriptor>
+  <name>Rythme FM</name>
+  <version>1.0.0</version>
+  <accesses>
+    <access>http</access>
+    <access>tts</access>
+    <access>button</access>
+    <access>led</access>
+    <access>multimedia</access>
+  </accesses>
+  <multiConf>false</multiConf>
+  <asrName>Rythme FM</asrName>
+</descriptor>

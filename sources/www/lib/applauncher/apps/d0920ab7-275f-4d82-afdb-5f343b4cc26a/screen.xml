@@ -1,0 +1,17 @@
+<screen nanoTrigger="true"
+	permanentTrigger="true"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true" >
+  
+ <text label="Adresse Vera" name="veraAdress" default="192.168.x.x" validation="" required="true" errorMessage=""/>
+ <select label="Module Action" name="typeAction" type="one" required="true">
+    <option label="Exécuter une scene" key="Scene" checked="true"/>
+    <option label="Activer SecuritySensor" key="SecuritySensorOn" checked="false"/>
+    <option label="Désactiver SecuritySensor" key="SecuritySensorOff" checked="false"/>
+    <option label="Relever une température" key="TemperatureSensor" checked="false"/>
+ </select>
+ <text label="Id scène/module" name="numSceneModule" default="1" validation="" required="true" errorMessage=""/>
+ <text label="Message" name="message" default="Activation {0} du système" validation="" required="false" errorMessage=""/>
+</screen>
+

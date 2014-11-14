@@ -1,0 +1,53 @@
+<screen 
+	nanoTrigger="true"
+	permanentTrigger="true"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true" >
+    <select label="France Bleu" name="radio" type="one" required="false">
+        <option label="_Au hasard_" key="0" checked="false"/>
+        <option label="Alsace" key="1" checked="true"/>
+        <option label="Armorique" key="2" checked="false"/>
+        <option label="Auxerre" key="3" checked="false"/>
+        <option label="Azur" key="4" checked="false"/>
+        <option label="Basse-Normandie" key="5" checked="false"/>
+        <option label="B&#233;arn" key="6" checked="false"/>
+        <option label="Belfort Montb&#233;liard" key="7" checked="false"/>
+        <option label="Berry" key="8" checked="false"/>
+        <option label="Besan&#231;on" key="9" checked="false"/>
+        <option label="Bourgogne" key="10" checked="false"/>
+        <option label="Breizh Izel" key="11" checked="false"/>
+        <option label="Champagne" key="12" checked="false"/>
+        <option label="Cotentin" key="13" checked="false"/>
+        <option label="Creuse" key="14" checked="false"/>
+        <option label="Dr&#244;me Ard&#232;che" key="15" checked="false"/>
+        <option label="Frequenza Mora" key="16" checked="false"/>
+        <option label="Gard Loz&#232;re" key="17" checked="false"/>
+        <option label="Gascogne" key="18" checked="false"/>
+        <option label="Gironde" key="19" checked="false"/>
+        <option label="Haute-Normandie" key="20" checked="false"/>
+        <option label="H&#233;rault" key="21" checked="false"/>
+        <option label="&#206;le de France" key="22" checked="false"/>
+        <option label="Is&#232;re" key="23" checked="false"/>
+        <option label="La Rochelle" key="24" checked="false"/>
+        <option label="Limousin" key="25" checked="false"/>
+        <option label="Loire Oc&#233;an" key="26" checked="false"/>
+        <option label="Lorraine Nord" key="27" checked="false"/>
+        <option label="Maine" key="28" checked="false"/>
+        <option label="Mayenne" key="29" checked="false"/>
+        <option label="Nord" key="30" checked="false"/>
+        <option label="Orl&#233;ans" key="31" checked="false"/>
+        <option label="Pays Basque" key="32" checked="false"/>
+        <option label="Pays d&#180;Auvergne" key="33" checked="false"/>
+        <option label="Pays de Savoie" key="34" checked="false"/>
+        <option label="P&#233;rigord" key="35" checked="false"/>
+        <option label="Picardie" key="36" checked="false"/>
+        <option label="Poitou" key="37" checked="false"/>
+        <option label="Provence" key="38" checked="false"/>
+        <option label="Roussillon" key="39" checked="false"/>
+        <option label="Sud-Lorraine" key="40" checked="false"/>
+        <option label="Toulouse" key="41" checked="false"/>
+        <option label="Tourraine" key="42" checked="false"/>
+        <option label="Vaucluse" key="43" checked="false"/>
+    </select>
+</screen>

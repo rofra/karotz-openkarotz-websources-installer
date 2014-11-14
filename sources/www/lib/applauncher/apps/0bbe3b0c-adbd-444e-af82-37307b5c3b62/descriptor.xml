@@ -1,0 +1,8 @@
+<descriptor>
+    <version>1.6</version>
+    <accesses>
+        <access>tts</access>
+        <access>button</access>
+		<access>http</access>
+    </accesses>
+</descriptor>

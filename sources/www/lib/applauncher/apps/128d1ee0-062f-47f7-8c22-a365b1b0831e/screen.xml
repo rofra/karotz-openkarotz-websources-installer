@@ -1,0 +1,12 @@
+<screen nanoTrigger="true"
+	permanentTrigger="true"
+	scheduledTrigger="true"
+	scheduledDateTrigger="false"
+	voiceTrigger="false" >
+	<select label="Dur&#233;e" name="duration" type="one" required="true">
+        <option label="30 s" key="thirty" checked="false"/>
+		<option label="1 min" key="one" checked="false"/>
+		<option label="2 min" key="two" checked="true"/>
+		<option label="5 min" key="five" checked="false"/>
+    </select>
+</screen>

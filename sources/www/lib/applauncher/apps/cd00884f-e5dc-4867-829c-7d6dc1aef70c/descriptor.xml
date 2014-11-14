@@ -1,0 +1,15 @@
+ <descriptor>
+	<name>Rire &#38; Chansons Radios</name>
+	<version>1.3</version>
+	<asrName>rire et chanson</asrName>
+	<accesses>
+		<access>button</access>
+		<access>ears</access>
+		<access>led</access>
+		<access>multimedia</access>
+		<access>tts</access>
+	</accesses>
+	<editor>http://wizz.cc</editor>
+	<deployment>hosted</deployment>
+	<multiConf>true</multiConf>
+</descriptor>

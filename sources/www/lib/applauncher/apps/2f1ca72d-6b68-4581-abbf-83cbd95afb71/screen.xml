@@ -1,0 +1,7 @@
+<screen nanoTrigger="true" permanentTrigger="false"	scheduledTrigger="false" voiceTrigger="false" >
+	<text label="Pseudo (a-z0-9@-_.)" name="pseudo" default="" required="true" validation="" errorMessage="Indiquez un Pseudo" />
+	<text label="Token facultatif (0-9)" name="token" default="" required="false" validation="" errorMessage="Token" />
+	<button label="Cr&#233;er / Mettre &#224; jour mon Compte" link="http://www.karotz.com/authentication/run/karotz/2f1ca72d-6b68-4581-abbf-83cbd95afb71" />
+	<button label="Blog &amp; Documentation" link="http://blog.wizz.cc/" />
+	<button label="http://wizz.cc" link="http://wizz.cc/" />
+</screen>

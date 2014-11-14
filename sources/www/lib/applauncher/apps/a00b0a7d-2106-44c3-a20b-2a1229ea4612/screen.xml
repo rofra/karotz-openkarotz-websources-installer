@@ -1,0 +1,21 @@
+<screen>
+	<select label="Votre po&#232;me" name="comptine" type="one" required="true">
+		<option label="Chanson : La Fleur de toutes les couleurs" key="0" checked="true"/>
+		<option label="lu : Quand je suis sur tes genoux" key="1" checked="false"/>
+		<option label="lu : En ce jour charmant" key="2" checked="false"/>
+		<option label="lu - Merci maman" key="3" checked="false"/>
+		<option label="lu - Comment s&#39;&#233;crit le mot Maman?" key="4" checked="false"/>
+		<option label="lu - c&#39;est aujourd&#39;hui la f&#234;te des mamans" key="5" checked="false"/>
+		<option label="lu - Ouvre grand la fen&#234;tre Maman" key="6" checked="false"/>
+		<option label="lu - Si j&#39;&#233;tais jardinier" key="7" checked="false"/>
+		<option label="lu - Un miroir" key="8" checked="false"/>
+		<option label="lu - Mon po&#232;me" key="9" checked="false"/>
+		<option label="lu - Petit panier" key="10" checked="false"/>
+		<option label="lu - Je voudrais pour ta f&#234;te" key="11" checked="false"/>
+		<option label="lu - Les bras d'une maman" key="12" checked="false"/>
+	</select>
+	<select label="Bouger oreilles?" name="ears" type="one" required="true">
+		<option label="Oui" key="Y" checked="true"/>
+		<option label="Non" key="N" checked="false"/>
+	</select>
+</screen>

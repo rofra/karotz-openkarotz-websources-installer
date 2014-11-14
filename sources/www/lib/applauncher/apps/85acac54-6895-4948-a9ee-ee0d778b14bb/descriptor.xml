@@ -1,0 +1,21 @@
+<descriptor>
+    <version>1.1</version>
+    <accesses> 
+<access>rfid</access> 
+<access>button</access>
+<access>led</access>
+<access>http</access>
+<access>multimedia</access>
+</accesses>
+
+    <editor>Jonathan Yaniv</editor>
+    <asrName>La Marseillaise</asrName>
+    <deployment>hosted</deployment>
+    <multiConf>false</multiConf>
+
+    <parameters>
+        <parameter key="paramKey" value="paramValue"/>
+    </parameters>
+    <interruptible>boolean</interruptible>
+    <awake>true</awake>
+</descriptor>

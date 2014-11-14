@@ -1,0 +1,36 @@
+<screen 
+	nanoTrigger="true"
+	permanentTrigger="false"
+	scheduledTrigger="true"
+	scheduledDateTrigger="false"
+	voiceTrigger="true">
+	<select label="Veuillez choisir une voix" name="voix" type="one" required="true">
+		<option label="Défaut" key="Defaut" checked="true"/>
+		<option label="Be cool" key="bicool" checked="false"/>
+		<option label="Chuchotement" key="chuchotement" checked="false"/>
+		<option label="Dark Vadoor" key="darkvadoor" checked="false"/>
+		<option label="Electra" key="electra" checked="false"/>
+		<option label="Fort" key="guy_fort" checked="false"/>
+		<option label="Grave" key="guy_grave" checked="false"/>
+		<option label="Helium" key="helium" checked="false"/>
+		<option label="Julie" key="Juliexp" checked="false"/>
+		<option label="Loïc" key="Loic" checked="false"/>
+		<option label="Mamie" key="mamie" checked="false"/>
+		<option label="Matteo" key="matteo" checked="false"/>
+		<option label="Nono" key="nono" checked="false"/>
+		<option label="Papa Noël" key="papanoel" checked="false"/>
+		<option label="Petite fille" key="JulieEnfant" checked="false"/>
+		<option label="Philippe" key="Philippe" checked="false"/>
+		<option label="Ramboo" key="ramboo" checked="false"/>
+		<option label="Sidoo" key="sidoo" checked="false"/>
+		<option label="Vieux" key="guy_vieux" checked="false"/>
+		<option label="Voix basse" key="guy_voix_basse" checked="false"/>
+	</select>
+	<button label="Cliquez-ici pour voir mes autres applications..." link="http://karotz.sylvainmenu.com" />
+</screen>
+
+
+
+
+
+

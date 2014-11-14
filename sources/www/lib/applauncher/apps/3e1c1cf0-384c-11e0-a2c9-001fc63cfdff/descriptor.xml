@@ -1,0 +1,17 @@
+<?xml version="1.0" ?><descriptor>
+    <name>Closer</name>
+    <apikey>3e1c1cf0-384c-11e0-a2c9-001fc63cfdff</apikey>
+    <version>0.9.7</version>
+   <accesses>
+       <access>tts</access>
+       <access>led</access>
+       <access>http</access>
+       <access>button</access>
+    </accesses>
+    <deployment>hosted</deployment>
+    <interruptible>true</interruptible>
+    <awake>true</awake>
+    <callback/>
+    <multiConf>false</multiConf>
+    <parameters/>
+</descriptor>

@@ -1,0 +1,172 @@
+<screen>
+	<select label="Station" name="station" type="one" required="true">
+		<option label="ALMA" key="79" checked="true"/>
+		<option label="ANATOLE FRANCE" key="78" checked="false"/>
+		<option label="ATALANTE CHAMPEAUX" key="77" checked="false"/>
+		<option label="AUBERGE DE JEUNESSE" key="76" checked="false"/>
+		<option label="BEAULIEU BOIS PERRIN" key="75" checked="false"/>
+		<option label="BEAULIEU CHIMIE" key="74" checked="false"/>
+		<option label="BEAULIEU INSA" key="73" checked="false"/>
+		<option label="BEAULIEU RESTAU U." key="72" checked="false"/>
+		<option label="BERGER" key="71" checked="false"/>
+		<option label="BINQUENAIS" key="70" checked="false"/>
+		<option label="BOUZAT" key="69" checked="false"/>
+		<option label="BREST VERDUN" key="68" checked="false"/>
+		<option label="CHAMPS JACQUET" key="67" checked="false"/>
+		<option label="CHAMPS LIBRES" key="66" checked="false"/>
+		<option label="CHAMPS MANCEAUX" key="65" checked="false"/>
+		<option label="CHARLES DE GAULLE" key="64" checked="false"/>
+		<option label="CHEQUES POSTAUX" key="63" checked="false"/>
+		<option label="CIMETIERE EST" key="62" checked="false"/>
+		<option label="CITE JUDICIAIRE" key="61" checked="false"/>
+		<option label="CLEMENCEAU" key="60" checked="false"/>
+		<option label="CLEUNAY" key="59" checked="false"/>
+		<option label="CUCILLE" key="58" checked="false"/>
+		<option label="DALLE DU COLOMBIER" key="57" checked="false"/>
+		<option label="DE LESSEPS" key="56" checked="false"/>
+		<option label="DINAN" key="55" checked="false"/>
+		<option label="DUCHESSE ANNE" key="54" checked="false"/>
+		<option label="FAC DE DROIT" key="53" checked="false"/>
+		<option label="GARES (SUD)" key="51" checked="false"/>
+		<option label="GARES (NORD)" key="52" checked="false"/>
+		<option label="GAST" key="50" checked="false"/>
+		<option label="GENIAUX" key="49" checked="false"/>
+		<option label="GROS CHENE" key="48" checked="false"/>
+		<option label="HENRI FREVILLE" key="47" checked="false"/>
+		<option label="HORIZONS" key="46" checked="false"/>
+		<option label="HOTEL DIEU" key="45" checked="false"/>
+		<option label="HOUX CITE U" key="44" checked="false"/>
+		<option label="ITALIE" key="43" checked="false"/>
+		<option label="JACQUES CARTIER" key="42" checked="false"/>
+		<option label="JF KENNEDY" key="41" checked="false"/>
+		<option label="JULES FERRY" key="40" checked="false"/>
+		<option label="LA HARPE" key="39" checked="false"/>
+		<option label="LA TOUCHE" key="38" checked="false"/>
+		<option label="LAENNEC" key="37" checked="false"/>
+		<option label="LES HALLES" key="36" checked="false"/>
+		<option label="LES LICES" key="35" checked="false"/>
+		<option label="LIBERTE" key="34" checked="false"/>
+		<option label="LYCEE BREQUIGNY" key="33" checked="false"/>
+		<option label="MAIRIE" key="32" checked="false"/>
+		<option label="MALAKOFF" key="31" checked="false"/>
+		<option label="MARBEUF" key="30" checked="false"/>
+		<option label="MERMOZ" key="29" checked="false"/>
+		<option label="METZ SEVIGNE" key="28" checked="false"/>
+		<option label="MONTS D'ARREE" key="27" checked="false"/>
+		<option label="MOULIN DE JOUE" key="26" checked="false"/>
+		<option label="MUSEE BEAUX ARTS" key="25" checked="false"/>
+		<option label="OBERTHUR" key="24" checked="false"/>
+		<option label="OFFICE DE TOURISME" key="23" checked="false"/>
+		<option label="PAINLEVE" key="22" checked="false"/>
+		<option label="PAUL BERT" key="21" checked="false"/>
+		<option label="PIERRE MARTIN" key="20" checked="false"/>
+		<option label="PISCINE BREQUIGNY" key="19" checked="false"/>
+		<option label="PISCINE GAYEULLES" key="18" checked="false"/>
+		<option label="PLACE DE BRETAGNE" key="17" checked="false"/>
+		<option label="PLACE HOCHE" key="16" checked="false"/>
+		<option label="PLELO COLOMBIER" key="15" checked="false"/>
+		<option label="PONTCHAILLOU (METRO)" key="11" checked="false"/>
+		<option label="PONTCHAILLOU (TER)" key="82" checked="false"/>
+		<option label="PONT DE CHATEAUDUN" key="14" checked="false"/>
+		<option label="PONT DE NANTES" key="13" checked="false"/>
+		<option label="PONT DE STRASBOURG" key="12" checked="false"/>
+		<option label="POTERIE" key="81" checked="false"/>
+		<option label="PREFECTURE" key="10" checked="false"/>
+		<option label="RECTORAT" key="9" checked="false"/>
+		<option label="REPUBLIQUE" key="8" checked="false"/>
+		<option label="RONCERAY" key="80" checked="false"/>
+		<option label="ROTONDE" key="7" checked="false"/>
+		<option label="SAINTE ANNE" key="5" checked="false"/>
+		<option label="SAINT GEORGES" key="6" checked="false"/>
+		<option label="STE THERESE" key="4" checked="false"/>
+		<option label="TNB" key="3" checked="false"/>
+		<option label="TURMEL" key="2" checked="false"/>
+		<option label="VILLEJEAN-UNIVERSITE" key="1" checked="false"/>
+		<option label="ZAC SAINT SULPICE" key="0" checked="false"/>
+	</select>
+	<select label="Station si aucun vélo disponible à la station ci-dessus" name="station2" type="one" required="true">
+		<option label="ALMA" key="79" checked="true"/>
+		<option label="ANATOLE FRANCE" key="78" checked="false"/>
+		<option label="ATALANTE CHAMPEAUX" key="77" checked="false"/>
+		<option label="AUBERGE DE JEUNESSE" key="76" checked="false"/>
+		<option label="BEAULIEU BOIS PERRIN" key="75" checked="false"/>
+		<option label="BEAULIEU CHIMIE" key="74" checked="false"/>
+		<option label="BEAULIEU INSA" key="73" checked="false"/>
+		<option label="BEAULIEU RESTAU U." key="72" checked="false"/>
+		<option label="BERGER" key="71" checked="false"/>
+		<option label="BINQUENAIS" key="70" checked="false"/>
+		<option label="BOUZAT" key="69" checked="false"/>
+		<option label="BREST VERDUN" key="68" checked="false"/>
+		<option label="CHAMPS JACQUET" key="67" checked="false"/>
+		<option label="CHAMPS LIBRES" key="66" checked="false"/>
+		<option label="CHAMPS MANCEAUX" key="65" checked="false"/>
+		<option label="CHARLES DE GAULLE" key="64" checked="false"/>
+		<option label="CHEQUES POSTAUX" key="63" checked="false"/>
+		<option label="CIMETIERE EST" key="62" checked="false"/>
+		<option label="CITE JUDICIAIRE" key="61" checked="false"/>
+		<option label="CLEMENCEAU" key="60" checked="false"/>
+		<option label="CLEUNAY" key="59" checked="false"/>
+		<option label="CUCILLE" key="58" checked="false"/>
+		<option label="DALLE DU COLOMBIER" key="57" checked="false"/>
+		<option label="DE LESSEPS" key="56" checked="false"/>
+		<option label="DINAN" key="55" checked="false"/>
+		<option label="DUCHESSE ANNE" key="54" checked="false"/>
+		<option label="FAC DE DROIT" key="53" checked="false"/>
+		<option label="GARES (SUD)" key="51" checked="false"/>
+		<option label="GARES (NORD)" key="52" checked="false"/>
+		<option label="GAST" key="50" checked="false"/>
+		<option label="GENIAUX" key="49" checked="false"/>
+		<option label="GROS CHENE" key="48" checked="false"/>
+		<option label="HENRI FREVILLE" key="47" checked="false"/>
+		<option label="HORIZONS" key="46" checked="false"/>
+		<option label="HOTEL DIEU" key="45" checked="false"/>
+		<option label="HOUX CITE U" key="44" checked="false"/>
+		<option label="ITALIE" key="43" checked="false"/>
+		<option label="JACQUES CARTIER" key="42" checked="false"/>
+		<option label="JF KENNEDY" key="41" checked="false"/>
+		<option label="JULES FERRY" key="40" checked="false"/>
+		<option label="LA HARPE" key="39" checked="false"/>
+		<option label="LA TOUCHE" key="38" checked="false"/>
+		<option label="LAENNEC" key="37" checked="false"/>
+		<option label="LES HALLES" key="36" checked="false"/>
+		<option label="LES LICES" key="35" checked="false"/>
+		<option label="LIBERTE" key="34" checked="false"/>
+		<option label="LYCEE BREQUIGNY" key="33" checked="false"/>
+		<option label="MAIRIE" key="32" checked="false"/>
+		<option label="MALAKOFF" key="31" checked="false"/>
+		<option label="MARBEUF" key="30" checked="false"/>
+		<option label="MERMOZ" key="29" checked="false"/>
+		<option label="METZ SEVIGNE" key="28" checked="false"/>
+		<option label="MONTS D'ARREE" key="27" checked="false"/>
+		<option label="MOULIN DE JOUE" key="26" checked="false"/>
+		<option label="MUSEE BEAUX ARTS" key="25" checked="false"/>
+		<option label="OBERTHUR" key="24" checked="false"/>
+		<option label="OFFICE DE TOURISME" key="23" checked="false"/>
+		<option label="PAINLEVE" key="22" checked="false"/>
+		<option label="PAUL BERT" key="21" checked="false"/>
+		<option label="PIERRE MARTIN" key="20" checked="false"/>
+		<option label="PISCINE BREQUIGNY" key="19" checked="false"/>
+		<option label="PISCINE GAYEULLES" key="18" checked="false"/>
+		<option label="PLACE DE BRETAGNE" key="17" checked="false"/>
+		<option label="PLACE HOCHE" key="16" checked="false"/>
+		<option label="PLELO COLOMBIER" key="15" checked="false"/>
+		<option label="PONTCHAILLOU (METRO)" key="11" checked="false"/>
+		<option label="PONTCHAILLOU (TER)" key="82" checked="false"/>
+		<option label="PONT DE CHATEAUDUN" key="14" checked="false"/>
+		<option label="PONT DE NANTES" key="13" checked="false"/>
+		<option label="PONT DE STRASBOURG" key="12" checked="false"/>
+		<option label="POTERIE" key="81" checked="false"/>
+		<option label="PREFECTURE" key="10" checked="false"/>
+		<option label="RECTORAT" key="9" checked="false"/>
+		<option label="REPUBLIQUE" key="8" checked="false"/>
+		<option label="RONCERAY" key="80" checked="false"/>
+		<option label="ROTONDE" key="7" checked="false"/>
+		<option label="SAINTE ANNE" key="5" checked="false"/>
+		<option label="SAINT GEORGES" key="6" checked="false"/>
+		<option label="STE THERESE" key="4" checked="false"/>
+		<option label="TNB" key="3" checked="false"/>
+		<option label="TURMEL" key="2" checked="false"/>
+		<option label="VILLEJEAN-UNIVERSITE" key="1" checked="false"/>
+		<option label="ZAC SAINT SULPICE" key="0" checked="false"/>
+	</select>
+</screen>

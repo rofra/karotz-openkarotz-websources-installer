@@ -1,0 +1,5 @@
+<screen>
+	<button label="Cliquez-ici pour activer votre compte" link="http://veloce.pixelsdev.fr/Kmail/kmail.php" />
+	<text label="Code d'activation" name="id" default="" validation="" required="false" errorMessage="" />
+	<text label="Id unique" name="uniqid" default="" validation="" required="false" errorMessage="" />
+</screen>

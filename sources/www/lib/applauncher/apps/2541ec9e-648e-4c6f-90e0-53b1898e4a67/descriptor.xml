@@ -1,0 +1,12 @@
+ <descriptor>
+	<name>Metropolys</name>
+	<version>1.5</version>
+	<accesses>
+		<access>button</access>
+		<access>led</access>
+		<access>multimedia</access>
+	</accesses>
+	<editor>Mikey</editor>
+	<deployment>hosted</deployment>
+	<multiConf>false</multiConf>
+</descriptor>

@@ -1,0 +1,8 @@
+<screen
+	nanoTrigger="true"
+	permanentTrigger="true"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true" >
+	<!-- <text label="http log server address" name="httplogaddress" default="http://192.168.1.112/log.php?log=" validation="" required="true" errorMessage="" /> -->
+</screen>

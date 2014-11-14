@@ -1,0 +1,15 @@
+<descriptor>
+    <apikey>d6978ab5-d041-4a3f-8482-9ff76369c93d</apikey>
+	<version>1.0.4</version>
+    <accesses>
+        <access>tts</access>
+		<access>http</access>
+        <access>button</access>
+		<access>webcam</access>
+    </accesses>
+	<editor>dodgecandle</editor>
+	<deployment>hosted</deployment>
+	<multiConf>false</multiConf>
+	<interruptible>false</interruptible>
+	<awake>true</awake>
+</descriptor>

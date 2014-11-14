@@ -1,0 +1,14 @@
+<descriptor>
+	<name>RMC Podcast</name>
+	<apikey>a504fd67-6827-45fd-8e52-90b6c64645d0</apikey>
+	<editor>35niavlys</editor>
+	<version>1.0.2</version>
+	<accesses>
+        	<access>button</access>
+        	<access>http</access>
+        	<access>led</access>
+        	<access>multimedia</access>
+    	</accesses>
+	<multiConf>true</multiConf>
+	<deployment>hosted</deployment>
+</descriptor>

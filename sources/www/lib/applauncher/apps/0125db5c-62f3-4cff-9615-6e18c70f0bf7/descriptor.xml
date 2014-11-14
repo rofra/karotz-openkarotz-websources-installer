@@ -1,0 +1,9 @@
+<descriptor>
+	<multiConf>false</multiConf> 
+    <version>1.0.1</version>
+    <accesses>
+        <access>led</access>
+        <access>button</access>
+    </accesses>
+	<editor>Vince</editor>
+</descriptor>

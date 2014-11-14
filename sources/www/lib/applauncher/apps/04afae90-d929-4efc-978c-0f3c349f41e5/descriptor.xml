@@ -1,0 +1,20 @@
+<descriptor>
+    <name>Zibase</name>
+    <version>1.2.0</version>
+    <accesses>
+       <access>button</access>
+       <access>tts</access>
+       <access>led</access>
+       <access>http</access>
+    </accesses>
+    <editor>PlanèteDomo</editor>
+    <deployment>hosted</deployment>
+    <interruptible>false</interruptible>
+    <asrName>zodianet</asrName>
+    <awake>false</awake>
+    <callback/>
+    <multiConf>true</multiConf>
+    <parameters>
+      <parameter key="showInstallUuid" value="true"/>
+    </parameters>
+</descriptor>

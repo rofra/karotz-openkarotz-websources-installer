@@ -1,0 +1,17 @@
+<descriptor>
+    <name>Radio player</name>
+    <version>1.1.1</version>
+    <accesses>
+        <access>tts</access>
+        <access>button</access>
+        <access>http</access>
+        <access>ears</access>
+        <access>led</access>
+        <access>multimedia</access>
+        <access>asr</access>
+    </accesses>
+    <editor>Bastien STEFANI</editor>
+    <deployment>hosted</deployment>
+    <multiConf>false</multiConf>
+    <interruptible>true</interruptible>
+</descriptor>

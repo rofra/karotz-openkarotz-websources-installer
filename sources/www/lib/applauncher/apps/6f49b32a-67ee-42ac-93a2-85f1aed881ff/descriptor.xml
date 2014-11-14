@@ -1,0 +1,16 @@
+ <descriptor>
+	<name>Chuck Norris Facts</name>
+	<version>1.0.15</version>
+	<apikey>6f49b32a-67ee-42ac-93a2-85f1aed881ff</apikey>
+	<accesses>
+		<access>button</access>
+		<access>led</access>
+		<access>tts</access>
+		<access>http</access>
+		<access>ears</access>
+	</accesses>
+	<editor>gpower.fr</editor>
+	<deployment>hosted</deployment>
+	<multiConf>true</multiConf>
+	<awake>true</awake>
+</descriptor>

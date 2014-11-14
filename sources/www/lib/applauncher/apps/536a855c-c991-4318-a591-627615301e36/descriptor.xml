@@ -1,0 +1,14 @@
+<descriptor>
+	<name>météo</name>
+	<version>1.2.0b</version>
+	<accesses>
+		<access>tts</access>
+		<access>button</access>
+		<access>rfid</access>
+		<access>led</access>
+		<access>http</access>
+		<access>multimedia</access>
+		<access>asr</access>
+	</accesses>
+	<multiConf>true</multiConf>
+</descriptor>

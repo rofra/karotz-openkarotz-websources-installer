@@ -1,0 +1,12 @@
+<descriptor>
+	<name>Mot anglais du jour</name>
+	<editor>35niavlys</editor>
+	<version>1.0.0</version>
+	<accesses>
+        	<access>led</access>
+        	<access>button</access>
+        	<access>tts</access>
+        	<access>http</access>
+    	</accesses>
+	<multiConf>false</multiConf>
+</descriptor>

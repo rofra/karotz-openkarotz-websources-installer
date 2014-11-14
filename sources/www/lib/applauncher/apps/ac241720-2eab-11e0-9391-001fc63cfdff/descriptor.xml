@@ -1,0 +1,19 @@
+<descriptor>
+    <name>Demo_name</name>
+    <apikey>apikey</apikey>
+    <version>1.0.6</version>
+   <accesses>
+       <access>ears</access>
+       <access>tts</access>
+       <access>led</access>
+       <access>multimedia</access>
+       <access>http</access>
+       <access>button</access>
+    </accesses>
+    <deployment>hosted</deployment>
+    <interruptible>true</interruptible>
+    <awake>true</awake>
+    <callback></callback>
+    <multiConf>false</multiConf>
+    <parameters></parameters>
+</descriptor>

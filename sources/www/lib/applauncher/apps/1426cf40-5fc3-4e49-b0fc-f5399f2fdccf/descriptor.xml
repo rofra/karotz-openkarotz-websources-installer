@@ -1,0 +1,18 @@
+﻿<descriptor>
+	<name>radio</name>
+    <version>0.0.5</version>
+    <accesses>
+        <access>tts</access>
+        <access>button</access>
+		<access>rfid</access>
+		<access>led</access>
+		<access>asr</access>
+		<access>http</access>
+		<access>multimedia</access>
+		<access>file</access>
+    </accesses>
+	<editor>chakalou</editor>
+	<asrName>lecteur</asrName>
+	<deployment>hosted</deployment> 
+	<multiConf>false</multiConf> 	
+</descriptor>

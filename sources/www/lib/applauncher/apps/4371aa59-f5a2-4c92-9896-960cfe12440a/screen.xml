@@ -1,0 +1,7 @@
+<screen nanoTrigger="true"
+	permanentTrigger="false"
+	scheduledTrigger="true"
+	scheduledDateTrigger="false"
+	voiceTrigger="true" >
+	<button label="Cliquez-ici pour voir mes autres applications..." link="http://karotz.sylvainmenu.com" />
+</screen>

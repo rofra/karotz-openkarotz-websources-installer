@@ -1,0 +1,15 @@
+<screen nanoTrigger="true"
+permanentTrigger="false"
+scheduledTrigger="false"
+scheduledDateTrigger="false"
+voiceTrigger="true">
+	<select label="Niveau" name="niveau" type="one" required="true">
+		<option label="1 - facile" key="1" checked="true"/>
+		<option label="2 - moyen" key="2" checked="false"/>
+	</select>
+	<select label="Partie en combien de manches?" name="manche" type="one" required="true">
+		<option label="2 manches gagnantes" key="2" checked="true"/>
+		<option label="3 manches gagnantes" key="3" checked="false"/>
+		<option label="4 manches gagnantes" key="4" checked="false"/>
+	</select>
+</screen>

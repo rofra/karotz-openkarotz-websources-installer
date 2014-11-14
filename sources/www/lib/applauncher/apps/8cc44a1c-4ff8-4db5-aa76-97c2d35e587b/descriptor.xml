@@ -1,0 +1,10 @@
+<descriptor>
+    <version>1.1.1</version>
+    <name>StrasParky</name>
+    <accesses>
+        <access>tts</access>
+        <access>button</access>
+        <access>http</access>
+        <access>led</access>
+    </accesses>
+</descriptor>

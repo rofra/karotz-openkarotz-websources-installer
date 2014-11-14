@@ -1,0 +1,12 @@
+ <descriptor>
+	<name>Radio Let's Go Zik</name>
+	<version>1.0.1</version>
+	<accesses>
+		<access>button</access>
+		<access>led</access>
+		<access>multimedia</access>
+	</accesses>
+	<editor>http://www.letsgozik.org</editor>
+	<deployment>hosted</deployment>
+	<multiConf>false</multiConf>
+</descriptor>

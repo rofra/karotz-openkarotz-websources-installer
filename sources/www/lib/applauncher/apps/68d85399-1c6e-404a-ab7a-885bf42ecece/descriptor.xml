@@ -1,0 +1,16 @@
+<descriptor>
+    <version>1.1.2</version>
+    <name>Lecteur M.P.3</name>
+    <accesses>
+      <access>tts</access>
+      <access>button</access>
+      <access>ears</access>
+      <access>led</access>
+      <access>multimedia</access>
+    </accesses>
+    <deployment>hosted</deployment>
+    <multiConf>true</multiConf>
+    <asrName>m.p.3</asrName>
+    <interruptible>true</interruptible>
+    <awake>true</awake>
+</descriptor>

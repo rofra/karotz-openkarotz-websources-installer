@@ -1,0 +1,19 @@
+<screen>
+	<select label="Niveau" name="level" type="one" required="true">
+		<option label="4 couleurs" key="4" checked="true"/>
+		<option label="11 couleurs" key="11" checked="false"/>
+		<option label="16 couleurs" key="17" checked="false"/>
+	</select>
+	<select label="Langue oreille droite" name="lang" type="one" required="true">
+		<option label="FR" key="00fr" checked="true"/>
+		<option label="EN" key="20en" checked="false"/>
+		<option label="DE" key="40de" checked="false"/>
+		<option label="ES" key="60es" checked="false"/>
+	</select>
+	<select label="Langue oreille gauche" name="lang1" type="one" required="true">
+		<option label="FR" key="00fr" checked="true"/>
+		<option label="EN" key="20en" checked="false"/>
+		<option label="DE" key="40de" checked="false"/>
+		<option label="ES" key="60es" checked="false"/>
+	</select>
+</screen>

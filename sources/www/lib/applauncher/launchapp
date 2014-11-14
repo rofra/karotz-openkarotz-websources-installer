@@ -1,0 +1,55 @@
+#!/usr/bin/python
+#
+# App Launcher with configuration management
+# 
+#
+# -*- coding: utf-8 -*-
+import sys, getopt, os
+from lib import LauncherLibKarotz
+from lib import ConfigurationLibKarotz
+
+
+# MAIN CALL
+appcode = None
+appconfig = None
+
+try:
+  cfn = os.path.realpath(__file__)
+  helpmessage = 'Usage: %s -a <appcode> -c <config>'
+  opts, args = getopt.getopt(sys.argv[1:],'ha:c:',['app=','config='])
+except getopt.GetoptError:
+  print helpmessage % cfn
+  sys.exit(2)
+for opt, arg in opts:
+  if opt == '-h':
+     print helpmessage % cfn
+     sys.exit()
+  elif opt in ('-a', '--app'):
+     appcode = arg
+  elif opt in ('-c', '--config'):
+     appconfig = arg
+     
+if (appcode == None) or (appconfig == None): 
+    print helpmessage % cfn
+    sys.exit()
+
+#print 'Launching the application'
+#print '  Appcode = %s' % appcode 
+#print '  Appconfig = %s' % appconfig 
+
+# Instantiate configuration class
+configlib = ConfigurationLibKarotz.ConfigurationLibKarotz()
+
+cpath = os.path.dirname(os.path.realpath(__file__))
+configlib.init('%s/config/%s.xml' % (cpath, appcode))
+
+# Instantiate launcher class
+laulib = LauncherLibKarotz.LauncherLibKarotz()
+appsdir = "%s/apps/" % (cpath)
+laulib.init(appsdir)
+
+# Launch !
+try:                                         
+    commandline = laulib.launch(appcode, appconfig, configlib)
+except Exception:
+    print "echo Error occurred"

@@ -1,0 +1,8 @@
+<screen 
+	nanoTrigger="false"
+	permanentTrigger="false"
+	scheduledTrigger="false"
+	scheduledDateTrigger="false"
+	voiceTrigger="false" >
+	<button label="Cliquez ici pour lancer l'application" link="http://karotz.vinceonline.fr/livecam"/>
+</screen>

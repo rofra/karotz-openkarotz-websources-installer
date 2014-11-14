@@ -1,0 +1,28 @@
+<screen>
+    <select label="Parking strasbourgeois" name="parking" type="one" required="true">
+        <option label="Zénith" key="1" checked="false"/>
+        <option label="Batelier" key="2" checked="false"/>
+        <option label="Broglie" key="3" checked="false"/>
+        <option label="P+R Baggersee" key="4" checked="false"/>
+        <option label="P+R Ducs d'Alsace" key="5" checked="false"/>
+        <option label="P+R Elsau" key="6" checked="false"/>
+        <option label="P+R Rotonde" key="7" checked="false"/>
+        <option label="Gare Courte Durée" key="8" checked="false"/>
+        <option label="Gare Sainte Aurélie" key="9" checked="false"/>
+        <option label="Gare Wodli" key="10" checked="false"/>
+        <option label="Gutenberg" key="11" checked="false"/>
+        <option label="Kléber" key="12" checked="true"/>
+        <option label="Halles P1 Marais Vert" key="13" checked="false"/>
+        <option label="Halles P2 Sébastopol" key="14" checked="false"/>
+        <option label="P+R Boecklin" key="15" checked="false"/>
+        <option label="P+R Krimmeri" key="16" checked="false"/>
+        <option label="Petite France - Sainte Marguerite" key="17" checked="false"/>
+        <option label="P+R Rives de l'Aar" key="18" checked="false"/>
+        <option label="Saint Nicolas" key="19" checked="false"/>
+        <option label="Tanneurs" key="20" checked="false"/>
+        <option label="Austerlitz" key="21" checked="false"/>
+        <option label="Halles P3 Wilson" key="22" checked="false"/>
+        <option label="Rivetoile P1" key="23" checked="false"/>
+        <option label="P+R Hoenheim Gare" key="24" checked="false"/>
+    </select>
+</screen>

@@ -1,0 +1,7 @@
+<screen>
+<select label="Anthem Language" name="lang" type="one" required="true">
+        <option label="French" key="French" checked="false"/>
+    </select>
+  
+  
+</screen>

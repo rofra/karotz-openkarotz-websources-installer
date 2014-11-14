@@ -18,6 +18,7 @@ Init();
 	$('#Sounds').load('sounds.html');	
   	$('#Pictures').load('pictures.html');
 	$('#Apps').load('apps.html');
+	$('#OfficialApps').load('officialapps.html');
 	$('#Update').load('update.html');
 	// $('#Setup').load('setup.html');
 	$('#Docs').load('about.html');
@@ -43,6 +44,9 @@ $("#tabs").tabs({
 			 RefreshMoodsList('#cbx_moods');
 			 RefreshStoriesList();
 		}
+		if ( ui.newPanel.attr('id') == "OfficialApps")		{
+                         RefreshOfficialAppsList();
+                }
 
 		CheckUpdate}							  							
 });

@@ -1,0 +1,12 @@
+﻿<descriptor>
+	<name>Google Actus</name>
+	<editor>35niavlys</editor>
+	<version>1.0.0</version>
+	<accesses>
+        <access>http</access>
+        <access>led</access>
+        <access>tts</access>
+        <access>button</access>
+    </accesses>
+	<multiConf>false</multiConf>
+</descriptor>

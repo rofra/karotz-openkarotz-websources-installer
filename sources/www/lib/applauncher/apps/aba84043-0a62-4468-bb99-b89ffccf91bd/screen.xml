@@ -1,0 +1,18 @@
+<screen 
+	nanoTrigger="true"
+	permanentTrigger="true"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true" >
+    <select label="Les Contes de Perrault" name="conte" type="one" required="false">
+        <option label="_Au hasard_" key="0" checked="false"/>
+        <option label="Cendrillon ou la Petite Pantoufle de Vair" key="1" checked="true"/>
+        <option label="La Barbe Bleue" key="2" checked="false"/>
+        <option label="La Belle au Bois Dormant" key="3" checked="false"/>
+        <option label="Le Ma&#238;tre Chat ou le Chat Bott&#233;" key="4" checked="false"/>
+        <option label="Le Petit Chaperon Rouge" key="5" checked="false"/>
+        <option label="Le Petit Poucet" key="6" checked="false"/>
+        <option label="Les F&#233;es" key="7" checked="false"/>
+        <option label="Riquet &#224; la Houppe" key="8" checked="false"/>
+	</select>
+</screen>

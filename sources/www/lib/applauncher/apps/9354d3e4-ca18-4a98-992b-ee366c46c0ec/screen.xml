@@ -1,0 +1,10 @@
+<screen>
+	<select label="Langue" name="lang" type="one" required="true">
+		<option label="Fr-Fr" key="b" checked="true"/>
+		<option label="Fr-Ca" key="c" checked="false"/>
+		<option label="En-Us" key="s" checked="false"/>
+		<option label="En-Uk" key="k" checked="false"/>
+		<option label="Sp" key="p" checked="false"/>
+		<option label="De" key="d" checked="false"/>
+	</select>
+</screen>

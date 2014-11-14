@@ -1,0 +1,12 @@
+<descriptor>
+    <version>0.0.1c</version>
+	<accesses>
+		<access>button</access>
+		<access>tts</access>
+		<access>ears</access>
+		<access>asr</access>
+		<access>led</access>
+		<access>multimedia</access>
+	</accesses>
+	<multiConf>false</multiConf>
+</descriptor>

@@ -1,0 +1,34 @@
+<screen 
+	nanoTrigger="true"
+	permanentTrigger="true"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true" >
+    <select label="Chansons" name="mp3" type="one" required="false">
+        <option label="_Au hasard_" key="0" checked="false"/>
+        <option label="Sur le pont d'Avignon" key="1" checked="true"/>
+        <option label="Il pleut bergère" key="2" checked="false"/>
+        <option label="Savez vous planter les choux" key="3" checked="false"/>
+		<option label="Jolie coquelicot" key="4" checked="false"/>
+		<option label="Le petit cordonnier" key="5" checked="false"/>
+		<option label="Le coucou" key="6" checked="false"/>
+		<option label="Fait dodo Colas mon petit frère" key="7" checked="false"/>
+		<option label="Il court le furet" key="8" checked="false"/>
+		<option label="Frère Jacques" key="9" checked="false"/>
+		<option label="Ne pleure pas Jeannette" key="10" checked="false"/>
+		<option label="En passant par la Lorraine" key="11" checked="false"/>
+		<option label="Sur la route de Louviers" key="12" checked="false"/>
+		<option label="Malbrough" key="13" checked="false"/>
+		<option label="Meunier tu dors" key="14" checked="false"/>
+		<option label="La mère Michelle" key="15" checked="false"/>
+		<option label="Aux marches du palais" key="16" checked="false"/>
+		<option label="Il était un petit navire" key="17" checked="false"/>
+		<option label="Polichinelle" key="18" checked="false"/>
+		<option label="Lundi matin" key="19" checked="false"/>
+		<option label="Trois jeunes tambours" key="20" checked="false"/>
+	</select>
+    <select label="Ne lire qu&#180;une seule Chanson" name="fquit" type="one" required="false">
+        <option label="Oui" key="1" checked="false"/>
+        <option label="Non" key="0" checked="true"/>
+    </select>
+</screen>

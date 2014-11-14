@@ -1,0 +1,11 @@
+<descriptor>
+    <version>1.0.1</version>
+    <accesses>
+        <access>multimedia</access>
+        <access>button</access>
+        <access>tts</access>
+        <access>asr</access>
+        <access>http</access>
+    </accesses>
+    <multiConf>false</multiConf>
+</descriptor>

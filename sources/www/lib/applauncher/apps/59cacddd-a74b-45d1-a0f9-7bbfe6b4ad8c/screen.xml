@@ -1,0 +1,7 @@
+<screen  nanoTrigger="true" 
+         permanentTrigger="true" 
+         scheduledTrigger="true" 
+         scheduledDateTrigger="true" 
+         voiceTrigger="true">
+    <text label="Votre texte" name="txt" default="" validation="" required="true" errorMessage="" />
+</screen>

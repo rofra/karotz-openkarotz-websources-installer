@@ -1,0 +1,12 @@
+ <descriptor>
+	<name>FranceBleuNord</name>
+	<version>1.0</version>
+	<accesses>
+		<access>button</access>
+		<access>led</access>
+		<access>multimedia</access>
+	</accesses>
+	<editor>pilpoil</editor>
+	<deployment>hosted</deployment>
+	<multiConf>false</multiConf>
+</descriptor>

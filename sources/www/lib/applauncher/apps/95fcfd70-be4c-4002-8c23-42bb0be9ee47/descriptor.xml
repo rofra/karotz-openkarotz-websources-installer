@@ -1,0 +1,12 @@
+<descriptor>
+    <version>1.0</version>
+	<apikey>95fcfd70-be4c-4002-8c23-42bb0be9ee47</apikey>
+    <accesses>
+        <access>multimedia</access>
+        <access>button</access>
+		<access>http</access>
+    </accesses>
+	<editor>melka</editor>
+	<multiConf>false</multiConf>
+	<deployment>hosted</deployment>
+</descriptor>

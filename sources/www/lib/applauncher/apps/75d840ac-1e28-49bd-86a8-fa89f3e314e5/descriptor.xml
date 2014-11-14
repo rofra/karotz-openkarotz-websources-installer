@@ -1,0 +1,20 @@
+ <descriptor>
+	<name>Horloge</name>
+	<apikey>75d840ac-1e28-49bd-86a8-fa89f3e314e5</apikey>
+	<version>2.0</version>
+	<accesses>
+		<access>button</access>
+		<access>rfid</access>
+		<access>led</access>
+		<access>multimedia</access>
+		<access>http</access>
+	</accesses>
+	<parameters>
+		<parameter key="autorun" value="hourly"/>
+	</parameters>
+	<editor>Mikey</editor>
+	<deployment>hosted</deployment>
+	<interruptible>true</interruptible>
+	<awake>false</awake>
+	<multiConf>false</multiConf>
+</descriptor>

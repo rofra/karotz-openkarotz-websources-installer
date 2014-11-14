@@ -1,0 +1,9 @@
+<screen 
+	nanoTrigger="true"
+	permanentTrigger="true"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true" >
+	<text label="Phrase" name="phrase" default="Attention ton serveur ne répond plus" validation="" required="true" errorMessage="" />
+    	<text label="Adresse du serveur" name="serveur" default="http://karotz.free.fr/verification/test.html" validation="" required="true" errorMessage="" />
+</screen>

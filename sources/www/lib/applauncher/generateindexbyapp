@@ -1,0 +1,59 @@
+#!/usr/bin/python
+#
+# App Launcher with configuration management
+# 
+#
+# -*- coding: utf-8 -*-
+import sys, getopt, os
+from lib import LauncherLibKarotz
+from lib import ConfigurationLibKarotz
+
+
+# MAIN CALL
+appcode = None
+
+try:
+  cfn = os.path.realpath(__file__)
+  helpmessage = 'Usage: %s -a <appcode>'
+  opts, args = getopt.getopt(sys.argv[1:],'ha:c:',['app='])
+except getopt.GetoptError:
+  print helpmessage % cfn
+  sys.exit(2)
+for opt, arg in opts:
+  if opt == '-h':
+     print helpmessage % cfn
+     sys.exit()
+  elif opt in ('-a', '--app'):
+     appcode = arg
+     
+if (appcode == None): 
+    print helpmessage % cfn
+    sys.exit()
+
+print 'Launching the application'
+print '  Appcode = %s' % appcode 
+
+# Instantiate configuration class
+configlib = ConfigurationLibKarotz.ConfigurationLibKarotz()
+cpath = os.path.dirname(os.path.realpath(__file__))
+
+# Instantiate launcher class
+configDir = "%s/config/" % cpath
+xmlFilePath = "%s/config/%s.xml" % (cpath, appcode)
+indexFilePath = "%s/config/%s.index" % (cpath, appcode)
+conf = configlib.extractAppNameAndConfigFromConfigFile(xmlFilePath, indexFilePath)
+
+import pprint
+import fnmatch
+import os
+
+matches = []
+for root, dirnames, filenames in os.walk(configDir):
+  for filename in fnmatch.filter(filenames, '*.xml'):
+      matches.append(os.path.join(root, filename))
+      
+for filename in matches:
+    f = os.path.basename(filename)
+    f = os.path.splitext(f)[0]
+    pprint.pprint(f)
+

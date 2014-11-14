@@ -1,0 +1,14 @@
+<descriptor>
+	<name>BFM Podcast</name>
+	<apikey>147c6a4e-381a-42f5-8915-147e76ddce90</apikey>
+	<editor>35niavlys</editor>
+	<version>1.0.1</version>
+	<accesses>
+        	<access>button</access>
+        	<access>http</access>
+        	<access>led</access>
+        	<access>multimedia</access>
+    	</accesses>
+	<multiConf>true</multiConf>
+	<deployment>hosted</deployment>
+</descriptor>

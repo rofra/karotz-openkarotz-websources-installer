@@ -1,0 +1,41 @@
+<screen 
+	nanoTrigger="true"
+	permanentTrigger="true"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true" >
+    <select label="Les Lettres de mon Moulin" name="conte" type="one" required="false">
+        <option label="_Au hasard_" key="0" checked="false"/>
+        <option label="Avant-propos" key="1" checked="true"/>
+        <option label="Installation" key="2" checked="false"/>
+        <option label="La Diligence de Beaucaire" key="3" checked="false"/>
+        <option label="Le Secret de Ma&#238;tre Cornille" key="4" checked="false"/>
+        <option label="La Ch&#232;vre de Monsieur Seguin" key="5" checked="false"/>
+        <option label="Les &#201;toiles" key="6" checked="false"/>
+        <option label="L&#180;Arl&#233;sienne" key="7" checked="false"/>
+        <option label="La Mule du Pape" key="8" checked="false"/>
+        <option label="Le Phare des Sanguinaires" key="9" checked="false"/>
+        <option label="L&#180;Agonie de la S&#233;millante" key="10" checked="false"/>
+        <option label="Les Douaniers" key="11" checked="false"/>
+        <option label="Le Cur&#233; de Cucugnan" key="12" checked="false"/>
+        <option label="Les Vieux" key="13" checked="false"/>
+        <option label="Ballades en prose" key="14" checked="false"/>
+        <option label="La Mort du Dauphin" key="15" checked="false"/>
+        <option label="Le Sous-Pr&#233;fet aux Champs" key="16" checked="false"/>
+        <option label="Le Portefeuille de Bixiou" key="17" checked="false"/>
+        <option label="L&#180;Homme &#224; la Cervelle d&#180;or" key="18" checked="false"/>
+        <option label="Le Po&#232;te Mistral" key="19" checked="false"/>
+        <option label="Les Trois Messes Basses" key="20" checked="false"/>
+        <option label="Les Oranges" key="21" checked="false"/>
+        <option label="Les Deux Auberges" key="22" checked="false"/>
+        <option label="&#192; Miliana" key="23" checked="false"/>
+        <option label="Les Sauterelles" key="24" checked="false"/>
+        <option label="L&#180;Elixir du R&#233;v&#233;rend P&#232;re Gaucher" key="25" checked="false"/>
+        <option label="En Camargue" key="26" checked="false"/>
+        <option label="La Cabane" key="27" checked="false"/>
+        <option label="&#192; l&#180;Esp&#232;re" key="28" checked="false"/>
+        <option label="Le Rouge et le Blanc" key="29" checked="false"/>
+        <option label="Le Vaccares" key="30" checked="false"/>
+        <option label="Nostalgie de Caserne" key="31" checked="false"/>
+	</select>
+</screen>

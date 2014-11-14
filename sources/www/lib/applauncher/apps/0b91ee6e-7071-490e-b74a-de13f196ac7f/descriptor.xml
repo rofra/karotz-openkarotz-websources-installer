@@ -1,0 +1,18 @@
+<descriptor>
+    <version>2.0</version>
+    <accesses> 
+<access>rfid</access> 
+<access>button</access>
+<access>ears</access>
+<access>led</access>
+<access>http</access>
+<access>multimedia</access>
+</accesses>
+
+    <editor>Jonathan Yaniv</editor>
+    <asrName>We FUNK Radio</asrName>
+    <deployment>hosted</deployment>
+    <multiConf>false</multiConf>
+
+    <awake>true</awake>
+</descriptor>

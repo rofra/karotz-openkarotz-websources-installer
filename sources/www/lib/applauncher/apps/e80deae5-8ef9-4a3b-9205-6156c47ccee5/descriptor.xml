@@ -1,0 +1,14 @@
+<descriptor>
+    <version>0.1.3</version>
+    <accesses>
+        <access>tts</access>
+        <access>button</access>
+	<access>http</access>
+	<access>led</access>
+	<editor>PEC</editor>
+        <asrName>verification serveur</asrName>
+        <multiConf>true</multiConf>
+        <interruptible>false</interruptible>
+        <awake>true</awake>
+    </accesses>
+</descriptor>

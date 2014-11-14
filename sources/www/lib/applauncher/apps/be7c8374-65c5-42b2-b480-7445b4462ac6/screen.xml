@@ -1,0 +1,12 @@
+<screen
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	>
+    <text label="Phrase à dire" name="phrase" default="Bonne nuit" validation="" required="true" errorMessage="" />
+	<text label="Fichier audio à lire" name="audio" default="aucun" validation="" required="true" errorMessage="" />
+	<select label="Langue" name="langue" type="one" required="true">
+        <option label="Français" key="fr" checked="true"/>
+        <option label="English" key="en" checked="false"/>
+    </select>
+
+</screen>

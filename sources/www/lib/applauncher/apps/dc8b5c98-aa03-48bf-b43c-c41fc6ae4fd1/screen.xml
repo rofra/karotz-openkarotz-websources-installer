@@ -1,0 +1,9 @@
+<screen nanoTrigger="true"
+	permanentTrigger="false"
+	scheduledTrigger="true"
+	scheduledDateTrigger="false"
+	voiceTrigger="true" >
+
+	<button label="Cliquez-ici si vous avez une idée d'amélioration..." link="http://karotz.net46.net" />
+
+</screen>

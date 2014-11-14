@@ -1,0 +1,16 @@
+ <descriptor>
+	<name>Météo Nabaztag</name>
+	<version>0.2.0</version>
+	<accesses>
+		<access>button</access>
+      		<access>tts</access>
+       		<access>led</access>
+       		<access>http</access>
+		<access>multimedia</access>
+	</accesses>
+      <deployment>hosted</deployment>
+      <interruptible>true</interruptible>
+      <awake>true</awake>
+      <callback></callback>
+      <multiConf>false</multiConf>
+</descriptor>

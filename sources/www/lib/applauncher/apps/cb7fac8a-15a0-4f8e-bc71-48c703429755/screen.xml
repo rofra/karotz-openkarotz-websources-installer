@@ -1,0 +1,32 @@
+<screen>
+	<text label="Temps par d&#233;faut" name="defaut" default="0" validation="" required="true" errorMessage="" />
+	<select label="D&#233;compte" name="decompte" type="one" required="true">
+		<option label="Temps restant" key="-1" checked="true"/>
+		<option label="Temps pass&#233;" key="+1" checked="false"/>
+	</select>
+	<select label="Annonce du temps" name="increment" type="one" required="true">
+		<option label="aucun" key="0" checked="false"/>
+		<option label="toutes les 10 secondes" key="10" checked="true"/>
+		<option label="toutes les 30 secondes" key="30" checked="false"/>
+		<option label="toutes les minutes" key="60" checked="false"/>
+		<option label="Jamais" key="0" checked="false"/>
+	</select>
+	<select label="Sonnerie" name="music" type="one" required="true">
+		<option label="coucou" key="2" checked="false"/>
+		<option label="saxophone" key="3" checked="false"/>
+		<option label="trompette" key="4" checked="false"/>
+		<option label="alarme danger" key="5" checked="false"/>
+		<option label="Alarme &#233;lectronique" key="6" checked="false"/>
+		<option label="alarme fum&#233;e" key="7" checked="false"/>
+		<option label="passage à niveau" key="1" checked="false"/>
+		<option label="cloche en contine" key="8" checked="false"/>
+		<option label="Woody wood pecker" key="9" checked="false"/>
+		<option label="c&#39;est tout" key="10" checked="true"/>
+		<option label="oinkouhihponk" key="11" checked="false"/>
+	</select>
+	<select label="Mouvement d'oreilles?" name="ears" type="one" required="true">
+		<option label="Oui" key="Y" checked="true"/>
+		<option label="Non" key="N" checked="false"/>
+	</select>
+
+</screen>

@@ -1,0 +1,10 @@
+<screen nanoTrigger="true"
+permanentTrigger="false"
+scheduledTrigger="false"
+scheduledDateTrigger="false"
+voiceTrigger="true">
+	<select label="Mouvement des oreilles" name="ears" type="one" required="true">
+		<option label="Oui" key="Y" checked="true"/>
+		<option label="Non" key="N" checked="false"/>
+	</select>
+</screen>

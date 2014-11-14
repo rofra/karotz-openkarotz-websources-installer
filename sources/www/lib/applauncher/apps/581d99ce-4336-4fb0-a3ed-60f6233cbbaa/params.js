@@ -1,0 +1,9 @@
+var instanceName = "undefined";
+var params=new Array(); 
+params[instanceName]=new Object();
+params[instanceName].dejeuner="6:30";
+params[instanceName].diner="12:30";
+params[instanceName].souper="18:30";
+params[instanceName].petit_dejeuner="4:30";
+params[instanceName].defaut="6:00";
+params[instanceName].perso="14:00";

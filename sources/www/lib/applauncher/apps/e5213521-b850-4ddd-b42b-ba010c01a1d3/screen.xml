@@ -1,0 +1,34 @@
+<screen 
+	nanoTrigger="true"
+	permanentTrigger="true"
+	scheduledTrigger="true"
+	scheduledDateTrigger="true"
+	voiceTrigger="true" >
+    <select label="Chansons" name="mp3" type="one" required="false">
+        <option label="_Au hasard_" key="0" checked="false"/>
+        <option label="Sur le pont du nord" key="1" checked="true"/>
+        <option label="Maman les petits bateaux" key="2" checked="false"/>
+        <option label="Dansons la capucine" key="3" checked="false"/>
+		<option label="Dodo l'enfant do" key="4" checked="false"/>
+		<option label="Promenons nous dans les bois" key="5" checked="false"/>
+		<option label="Nous n'irons plus au bois" key="6" checked="false"/>
+		<option label="J'ai descendu dans mon jardin" key="7" checked="false"/>
+		<option label="Les compagnons de la marjolaine" key="8" checked="false"/>
+		<option label="Pirouette cacahuette" key="9" checked="false"/>
+		<option label="Cadet rousselle" key="10" checked="false"/>
+		<option label="Compère guilleri" key="11" checked="false"/>
+		<option label="A la calire fontaine" key="12" checked="false"/>
+		<option label="Ah les crocodiles" key="13" checked="false"/>
+		<option label="J'ai du bon tabac" key="14" checked="false"/>
+		<option label="Trois jeunes tambours" key="15" checked="false"/>
+		<option label="Voici le mois de mai" key="16" checked="false"/>
+		<option label="A la volette" key="17" checked="false"/>
+		<option label="Ne pleure pas jeannette" key="18" checked="false"/>
+		<option label="Ah mon beau bateau" key="19" checked="false"/>
+		<option label="Mon âne" key="20" checked="false"/>
+	</select>
+    <select label="Ne lire qu&#180;une seule Chanson" name="fquit" type="one" required="false">
+        <option label="Oui" key="1" checked="false"/>
+        <option label="Non" key="0" checked="true"/>
+    </select>
+</screen>

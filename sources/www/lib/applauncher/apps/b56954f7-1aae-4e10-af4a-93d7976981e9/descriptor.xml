@@ -1,0 +1,12 @@
+<descriptor>
+    <version>1.3</version>
+	<name>CENT POUR CENT BLAGUES</name>
+    <accesses>
+        <access>multimedia</access>
+		<access>led</access>
+        <access>button</access>
+    </accesses>
+	<editor>melka</editor>
+	<multiConf>true</multiConf>
+	<deployment>hosted</deployment>
+</descriptor>

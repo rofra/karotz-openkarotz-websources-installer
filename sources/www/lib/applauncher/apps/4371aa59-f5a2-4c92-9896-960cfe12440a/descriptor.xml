@@ -1,0 +1,11 @@
+<descriptor>
+	<name>Anti-Moustique</name>
+	<editor>35niavlys</editor>
+	<version>1.0.0</version>
+	<accesses>
+        <access>button</access>
+        <access>led</access>
+        <access>multimedia</access>
+    </accesses>
+	<multiConf>false</multiConf>
+</descriptor>

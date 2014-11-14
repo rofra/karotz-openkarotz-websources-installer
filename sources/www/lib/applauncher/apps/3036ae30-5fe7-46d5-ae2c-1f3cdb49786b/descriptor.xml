@@ -1,0 +1,17 @@
+<descriptor>
+    <name>Magnum La Radio</name>
+    <version>1.0.5</version>
+    <apikey>3036ae30-5fe7-46d5-ae2c-1f3cdb49786b</apikey>
+    <accesses>
+        <access>http</access>
+	<access>multimedia</access>
+	<access>button</access>
+	<access>rfid</access>
+    </accesses>
+    <editor>Karmicat</editor>
+    <asrName>Magnum</asrName>
+    <interruptible>true</interruptible>
+    <awake>true</awake>
+    <deployement>hosted</deployement>
+    <multiConf>false</multiConf>
+</descriptor>

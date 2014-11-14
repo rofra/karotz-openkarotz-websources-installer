@@ -1,0 +1,17 @@
+<descriptor>
+    <name>Radio</name>
+    <version>0.0.7</version>
+   <accesses>
+       <access>led</access>
+       <access>multimedia</access>
+       <access>button</access>
+       <access>tts</access>
+       <access>asr</access>
+    </accesses>
+    <deployment>hosted</deployment>
+    <interruptible>true</interruptible>
+    <awake>true</awake>
+    <callback></callback>
+    <multiConf>false</multiConf>
+    <parameters></parameters>
+</descriptor>
