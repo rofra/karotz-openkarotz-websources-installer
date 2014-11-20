@@ -76,7 +76,7 @@ ln -s $CNF_DATADIR/Tmp $TDIR/tts_cache >>/dev/null 2>>/dev/null
 ln -s $CNF_DATADIR/OfficialAppsConf $TDIR/lib/applauncher/config >>/dev/null 2>>/dev/null
 
 Log "[INSTALL]"  "Installing App configurations"
-mv -n $TDIR/lib/applauncher/config.original/* $TDIR/lib/applauncher/config/
+find ${SOURCES_TDIR}/lib/applauncher/config.original/ -type f -exec mv -n "{}" $TDIR/lib/applauncher/config/ \;
 rm -fr $TDIR/lib/applauncher/config.original/
 
 Log  "[INSTALL]"  "Managing Rights"
